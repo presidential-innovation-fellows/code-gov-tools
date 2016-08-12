@@ -1,0 +1,26 @@
+{
+  "name": "code-gov-api",
+  "scripts": {
+    "start": "node codegovapi.js"
+  },
+  "version": "0.0.1",
+  "dependencies": {  
+    "body-parser": "*",
+    "dotenv":"^2.0.0",
+    "jquery":"^3.1.0",
+    "cookie-parser": "*",
+    "express": "~4.0.0",
+    "mongodb": "*",
+    "mongoose": "^4.4.12",
+    "morgan": "*",
+    "path": "*",
+    "pug": "^2.0.0-beta5",
+    "querystring": "^0.2.0",
+    "request": "^2.73.0"
+    
+  },
+  "engines": {
+    "node": "^4.4.2",
+    "npm": "^3.8.5"
+  }
+}
