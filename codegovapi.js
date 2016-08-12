@@ -31,12 +31,81 @@ app.set('view engine', 'pug');
 
 var port = process.env.PORT || 3001;        // set port here because I'm using 3000 for something else
 
-// ROUTES FOR home
+// grab code.json files from various agencies.
+// =============================================================================
+
+
+     
+
 // =============================================================================
 app.get('/', function(req, res) {
 
+  var body,responsedata1, responsedata2, responsedata3;
   //build the home page
   
+  request(
+    {url: "https://fakeagency1.apps.cloud.gov/code.json", //URL to hit
+     qs: {key: "123"}},
+     function(error, response, body){
+    if(error) {
+        console.log("couldn't get the code.json file: "+error);
+        
+      
+    } else {
+        
+        console.log("OK");        
+         responsedata1 = JSON.parse(body);
+      //responsedata = body;
+      console.log(responsedata1);
+      //this is where I'd write some code to validate the JSON file
+      //but I haven't done that yet
+      
+    
+    }
+     });   
+ /* Request #2 */
+  request(
+    {url: "https://fakeagency2.apps.cloud.gov/code.json", //URL to hit
+     qs: {key: "123"}},
+     function(error, response, body){
+    if(error) {
+        console.log("couldn't get the code.json file: "+error);
+        
+      
+    } else {
+        
+        console.log("OK");        
+         responsedata2 = JSON.parse(body);
+      //responsedata = body;
+      console.log(responsedata2);
+      //this is where I'd write some code to validate the JSON file
+      //but I haven't done that yet
+      
+    
+    }
+     });   
+  /* Request #3 */
+  request(
+    {url: "https://fakeagency3.apps.cloud.gov/code.json", //URL to hit
+     qs: {key: "123"}},
+     function(error, response, body){
+    if(error) {
+        console.log("couldn't get the code.json file: "+error);
+        
+      
+    } else {
+        
+        console.log("OK");        
+         responsedata3 = JSON.parse(body);
+      //responsedata = body;
+      console.log(responsedata3);
+      //this is where I'd write some code to validate the JSON file
+      //but I haven't done that yet
+      
+    
+    }
+     });   
+        
   
   MongoClient.connect(mongoDetails, function(err, db) {
     if (err) {
@@ -46,10 +115,20 @@ app.get('/', function(req, res) {
       
     } else {
        repos = db.collection("repos");
-        
-        console.log(" We're connected to the DB");
       
-    repos.find().toArray(function(err, repodocs) {
+      
+        console.log(" We're connected to the DB");
+      //console.log(responsedata.required.agencyname);
+        
+      //repos.insert(responsedata, {w:1});
+      console.log("blah");
+      repos.update({"required.agencyname":responsedata1.required.agencyname}, responsedata1, {upsert:true});
+      console.log("blah1");
+      repos.update({"required.agencyname":responsedata2.required.agencyname}, responsedata2, {upsert:true});
+      console.log("blah2");
+      repos.update({"required.agencyname":responsedata3.required.agencyname}, responsedata3, {upsert:true});
+    console.log("blah3");
+  repos.find().toArray(function(err, repodocs) {
         if (err) {
             return console.error(err);
         } else {
@@ -58,13 +137,14 @@ app.get('/', function(req, res) {
                 repos:repodocs
             });
         }
-    }); //close repos.find
-
-        }
-    }); //close MongoDB connection
+    })
+  }
+  }); //close MongoDB connection*/ 
+}); //close app.get(/)
+  
   
 
-}); //close app.get(/)
+
 
 
 app.post('/', function(req, res) {
