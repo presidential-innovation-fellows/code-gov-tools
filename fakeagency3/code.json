@@ -1,0 +1,104 @@
+{
+
+    "_comment": "This is a test comment",
+    "type": "Not sure what this is for",
+    "properties": {
+        "closedPjcts": [
+            {
+                "license": "TOP SECRET, bro",
+                "POCemail": "barry@obama.gov",
+                "POCname": "barry",
+                "lastUpdatedDate": "2010-01-22T04:47:59.787Z",
+                "codeLanguage": "nodeJS, express, anguilar, mongoDB",
+                "pjctDescrption": "This is a top-secret project",
+                "repoID": 343,
+                "repoName": "Gov Repo Name1",
+                "repoPath": "/repoXXX",
+                "pjctName": "You dont know about this proj",
+                "pjctURL": "http://www.bafawefw.gov/",
+                "type": "TYpe String"
+            }
+        ],
+        "govwideReUsePjcts": [
+            {
+                "license": "gov reuse only",
+                "POCemail": "jack@jack.gov",
+                "POCname": "jack",
+                "lastUpdatedDate": "2015-04-22T04:47:59.787Z",
+                "codeLanguage": "nodeJS, express, anguilar, mongoDB",
+                "pjctDescrption": "This is a project",
+                "repoID": 1,
+                "repoName": "Gov Repo Name1",
+                "repoPath": "/repo1",
+                "pjctName": "First Gov Proj",
+                "pjctURL": "http://www.bafawefw.gov/",
+                "type": "Gov String"
+            }
+        ],
+        "openPjcts": [
+            {
+                "license": "CC0",
+                "POCemail": "bob@bob1.com",
+                "POCname": "bob",
+                "lastUpdatedDate": "2016-07-22T04:47:59.787Z",
+                "codeLanguage": "nodeJS, express, anguilar, mongoDB",
+                "pjctDescrption": "This is a cool PIF project",
+                "repoID": 1,
+                "repoName": "Repo Name",
+                "repoPath": "/repo1",
+                "pjctName": "First Proj",
+                "pjctURL": "http://www.pjctURL.com/",
+                "type": "String"
+            },
+            {
+                "license": "CC1",
+                "POCemail": "jane@jane.com",
+                "POCname": "jane",
+                "lastUpdatedDate": "2015-07-22T04:47:59.787Z",
+                "codeLanguage": "nodeJS, express, anguilar, mongoDB",
+                "pjctDescrption": "This is another cool PIF project",
+                "repoID": 2,
+                "repoName": "Repo Name2",
+                "repoPath": "/repo2",
+                "pjctName": "Second Proj",
+                "pjctURL": "http://www.pjctURL.com/",
+                "type": "String"
+            },
+            {
+                "license": "CC3",
+                "POCemail": "jack@jack.com",
+                "POCname": "jack",
+                "lastUpdatedDate": "2014-01-22T04:47:59.787Z",
+                "codeLanguage": "nodeJS, express, anguilar, mongoDB",
+                "pjctDescrption": "This is a cooler PIF project",
+                "repoID": 3,
+                "repoName": "Repo Name3",
+                "repoPath": "/repo3",
+                "pjctName": "Second Proj",
+                "pjctURL": "http://www.bafawefw.com/",
+                "type": "String"
+            }
+        ]
+    },
+    "required": {
+        "agencyname": "fakeagency3",
+        "tags": [
+            {
+                "tag": "ice cream"
+            },
+            {
+                "tag": "drake"
+            },
+            {
+                "tag": "tagA"
+            },
+            {
+                "tag": "code"
+            }
+        ],
+        "openPjcts": 10,
+        "govwideReUsePjcts": 3,
+        "closedPjcts": 4
+    },
+    "__v": 0
+}
