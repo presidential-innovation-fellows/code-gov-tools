@@ -1,104 +1,98 @@
 {
-
-    "_comment": "Agency 3 says waaaaht?",
-    "type": "Not sure what this is for",
-    "properties": {
-        "closedPjcts": [
-            {
-                "license": "TOP SECRET, bro",
-                "POCemail": "barry@obama.gov",
-                "POCname": "barry",
-                "lastUpdatedDate": "2010-01-22T04:47:59.787Z",
-                "codeLanguage": "nodeJS, express, anguilar, mongoDB",
-                "pjctDescrption": "This is a top-secret project",
-                "repoID": 343,
-                "repoName": "Gov Repo Name1",
-                "repoPath": "/repoXXX",
-                "pjctName": "You dont know about this proj",
-                "pjctURL": "http://www.bafawefw.gov/",
-                "type": "TYpe String"
-            }
-        ],
-        "govwideReUsePjcts": [
-            {
-                "license": "gov reuse only",
-                "POCemail": "jack@jack.gov",
-                "POCname": "jack",
-                "lastUpdatedDate": "2015-04-22T04:47:59.787Z",
-                "codeLanguage": "nodeJS, express, anguilar, mongoDB",
-                "pjctDescrption": "This is a project",
-                "repoID": 1,
-                "repoName": "Gov Repo Name1",
-                "repoPath": "/repo1",
-                "pjctName": "First Gov Proj",
-                "pjctURL": "http://www.bafawefw.gov/",
-                "type": "Gov String"
-            }
-        ],
-        "openPjcts": [
-            {
-                "license": "CC0",
-                "POCemail": "bob@bob1.com",
-                "POCname": "bob",
-                "lastUpdatedDate": "2016-07-22T04:47:59.787Z",
-                "codeLanguage": "nodeJS, express, anguilar, mongoDB",
-                "pjctDescrption": "This is a cool PIF project",
-                "repoID": 1,
-                "repoName": "Repo Name",
-                "repoPath": "/repo1",
-                "pjctName": "First Proj",
-                "pjctURL": "http://www.pjctURL.com/",
-                "type": "String"
-            },
-            {
-                "license": "CC1",
-                "POCemail": "jane@jane.com",
-                "POCname": "jane",
-                "lastUpdatedDate": "2015-07-22T04:47:59.787Z",
-                "codeLanguage": "nodeJS, express, anguilar, mongoDB",
-                "pjctDescrption": "This is another cool PIF project",
-                "repoID": 2,
-                "repoName": "Repo Name2",
-                "repoPath": "/repo2",
-                "pjctName": "Second Proj",
-                "pjctURL": "http://www.pjctURL.com/",
-                "type": "String"
-            },
-            {
-                "license": "CC3",
-                "POCemail": "jack@jack.com",
-                "POCname": "jack",
-                "lastUpdatedDate": "2014-01-22T04:47:59.787Z",
-                "codeLanguage": "nodeJS, express, anguilar, mongoDB",
-                "pjctDescrption": "This is a cooler PIF project",
-                "repoID": 3,
-                "repoName": "Repo Name3",
-                "repoPath": "/repo3",
-                "pjctName": "Second Proj",
-                "pjctURL": "http://www.bafawefw.com/",
-                "type": "String"
-            }
-        ]
+    "_id": {
+        "$oid": "57bcc7d2f36d283b6d8c591e"
     },
-    "required": {
-        "agencyname": "fakeagency3",
-        "tags": [
-            {
-                "tag": "ice cream"
-            },
-            {
-                "tag": "drake"
-            },
-            {
-                "tag": "tagA"
-            },
-            {
-                "tag": "code"
-            }
-        ],
-        "openPjcts": 10,
-        "govwideReUsePjcts": 3,
-        "closedPjcts": 4
-    },
-    "__v": 0
+    "agencyAcronym": "FAKE3",
+    "projects": [
+        {
+            "vcs": "git",
+            "repoPath": "https://github.com/presidential-innovation-fellows/mygov",
+            "repoName": "mygov",
+            "repoID": "5518578",
+            "pjctURL": null,
+            "pjctName": "mygov",
+            "pjctDescription": "A Platform for Conecting People and Government",
+            "pjctTags": [
+                {
+                    "tag": "platform"
+                },
+                {
+                    "tag": "government"
+                },
+                {
+                    "tag": "connecting"
+                },
+                {
+                    "tag": "people"
+                }
+            ],
+            "codeLanguage": "html,jekyll,yml",
+            "lastUpdatedDate": "2012-08-23T03:36:01Z",
+            "POCemail": "noone@email.com",
+            "license": "CC0",
+            "openPjct": 1,
+            "govwideReusePjct": 0,
+            "closedPjct": 0,
+            "exemption": null
+        },
+        {
+            "vcs": "git",
+            "repoPath": "https://github.com/presidential-innovation-fellows/apidocs",
+            "repoName": "apidocs",
+            "repoID": "5614762",
+            "pjctURL": null,
+            "pjctName": "apidocs",
+            "pjctDescription": "Interactive API Documentation for Presidential Innovation Fellows' Projects.",
+            "pjctTags": [
+                {
+                    "tag": "api"
+                },
+                {
+                    "tag": "PIF"
+                },
+                {
+                    "tag": "documentation"
+                }
+            ],
+            "codeLanguage": "node",
+            "lastUpdatedDate": "2015-08-23T03:36:01Z",
+            "POCemail": "noone@email.com",
+            "license": "CC0",
+            "openPjct": 1,
+            "govwideReusePjct": 0,
+            "closedPjct": 0,
+            "exemption": null
+        },
+        {
+            "vcs": "git",
+            "repoPath": "https://github.com/presidential-innovation-fellows/bluebutton",
+            "repoName": "bluebutton",
+            "repoID": "2146920",
+            "pjctURL": null,
+            "pjctName": "bluebutton",
+            "pjctDescription": "Spreading the ability for millions of Americans to easily and securely download their own health information electronically",
+            "pjctTags": [
+                {
+                    "tag": "bluebutton"
+                },
+                {
+                    "tag": "medical"
+                },
+                {
+                    "tag": "health"
+                },
+                {
+                    "tag": "records"
+                }
+            ],
+            "codeLanguage": "node",
+            "lastUpdatedDate": "2015-08-23T03:36:01Z",
+            "POCemail": "noone@email.com",
+            "license": "CC0",
+            "openPjct": 1,
+            "govwideReusePjct": 0,
+            "closedPjct": 0,
+            "exemption": null
+        }
+    ]
 }

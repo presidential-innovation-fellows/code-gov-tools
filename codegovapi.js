@@ -4,10 +4,14 @@
 // =============================================================================
 
 var express    = require('express');        // call express
+
+
 var MongoClient = require('mongodb').MongoClient;
 var app        = express();                 // define our app using express
 var bodyParser = require('body-parser');
 var Repo     = require('./app/models/repo.js');
+var stream = Repo.synchronize();
+  var count = 0;
 var request = require('request'); //Load the request module
 
 var path = require("path");
@@ -19,6 +23,16 @@ var mongouser = process.env.MONGOUSER;
 var mongopass = process.env.MONGOPASS;
 
 var mongoDetails = 'mongodb://'+mongouser+':'+mongopass+'@ds023530.mlab.com:23530/testapidemo';
+
+Repo.createMapping(function(err, mapping){  
+  if(err){
+    console.log('error creating mapping (you can safely ignore this)');
+    console.log(err);
+  }else{
+    console.log('mapping created!');
+    console.log(mapping);
+  }
+});
 
 
 app.use(express.static(path.join(__dirname, '/public')));
@@ -42,69 +56,7 @@ app.get('/', function(req, res) {
 
   var body,responsedata1, responsedata2, responsedata3;
   //build the home page
-  
-  request(
-    {url: "https://fakeagency1.apps.cloud.gov/code.json", //URL to hit
-     qs: {key: "123"}},
-     function(error, response, body){
-    if(error) {
-        console.log("couldn't get the code.json file: "+error);
-        
-      
-    } else {
-        
-        console.log("OK");        
-         responsedata1 = JSON.parse(body);
-      //responsedata = body;
-      console.log(responsedata1);
-      //this is where I'd write some code to validate the JSON file
-      //but I haven't done that yet
-      
-    
-    }
-     });   
- /* Request #2 */
-  request(
-    {url: "https://fakeagency2.apps.cloud.gov/code.json", //URL to hit
-     qs: {key: "123"}},
-     function(error, response, body){
-    if(error) {
-        console.log("couldn't get the code.json file: "+error);
-        
-      
-    } else {
-        
-        console.log("OK");        
-         responsedata2 = JSON.parse(body);
-      //responsedata = body;
-      console.log(responsedata2);
-      //this is where I'd write some code to validate the JSON file
-      //but I haven't done that yet
-      
-    
-    }
-     });   
-  /* Request #3 */
-  request(
-    {url: "https://fakeagency3.apps.cloud.gov/code.json", //URL to hit
-     qs: {key: "123"}},
-     function(error, response, body){
-    if(error) {
-        console.log("couldn't get the code.json file: "+error);
-        
-      
-    } else {
-        
-        console.log("OK");        
-         responsedata3 = JSON.parse(body);
-      //responsedata = body;
-      console.log(responsedata3);
-      //this is where I'd write some code to validate the JSON file
-      //but I haven't done that yet
-      
-    
-    }
-     });   
+ 
         
   
   MongoClient.connect(mongoDetails, function(err, db) {
@@ -118,16 +70,17 @@ app.get('/', function(req, res) {
       
       
         console.log(" We're connected to the DB");
-      //console.log(responsedata.required.agencyname);
-        
-      //repos.insert(responsedata, {w:1});
-      console.log("blah");
-      repos.update({"required.agencyname":responsedata1.required.agencyname}, responsedata1, {upsert:true});
+
+      
+      
+      /*
       console.log("blah1");
       repos.update({"required.agencyname":responsedata2.required.agencyname}, responsedata2, {upsert:true});
       console.log("blah2");
       repos.update({"required.agencyname":responsedata3.required.agencyname}, responsedata3, {upsert:true});
     console.log("blah3");
+    */
+      
   repos.find().toArray(function(err, repodocs) {
         if (err) {
             return console.error(err);
@@ -159,25 +112,29 @@ var searchterm, searchquery;
        repos = db.collection("repos");
         searchterm = req.body.search;
         console.log(" We're connected to the DB");
-      console.log("search term is: "+searchterm);
-      if (searchterm.trim())
+      
+      if ((searchterm.trim()).length>1)
         {
+          console.log("search term is: "+searchterm);
           searchquery='{$elemMatch:{tag:searchterm}}';
-            repos.find({"required.tags":{$elemMatch:{tag:searchterm}}}).toArray(function(err, repodocs) {
-        if (err) {
-            return console.error(err);
-        } else {
-          
-            res.render('index.pug', {
+          //repos.find({projects:{$elemMatch:{"pjctTags.tag":searchterm}}}, {'projects.$':1}).toArray(function(err, repodocs) {
+          repos.find({projects:{$elemMatch:{"pjctTags.tag":searchterm}}}, {'projects.$':1, agencyAcronym:1}).toArray(function(err, repodocs) {
+              if (err) {
+                return console.error(err);
+              } else {
+                res.render('index.pug', {
                 repos:repodocs
-            });
-        }
-    }); //close repos.find
+                
+                });
+              }
+   
+        }); //close repos.find
         }
       else {
+        
         searchquery='{$exists:true}';
         console.log('empty');
-          repos.find({"required.tags":{$exists:true}}).toArray(function(err, repodocs) {
+          repos.find({"projects.pjctTags":{$exists:true}}).toArray(function(err, repodocs) {
         if (err) {
             return console.error(err);
         } else {
@@ -186,11 +143,14 @@ var searchterm, searchquery;
                 repos:repodocs
             });
         }
-    }); //close repos.find
+    })//close repos.find
+    }
+          
+        
       }
   
 
-        }
+        
     }); //close MongoDB connection
 
 }); //close app.post(/)
@@ -236,7 +196,11 @@ router.route('/repos')
             if (err)
                 res.send(err);
             else{
-            res.json({ message: 'repo created!' });
+            repo.on('es-indexed', function (err,res) {
+              res.json({ message: 'repo created!' });  
+            });
+            
+              
             }
         });
 
@@ -276,7 +240,11 @@ router.route('/repos/:repo_id')
                 if (err)
                     res.send(err);
 
-                res.json({ message: 'repo updated!' });
+               else { 
+                 repo.on('es-indexed', function (err,res) {
+                   res.json({ message: 'repo updated!' }); })
+               }
+                         
             });
 
         });
@@ -299,4 +267,5 @@ app.use('/api', router);
 // START THE SERVER
 // =============================================================================
 app.listen(port);
+
 console.log('Listening on port ' + port);

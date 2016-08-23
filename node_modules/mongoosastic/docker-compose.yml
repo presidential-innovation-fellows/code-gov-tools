@@ -1,0 +1,11 @@
+mongodb:
+  image: mongo:2.6
+  ports:
+    - "27017:27017"
+  command: mongod --smallfiles
+
+elastic:
+  image: elasticsearch:latest
+  ports: 
+    - "9200:9200"
+

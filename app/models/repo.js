@@ -1,76 +1,49 @@
-var mongoose     = require('mongoose');
+var mongoose     = require('mongoose'),
+    
+    mongoosastic = require('mongoosastic');
 var Schema       = mongoose.Schema;
 
 var RepoSchema   = new Schema({
     //_id : Schema.ObjectId,
-    _comment: String,
-    type: String,
-    required: {
-      agencyname: String,
-      tags: [String],
-      openPjcts: Number,
-      govwideReUsePjcts: Number,
-      closedPjcts: Number  
-              },
-    properties: {
-      openPjcts:
+    
+    
+    
+      agencyAcronym: String,
+      
+      projects:
     
         [
           {
-          type: Schema.Types.Mixed,
-          pjctURL: String,
-          pjctName: String,
+          
+          vcs: String,
           repoPath: String,
           repoName: String,
           repoID: Number,
-          pjctDescrption: String,
-          codeLanguage: String,
+          pjctURL: String,
+          pjctName: String,
+          pjctDescrption: {type: String, es_indexed:true},
+          pjctTags: [String],
+          codeLanguage: {type: String, es_indexed:true},
           lastUpdatedDate: { type: Date, default: Date.now },
-          POCname: String,
+          
           POCemail: String,
-          license: String
+          license: {type: String, es_indexed:true},
+          openPjct: Boolean,
+          govwideReusePjct:  Boolean,
+          closedPjct: Boolean,
+          exemption: String
         }
       ]
-      ,
-      govwideReUsePjcts:
-      
-        [{
-          type: Schema.Types.Mixed,
-          pjctURL: String,
-          pjctName: String,
-          repoPath: String,
-          repoName: String,
-          repoID:Number,
-          pjctDescrption: String,
-          codeLanguage: String,
-          lastUpdatedDate: { type: Date, default: Date.now },
-          POCname: String,
-          POCemail: String,
-          license: String
-        }]
-    ,
-      closedPjcts:
-      
-        [{
-          type: Schema.Types.Mixed,
-          pjctURL: String,
-          pjctName: String,
-          repoPath: String,
-          repoName: String,
-          repoID:Number,
-          pjctDescrption: String,
-          codeLanguage: String,
-          lastUpdatedDate: { type: Date, default: Date.now },
-          POCname: String,
-          POCemail: String,
-          license: String
-        }]
-      
-         
-    }
+          
     },{strict:false}); //only parameters that are specified here should be saved to DB
     
+RepoSchema.plugin(mongoosastic, {hosts: [
+    'localhost:9200'
+  ]})
 
+;  
 
 module.exports = mongoose.model('Repo', RepoSchema);
+
+
 

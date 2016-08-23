@@ -56,17 +56,27 @@ html(lang='en')
           thead
             tr
               th(scope='col') Agency
-              th(scope='col') Project Name
+              th(scope='col') ProjectName
+              th(scope='col') Project Description
+              th(scope='col') RepoURL
               th(scope='col') Tag(s)
+              
               
           tbody
             each repo in repos
-              tr
-                th(scope='row')= repo.required.agencyname
-                td= repo._comment
-                td 
-                  each tag in repo.required.tags
-                    =tag.tag+', '
+              each project in repo.projects
+                tr
+                  th(scope='row')= repo.agencyAcronym
+
+
+                    td
+                      =project.pjctName
+                    td= project.pjctDescription
+                    td= project.repoPath  
+                    td 
+                      each tag in project.pjctTags
+                        =tag.tag+', '
+
                 
         
     script(src='js/uswds.min.js')
