@@ -70,11 +70,11 @@ html(lang='en')
 
 
                     td
-                      =project.pjctName
-                    td= project.pjctDescription
+                      =project.projectName
+                    td= project.projectDescription
                     td= project.repoPath  
                     td 
-                      each tag in project.pjctTags
+                      each tag in project.projectTags
                         =tag.tag+', '
 
                 

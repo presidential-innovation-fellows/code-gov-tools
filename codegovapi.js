@@ -78,7 +78,7 @@ app.get('/', function(req, res) {
 for(var key in AgencyObj) {
   request(AgencyObj[key].DEVURL, function (error, response, body) {
   if (!error && response.statusCode == 200) {
-    repos.update({"agencyAcronym":AgencyObj[key].ACRONYM}, body, {upsert:true});
+    repos.update({"agencyAcronym":AgencyObj[key].ACRONYM}, body, {upsert:false});
     console.log("Dev URL for "+AgencyObj[key].ACRONYM+ " is "+AgencyObj[key].DEVURL+ "Details are: \n"+body);
   }
     else {console.error(err);}
@@ -125,7 +125,7 @@ var searchterm, searchquery;
           console.log("search term is: "+searchterm);
           searchquery='{$elemMatch:{tag:searchterm}}';
           //repos.find({projects:{$elemMatch:{"pjctTags.tag":searchterm}}}, {'projects.$':1}).toArray(function(err, repodocs) {
-          repos.find({projects:{$elemMatch:{"pjctTags.tag":searchterm}}}, {'projects.$':1, agencyAcronym:1}).toArray(function(err, repodocs) {
+          repos.find({projects:{$elemMatch:{"projectTags.tag":searchterm}}}, {'projects.$':1, agencyAcronym:1}).toArray(function(err, repodocs) {
               if (err) {
                 return console.error(err);
               } else {
@@ -141,7 +141,7 @@ var searchterm, searchquery;
         
         searchquery='{$exists:true}';
         console.log('empty');
-          repos.find({"projects.pjctTags":{$exists:true}}).toArray(function(err, repodocs) {
+          repos.find({"projects.projectTags":{$exists:true}}).toArray(function(err, repodocs) {
         if (err) {
             return console.error(err);
         } else {
@@ -192,7 +192,7 @@ router.route('/repos')
 
       /*repo._comment:req.body._comment,
       repo.type: req.body.type,
-      repo.required.openPjcts: req.body.required.openPjcts,
+      repo.required.openprojects: req.body.required.openPjcts,
       repo.required.govwideReUsePjcts: req.body.required.govwideReUsePjcts,
       repo.required.closedPjcts: req.body.required.closedPjcts,
       repo.properties.openPjcts
