@@ -40,6 +40,16 @@ html(lang='en')
     meta(name='twitter:image', content='https://code.gov/img/open-graph.jpg?v=2485d4e')
   body
     .usa-grid
+      .usa-width-one-whole
+        h2 Validate        
+        form(action='validate', method='post')
+          div(role='search')
+            label(for="input-type-text" Text) URL for GITHUB API JSON (ex: https://api.github.com/orgs/hhs/repos)
+            input(id="input-type-text" name="jsonurl" type="text")
+            
+            button(type='submit')
+              span.usa-search-submit-text Validate
+        hr
       .usa-width-one-half
         h2 Search repos
         form.usa-search.usa-search-big(action='/', method='post')

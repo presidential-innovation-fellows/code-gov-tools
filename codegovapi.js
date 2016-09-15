@@ -179,6 +179,48 @@ var searchterm, searchquery;
 
 }); //close app.post(/)
 
+app.post('/validate', function(req, res) {
+
+var jsoninventory, record,codegovinventory_start, codegovinventory_projects, codegovinventory;
+    
+var options = {
+  
+  url: req.body.jsonurl,
+  headers: {'User-Agent':'request', 'Accept': 'application/vnd.github.full+json'}
+};  
+  request(options, function (error, response, body) {
+    
+    console.log('response: '+response.statusCode);
+     jsoninventory = JSON.parse(body);
+    codegovinventory_projects='';
+    codegovinventory_start = '{ "agencyAcronym": "TEST","projects":[';
+    
+    for(var i=0; i < jsoninventory.length; i++) {
+    
+      codegovinventory_projects+=
+      '{"vcs":"git", "repoPath": "'+jsoninventory[i].git_url+'", "repoName": "'+jsoninventory[i].name+'", "repoID":"'+ jsoninventory[i].id +'","projectURL":"'+jsoninventory[i].homepage+'","projectName":"'+jsoninventory[i].full_name+'","projectDescription":"'+jsoninventory[i].description+'"}';
+      
+      if(i+1<jsoninventory.length)
+        {
+          codegovinventory_projects+=',';
+        }
+      
+      
+    }
+    
+     codegovinventory = codegovinventory_start + codegovinventory_projects+']}';
+    
+    
+    
+    res.send( codegovinventory);
+    
+    
+  }); 
+      }); //close app.post(validate)
+
+
+
+
 // ROUTES FOR OUR API
 // =============================================================================
 var router = express.Router();              // get an instance of the express Router
