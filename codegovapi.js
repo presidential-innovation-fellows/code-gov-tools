@@ -84,16 +84,19 @@ console.log("length of AgencyObj: "+AgencyObj.length);
       
 for(i=1; i < AgencyObj.length; i++) {
   
-  value=AgencyObj[i];
-  
-  request(value.DEVURL, function (error, response, body) {
+    value=AgencyObj[i];
     console.log('key: '+i);
     console.log('value: '+value.ACRONYM);  
-    console.log('response: '+response.statusCode);
     console.log("Acronym: "+ value.ACRONYM);
     console.log("Dev URL for "+value.ACRONYM+ " is "+value.DEVURL);
     
-    repos.updateMany({"agencyAcronym": value.ACRONYM}, body, {upsert:true});
+    
+  
+  request(value.DEVURL, function (error, response, body) {
+    
+    console.log('response: '+response.statusCode);
+    
+    repos.update({"agencyAcronym": value.ACRONYM}, JSON.parse(body), {upsert:true});
     //repos.insert(body);
     
   });
