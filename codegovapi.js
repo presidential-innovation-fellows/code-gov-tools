@@ -26,6 +26,8 @@ require('dotenv').load();
 
 var mongoDetails = process.env.MONGOURI;
 
+/*
+//elastic search mapping
 Repo.createMapping(function(err, mapping){  
   if(err){
     console.log('error creating mapping (you can safely ignore this)');
@@ -35,6 +37,7 @@ Repo.createMapping(function(err, mapping){
     console.log(mapping);
   }
 });
+*/
 
 
 app.use(express.static(path.join(__dirname, '/public')));
@@ -52,6 +55,7 @@ var port = process.env.PORT || 3001;        // set port here because I'm using 3
 // =============================================================================
 
 var AgencyObj = require("./agency_endpoint.json");
+console.log("Details of number 7: "+AgencyObj[6].NUM+" AND "+AgencyObj[6].ACRONYM+" AND "+AgencyObj[6].DEVURL);
 
 
 // =============================================================================
@@ -75,18 +79,28 @@ app.get('/', function(req, res) {
       
 // grab code.json files from various agencies.
 // =============================================================================
-for(var key in AgencyObj) {
-  request(AgencyObj[key].DEVURL, function (error, response, body) {
-  if (!error && response.statusCode == 200) {
-    repos.update({"agencyAcronym":AgencyObj[key].ACRONYM}, body, {upsert:false});
-    console.log("Dev URL for "+AgencyObj[key].ACRONYM+ " is "+AgencyObj[key].DEVURL+ "Details are: \n"+body);
-  }
-    else {console.error(err);}
-});
+console.log("length of AgencyObj: "+AgencyObj.length);   
+      var key,value;
+      
+for(i=1; i < AgencyObj.length; i++) {
+  
+  value=AgencyObj[i];
+  
+  request(value.DEVURL, function (error, response, body) {
+    console.log('key: '+i);
+    console.log('value: '+value.ACRONYM);  
+    console.log('response: '+response.statusCode);
+    console.log("Acronym: "+ value.ACRONYM);
+    console.log("Dev URL for "+value.ACRONYM+ " is "+value.DEVURL);
     
+    repos.updateMany({"agencyAcronym": value.ACRONYM}, body, {upsert:true});
+    //repos.insert(body);
+    
+  });
+
+    
+} //end for loop
        
-    
-}
     
       repos.find().toArray(function(err, repodocs) {
         if (err) {

@@ -5,7 +5,7 @@
    "ACRONYM": "USDA",
    "WEBSITE": "https://usda.gov/",
    "PRODURL": "https://usda.gov/code.json",
-   "DEVURL": "https://fakeagency1.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakeusda.json"
  },
  {
    "NUM": 2,
@@ -13,7 +13,7 @@
    "ACRONYM": "DOC",
    "WEBSITE": "https://www.commerce.gov/",
    "PRODURL": "https://www.commerce.gov/code.json",
-   "DEVURL": "https://fakeagency2.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakedoc.json"
  },
  {
    "NUM": 3,
@@ -21,7 +21,7 @@
    "ACRONYM": "DOD",
    "WEBSITE": "https://www.defense.gov/",
    "PRODURL": "https://www.defense.gov/code.json",
-   "DEVURL": "https://fakeagency3.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakedod.json"
  },
  {
    "NUM": 4,
@@ -29,7 +29,7 @@
    "ACRONYM": "ED",
    "WEBSITE": "https://ed.gov/",
    "PRODURL": "https://ed.gov/code.json",
-   "DEVURL": "https://fakeagency1.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakeed.json"
  },
  {
    "NUM": 5,
@@ -37,7 +37,7 @@
    "ACRONYM": "DOE",
    "WEBSITE": "https://energy.gov/",
    "PRODURL": "https://energy.gov/code.json",
-   "DEVURL": "https://fakeagency2.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakedoe.json"
  },
  {
    "NUM": 6,
@@ -45,7 +45,7 @@
    "ACRONYM": "HHS",
    "WEBSITE": "https://hhs.gov",
    "PRODURL": "https://hhs.govcode.json",
-   "DEVURL": "https://fakeagency3.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakehhs.json"
  },
  {
    "NUM": 7,
@@ -53,7 +53,7 @@
    "ACRONYM": "HUD",
    "WEBSITE": "https://www.hud.gov/",
    "PRODURL": "https://www.hud.gov/code.json",
-   "DEVURL": "https://fakeagency1.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakehud.json"
  },
  {
    "NUM": 8,
@@ -61,7 +61,7 @@
    "ACRONYM": "DOI",
    "WEBSITE": "https://data.doi.gov/",
    "PRODURL": "https://data.doi.gov/code.json",
-   "DEVURL": "https://fakeagency2.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakedoi.json"
  },
  {
    "NUM": 9,
@@ -69,7 +69,7 @@
    "ACRONYM": "DOJ",
    "WEBSITE": "https://justice.gov",
    "PRODURL": "https://justice.govcode.json",
-   "DEVURL": "https://fakeagency3.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakedoj.json"
  },
  {
    "NUM": 10,
@@ -77,7 +77,7 @@
    "ACRONYM": "DOL",
    "WEBSITE": "https://www.dol.gov",
    "PRODURL": "https://www.dol.govcode.json",
-   "DEVURL": "https://fakeagency1.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakedol.json"
  },
  {
    "NUM": 11,
@@ -85,7 +85,7 @@
    "ACRONYM": "DOS",
    "WEBSITE": "https://state.gov/",
    "PRODURL": "https://state.gov/code.json",
-   "DEVURL": "https://fakeagency2.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakedos.json"
  },
  {
    "NUM": 12,
@@ -93,7 +93,7 @@
    "ACRONYM": "DOT",
    "WEBSITE": "https://www.transportation.gov/",
    "PRODURL": "https://www.transportation.gov/code.json",
-   "DEVURL": "https://fakeagency3.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakedot.json"
  },
  {
    "NUM": 13,
@@ -101,7 +101,7 @@
    "ACRONYM": "TRE",
    "WEBSITE": "https://www.treasury.gov/",
    "PRODURL": "https://www.treasury.gov/code.json",
-   "DEVURL": "https://fakeagency1.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/faketre.json"
  },
  {
    "NUM": 14,
@@ -109,7 +109,7 @@
    "ACRONYM": "VA",
    "WEBSITE": "https://va.gov/",
    "PRODURL": "https://va.gov/code.json",
-   "DEVURL": "https://fakeagency2.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakeva.json"
  },
  {
    "NUM": 15,
@@ -117,7 +117,7 @@
    "ACRONYM": "EPA",
    "WEBSITE": "https://epa.gov/",
    "PRODURL": "https://epa.gov/code.json",
-   "DEVURL": "https://fakeagency3.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakeepa.json"
  },
  {
    "NUM": 16,
@@ -125,7 +125,7 @@
    "ACRONYM": "NASA",
    "WEBSITE": "https://nasa.gov/",
    "PRODURL": "https://nasa.gov/code.json",
-   "DEVURL": "https://fakeagency1.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakenasa.json"
  },
  {
    "NUM": 17,
@@ -133,7 +133,7 @@
    "ACRONYM": "AID",
    "WEBSITE": "https://usaid.gov/",
    "PRODURL": "https://usaid.gov/code.json",
-   "DEVURL": "https://fakeagency2.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakeaid.json"
  },
  {
    "NUM": 18,
@@ -141,7 +141,7 @@
    "ACRONYM": "FEMA",
    "WEBSITE": "https://fema.gov/",
    "PRODURL": "https://fema.gov/code.json",
-   "DEVURL": "https://fakeagency3.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakefema.json"
  },
  {
    "NUM": 19,
@@ -149,7 +149,7 @@
    "ACRONYM": "GSA",
    "WEBSITE": "https://gsa.gov/",
    "PRODURL": "https://gsa.gov/code.json",
-   "DEVURL": "https://fakeagency1.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakegsa.json"
  },
  {
    "NUM": 20,
@@ -157,7 +157,7 @@
    "ACRONYM": "NSF",
    "WEBSITE": "https://nsf.gov/",
    "PRODURL": "https://nsf.gov/code.json",
-   "DEVURL": "https://fakeagency2.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakensf.json"
  },
  {
    "NUM": 21,
@@ -165,7 +165,7 @@
    "ACRONYM": "NRC",
    "WEBSITE": "https://nrc.gov/",
    "PRODURL": "https://nrc.gov/code.json",
-   "DEVURL": "https://fakeagency3.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakenrc.json"
  },
  {
    "NUM": 22,
@@ -173,7 +173,7 @@
    "ACRONYM": "OPM",
    "WEBSITE": "https://opm.gov/",
    "PRODURL": "https://opm.gov/code.json",
-   "DEVURL": "https://fakeagency1.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakeopm.json"
  },
  {
    "NUM": 23,
@@ -181,6 +181,6 @@
    "ACRONYM": "SBA",
    "WEBSITE": "https://sba.gov/",
    "PRODURL": "https://sba.gov/code.json",
-   "DEVURL": "https://fakeagency2.apps.cloud.gov/code.json"
+   "DEVURL": "https://fakeagency.apps.cloud.gov/fakesba.json"
  }
 ]
