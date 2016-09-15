@@ -51,6 +51,30 @@ app.set('view engine', 'pug');
 var port = process.env.PORT || 3001;        // set port here because I'm using 3000 for something else
 
 
+function removestopwords(phrase) {
+        var common = getStopWords();
+        //var wordArr = phrase.match(/\w+/g),
+        var wordArr = phrase.split(/(?=\w)\b|\W/),
+            commonObj = {},
+            uncommonArr = [],
+            word, i;
+
+        for (i = 0; i < common.length; i++) {
+            commonObj[ common[i].trim() ] = true;
+        }
+
+        for (i = 0; i < wordArr.length; i++) {
+            word = wordArr[i].trim().toLowerCase();
+            if (!commonObj[word]) {
+                uncommonArr.push(word);
+            }
+        }
+        return uncommonArr;
+    }
+
+    function getStopWords() {
+        return ["a", "able", "about", "across", "after", "all", "almost", "also", "am", "among", "an", "and", "any", "are", "as", "at", "be", "because", "been", "but", "by", "can", "cannot", "could", "dear", "did", "do", "does", "either", "else", "ever", "every", "for", "from", "get", "got", "had", "has", "have", "he", "her", "hers", "him", "his", "how", "however", "i", "if", "in", "into", "is", "it", "its", "just", "least", "let", "like", "likely", "may", "me", "might", "most", "must", "my", "neither", "no", "nor", "not", "of", "off", "often", "on", "only", "or", "other", "our", "own", "rather", "said", "say", "says", "she", "should", "since", "so", "some", "than", "that", "the", "their", "them", "then", "there", "these", "they", "this", "tis", "to", "too", "twas", "us", "wants", "was", "we", "were", "what", "when", "where", "which", "while", "who", "whom", "why", "will", "with", "would", "yet", "you", "your", "ain't", "aren't", "can't", "could've", "couldn't", "didn't", "doesn't", "don't", "hasn't", "he'd", "he'll", "he's", "how'd", "how'll", "how's", "i'd", "i'll", "i'm", "i've", "isn't", "it's", "might've", "mightn't", "must've", "mustn't", "shan't", "she'd", "she'll", "she's", "should've", "shouldn't", "that'll", "that's", "there's", "they'd", "they'll", "they're", "they've", "wasn't", "we'd", "we'll", "we're", "weren't", "what'd", "what's", "when'd", "when'll", "when's", "where'd", "where'll", "where's", "who'd", "who'll", "who's", "why'd", "why'll", "why's", "won't", "would've", "wouldn't", "you'd", "you'll", "you're", "you've"];
+    }
 // READ IN JSON FILE WITH AGENCY ENDPOINTS
 // =============================================================================
 
@@ -94,7 +118,7 @@ for(i=1; i < AgencyObj.length; i++) {
   
   request(value.DEVURL, function (error, response, body) {
     
-    console.log('response: '+response.statusCode);
+    
     
     repos.update({"agencyAcronym": value.ACRONYM}, JSON.parse(body), {upsert:true});
     //repos.insert(body);
@@ -179,9 +203,10 @@ var searchterm, searchquery;
 
 }); //close app.post(/)
 
-app.post('/validate', function(req, res) {
+app.post('/convert', function(req, res) {
 
 var jsoninventory, record,codegovinventory_start, codegovinventory_projects, codegovinventory;
+
     
 var options = {
   
@@ -190,7 +215,7 @@ var options = {
 };  
   request(options, function (error, response, body) {
     
-    console.log('response: '+response.statusCode);
+    
      jsoninventory = JSON.parse(body);
     codegovinventory_projects='';
     codegovinventory_start = '{ "agencyAcronym": "TEST","projects":[';
@@ -198,13 +223,19 @@ var options = {
     for(var i=0; i < jsoninventory.length; i++) {
     
       codegovinventory_projects+=
-      '{"vcs":"git", "repoPath": "'+jsoninventory[i].git_url+'", "repoName": "'+jsoninventory[i].name+'", "repoID":"'+ jsoninventory[i].id +'","projectURL":"'+jsoninventory[i].homepage+'","projectName":"'+jsoninventory[i].full_name+'","projectDescription":"'+jsoninventory[i].description+' ",'+' "projectTags":[';
+      '{"vcs":"git", "repoPath": "'+jsoninventory[i].git_url+'", "repoName": "'+jsoninventory[i].name+'", "repoID":"'+ jsoninventory[i].id +'","projectURL":"'+jsoninventory[i].homepage+'","projectName":"'+jsoninventory[i].full_name+'","projectDescription":"'+jsoninventory[i].description+' ",'+'"POCemail":"noone@email.com", "license":[{"license":"NA"}],"openproject":1,"govwideReuseproject":0,"closedproject":0,"exemption":null,' +' "projectTags":[';
       
       //loop through project tags
       if(jsoninventory[i].description!=null)
-      {var tags = (jsoninventory[i].description).split(" ");
+        
+      { var tagwords = jsoninventory[i].description;
+       
+       
+        //var tags = (tagwords).split(" ");
+       var tags = removestopwords(tagwords);
       
       for(var k=0; k < tags.length; k++) {
+        if((tags[k]==null || tags[k]=='') && ((k+1)!=tags.length)) { continue;}
         codegovinventory_projects+='{"tag":"'+tags[k]+'"}';
       
         if(k+1<tags.length)
@@ -213,14 +244,30 @@ var options = {
         }
       }
       }
-      codegovinventory_projects+=']}'; //end tags
+      codegovinventory_projects+=']'; //end tags
+      //end tag section
+   
+      
+      //start language section:
+      codegovinventory_projects+=',"codeLanguage":[';
+      
+      
+       if(jsoninventory[i].language!=null)
+      {var language = jsoninventory[i].language;
+      
+      
+        codegovinventory_projects+='{"language":"'+language+'"}';
+      
+    
+      
+      }
+      codegovinventory_projects+=']}'; //end languages
       
       if(i+1<jsoninventory.length)
         {
           codegovinventory_projects+=',';
         }
-      
-      
+      //end language section
     }
     
      codegovinventory = codegovinventory_start + codegovinventory_projects+']}';
