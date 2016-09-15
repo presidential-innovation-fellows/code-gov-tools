@@ -198,7 +198,22 @@ var options = {
     for(var i=0; i < jsoninventory.length; i++) {
     
       codegovinventory_projects+=
-      '{"vcs":"git", "repoPath": "'+jsoninventory[i].git_url+'", "repoName": "'+jsoninventory[i].name+'", "repoID":"'+ jsoninventory[i].id +'","projectURL":"'+jsoninventory[i].homepage+'","projectName":"'+jsoninventory[i].full_name+'","projectDescription":"'+jsoninventory[i].description+'"}';
+      '{"vcs":"git", "repoPath": "'+jsoninventory[i].git_url+'", "repoName": "'+jsoninventory[i].name+'", "repoID":"'+ jsoninventory[i].id +'","projectURL":"'+jsoninventory[i].homepage+'","projectName":"'+jsoninventory[i].full_name+'","projectDescription":"'+jsoninventory[i].description+' ",'+' "projectTags":[';
+      
+      //loop through project tags
+      if(jsoninventory[i].description!=null)
+      {var tags = (jsoninventory[i].description).split(" ");
+      
+      for(var k=0; k < tags.length; k++) {
+        codegovinventory_projects+='{"tag":"'+tags[k]+'"}';
+      
+        if(k+1<tags.length)
+        {
+          codegovinventory_projects+=',';
+        }
+      }
+      }
+      codegovinventory_projects+=']}'; //end tags
       
       if(i+1<jsoninventory.length)
         {
