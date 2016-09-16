@@ -1,163 +1,112 @@
 {
-    "agencyAcronym": "USDA",
-    "projects": [
-        {
-            "vcs": "git",
-            "repoPath": "https://github.com/presidential-innovation-fellows/mygov",
-            "repoName": "mygov",
-            "repoID": "5518578",
-            "projectURL": null,
-            "projectName": "mygov",
-            "projectDescription": "A Platform for Conecting People and Government",
-            "projectTags": [
-                {
-                    "tag": "platform"
-                },
-                {
-                    "tag": "government"
-                },
-                {
-                    "tag": "connecting"
-                },
-                {
-                    "tag": "people"
-                }
-            ],
-            "codeLanguage": [
-                {
-                    "language": "ruby"
-                },
-                {
-                    "language": "rails"
-                },
-                {
-                    "language": "html"
-                }
-                
-            ],
-            "Updated": [
-                {
-                    "LastCommitDate": "2014-11-23T03:36:01Z"
-                },
-                {
-                     "LastMetadataUpdate": "2013-05-23T03:36:01Z"
-                },
-                {
-                    "LastPullRequest": "2002-01-23T03:36:01Z"
-                }
-            
-            ],
-            "POCemail": "noone@email.com",
-             "license": [
-                {
-                    "license": "CCBY"
-                }
-                
-            ],
-            "openproject": 1,
-            "govwideReuseproject": 0,
-            "closedproject": 0,
-            "exemption": null
-        },
-        {
-            "vcs": "git",
-            "repoPath": "https://github.com/presidential-innovation-fellows/apidocs",
-            "repoName": "apidocs",
-            "repoID": "5614762",
-            "projectURL": null,
-            "projectName": "apidocs",
-            "projectDescription": "Interactive API Documentation for Presidential Innovation Fellows' Projects.",
-            "projectTags": [
-                {
-                    "tag": "api"
-                },
-                {
-                    "tag": "PIF"
-                },
-                {
-                    "tag": "documentation"
-                }
-            ],
-            "codeLanguage": [
-                {
-                    "language": "javascript"
-                }
-               
-            ],
-            "Updated": [
-                {
-                    "LastCommitDate": "2014-11-23T03:36:01Z"
-                },
-                {
-                     "LastMetadataUpdate": "2013-05-23T03:36:01Z"
-                },
-                {
-                    "LastPullRequest": "2002-01-23T03:36:01Z"
-                }
-            
-            ],
-            "POCemail": "noone@email.com",
-            "license": [
-                {
-                    "license": "CC0"
-                }
-                
-            ],
-            "openproject": 1,
-            "govwideReuseproject": 0,
-            "closedproject": 0,
-            "exemption": null
-        },
-        {
-            "vcs": "git",
-            "repoPath": "https://github.com/presidential-innovation-fellows/bluebutton",
-            "repoName": "bluebutton",
-            "repoID": "2146920",
-            "projectURL": null,
-            "projectName": "bluebutton",
-            "projectDescription": "Spreading the ability for millions of Americans to easily and securely download their own health information electronically",
-            "projectTags": [
-                {
-                    "tag": "bluebutton"
-                },
-                {
-                    "tag": "medical"
-                },
-                {
-                    "tag": "health"
-                },
-                {
-                    "tag": "records"
-                }
-            ],
-            "codeLanguage": [
-                {
-                    "language": "visual basic"
-                }
-            ],
-            "Updated": [
-                {
-                    "LastCommitDate": "2014-11-23T03:36:01Z"
-                },
-                {
-                     "LastMetadataUpdate": "2013-05-23T03:36:01Z"
-                },
-                {
-                    "LastPullRequest": "2002-01-23T03:36:01Z"
-                }
-            
-            ],
-            "POCemail": "noone@email.com",
-            "license": [
-                {
-                    "license": "MIT"
-                }
-                
-            ],
-            "openproject": 1,
-            "govwideReuseproject": 0,
-            "closedproject": 0,
-            "exemption": null
-        }
-    ]
+	"agencyAcronym": "USDA",
+	"projects": [{
+		"vcs": "git",
+		"repoPath": "git://github.com/USDA/USDA-APIs.git",
+		"repoName": "USDA-APIs",
+		"repoID": "10064296",
+		"projectURL": "www.usda.gov/developer",
+		"projectName": "USDA/USDA-APIs",
+		"projectDescription": "Do you have feedback, ideas, or questions for USDA APIs? Use this repository's Issue Tracker to join the discussion. ",
+		"POCemail": "noone@email.com",
+		"license": [{
+			"license": "NA"
+		}],
+		"openproject": 1,
+		"govwideReuseproject": 0,
+		"closedproject": 0,
+		"exemption": null,
+		"projectTags": [{
+			"tag": "feedback"
+		}, {
+			"tag": "ideas"
+		}, {
+			"tag": "questions"
+		}, {
+			"tag": "usda"
+		}, {
+			"tag": "apis"
+		}, {
+			"tag": "use"
+		}, {
+			"tag": "repository"
+		}, {
+			"tag": "s"
+		}, {
+			"tag": "issue"
+		}, {
+			"tag": "tracker"
+		}, {
+			"tag": "join"
+		}, {
+			"tag": "discussion"
+		}, {
+			"tag": ""
+		}],
+		"codeLanguage": []
+	}, {
+		"vcs": "git",
+		"repoPath": "git://github.com/USDA/RIDB.git",
+		"repoName": "RIDB",
+		"repoID": "29924484",
+		"projectURL": "https://usda.github.io/RIDB",
+		"projectName": "USDA/RIDB",
+		"projectDescription": "Recreation Information Database ",
+		"POCemail": "noone@email.com",
+		"license": [{
+			"license": "NA"
+		}],
+		"openproject": 1,
+		"govwideReuseproject": 0,
+		"closedproject": 0,
+		"exemption": null,
+		"projectTags": [{
+			"tag": "recreation"
+		}, {
+			"tag": "information"
+		}, {
+			"tag": "database"
+		}],
+		"codeLanguage": [{
+			"language": "HTML"
+		}]
+	}, {
+		"vcs": "git",
+		"repoPath": "git://github.com/USDA/data-standards.git",
+		"repoName": "data-standards",
+		"repoID": "64396310",
+		"projectURL": "https://usda.github.io/data-standards",
+		"projectName": "USDA/data-standards",
+		"projectDescription": "A collaborative site for official USDA data elements and data standards. ",
+		"POCemail": "noone@email.com",
+		"license": [{
+			"license": "NA"
+		}],
+		"openproject": 1,
+		"govwideReuseproject": 0,
+		"closedproject": 0,
+		"exemption": null,
+		"projectTags": [{
+			"tag": "collaborative"
+		}, {
+			"tag": "site"
+		}, {
+			"tag": "official"
+		}, {
+			"tag": "usda"
+		}, {
+			"tag": "data"
+		}, {
+			"tag": "elements"
+		}, {
+			"tag": "data"
+		}, {
+			"tag": "standards"
+		}, {
+			"tag": ""
+		}],
+		"codeLanguage": [{
+			"language": "CSS"
+		}]
+	}]
 }

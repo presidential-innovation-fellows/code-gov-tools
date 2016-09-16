@@ -4,24 +4,19 @@
 // =============================================================================
 
 var express    = require('express');        // call express
-
-
 var MongoClient = require('mongodb').MongoClient;
 var app        = express();                 // define our app using express
 var bodyParser = require('body-parser');
 var Repo     = require('./app/models/repo.js');
 var stream = Repo.synchronize();
-  var count = 0;
+var count = 0;
 var request = require('request'); //Load the request module
+
+ 
 
 var path = require("path");
 var pug = require('pug');
 require('dotenv').load();
-
-
-
-
-
 
 
 var mongoDetails = process.env.MONGOURI;
@@ -47,6 +42,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
+app.set('json spaces', 2);
 
 var port = process.env.PORT || 3001;        // set port here because I'm using 3000 for something else
 
@@ -109,9 +105,7 @@ console.log("length of AgencyObj: "+AgencyObj.length);
 for(i=1; i < AgencyObj.length; i++) {
   
     value=AgencyObj[i];
-    console.log('key: '+i);
-    console.log('value: '+value.ACRONYM);  
-    console.log("Acronym: "+ value.ACRONYM);
+    
     console.log("Dev URL for "+value.ACRONYM+ " is "+value.DEVURL);
     
     
@@ -120,7 +114,7 @@ for(i=1; i < AgencyObj.length; i++) {
     
     
     
-    repos.update({"agencyAcronym": value.ACRONYM}, JSON.parse(body), {upsert:true});
+    repos.update({agencyAcronym: value.ACRONYM}, JSON.parse(body), {upsert:false});
     //repos.insert(body);
     
   });
@@ -207,7 +201,8 @@ app.post('/convert', function(req, res) {
 
 var jsoninventory, record,codegovinventory_start, codegovinventory_projects, codegovinventory;
 
-    
+   
+
 var options = {
   
   url: req.body.jsonurl,
@@ -272,9 +267,11 @@ var options = {
     
      codegovinventory = codegovinventory_start + codegovinventory_projects+']}';
     
+
+    //console.log(prettyjson.render(codegovinventory, options));
     
-    
-    res.send( codegovinventory);
+    //res.send( prettyjson.render(codegovinventory, options));
+    res.send(codegovinventory);
     
     
   }); 
@@ -287,17 +284,21 @@ var options = {
 // =============================================================================
 var router = express.Router();              // get an instance of the express Router
 
+
+
+
 // middleware to use for all requests
 router.use(function(req, res, next) {
     // do logging
-    console.log('Aww snap.');
+    console.log('Hey, someone is using this!');
     next(); // make sure we go to the next routes and don't stop here
 });
 
 // test route to make sure everything is working (accessed at GET http://localhost:[portnum]/api)
 router.get('/', function(req, res) {
-    res.json({ message: 'This is the Code.gov API' });
-    //res.sendFile('index.pug', {root:__dirname});
+  //res.json({ message: 'This is the Code.gov API' });  
+  res.send("<html><h1>Welcome to the Code.gov API</h1><br><br> <h2>ENDPOINTS</h2>: <ul> <li> /api/repos  --list all federal agency repos</li> <li> /api/repos/agencyAcronym  --list repos for specific agency</li></ul><br><hr> <h2>AGENCY ACRONYMS:</h2><ul> <li>Department of Agriculture: 	<em>USDA</em></li><li>Department of Commerce:	<em>DOC</em></li><li>Department of Defense:	<em>DOD</em></li><li>Department of Education:	<em>ED</em></li><li>Department of Energy:	<em>DOE</em></li><li>Department of Health and Human Services:	<em>HHS</em></li><li>Department of Housing and Urban Development:	<em>HUD</em></li><li>Department of Interior:<em>	DOI</em></li><li>Department of Justice:<em>	DOJ</em></li><li>Department of Labor:<em>	DOL</em></li><li>Department of State:<em>	DOS</em></li><li>Department of Transportation:<em>	DOT</em></li><li>Department of Treasury:<em>	TRE</em></li><li>Department of Veterans Affairs:	<em>VA</em></li><li>Environmental Protection Agency	:<em>EPA</em></li><li>National Aeronautics and Space Administration:	<em>NASA</em></li><li>Agency for International Development:	<em>AID</em></li><li>Federal Emergency Management Agency:	<em>FEMA</em></li><li>General Services Administration: 	<em>GSA</em></li><li>National Science Foundation	: NSF</em></li><li>Nuclear Regulatory Commission:	<em>NRC</em></li><li>Office of Personnel Management:	<em>OPM</em></li><li>Small Business Administration:	<em>SBA</em></li> </ul> </html>");
+    
 
 });
 
@@ -307,88 +308,78 @@ router.get('/', function(req, res) {
 router.route('/repos')
 
   
-    .post(function(req, res) {
 
-        var repo = new Repo((req.body));      // create a new instance of the state model
-
-      /*repo._comment:req.body._comment,
-      repo.type: req.body.type,
-      repo.required.openprojects: req.body.required.openPjcts,
-      repo.required.govwideReUsePjcts: req.body.required.govwideReUsePjcts,
-      repo.required.closedPjcts: req.body.required.closedPjcts,
-      repo.properties.openPjcts
-  */
-
-        // save the repo and check for errors
-        repo.save(function(err) {
-            if (err)
-                res.send(err);
-            else{
-            repo.on('es-indexed', function (err,res) {
-              res.json({ message: 'repo created!' });  
-            });
-            
-              
-            }
-        });
-
-    })   // get all the repos (accessed at GET http://localhost:8080/api/repo)
+// get all the repos (accessed at GET http://localhost:8080/api/repo)
     .get(function(req, res) {
-        Repo.find(function(err, repos) {
-            if (err)
-                res.send(err);
+  
 
-            res.json(repos);
-        });
+  //open MongoDB connection
+MongoClient.connect(mongoDetails, function(err, db) {
+    if (err) {
+      res.send("Sorry, there was a problem with the database: "+err);
+      
+      return console.error(err);
+      
+    } else {
+       repos = db.collection("repos");
+      console.log(" We're connected to the DB");  
+         
+      repos.find().toArray(function(err, repodocs) {
+            if (err)
+            {res.send(err);}
+          else{
+
+            res.json(repodocs);
+          }
+        }); 
+    
+      }
+  }); 
+//close MongoDB connection
+        
     });
 
 // ----------------------------------------------------
-router.route('/repos/:repo_id')
+router.route('/repos/:agencyAcronym')
 
-    // get the repo with that id (accessed at GET http://localhost:8080/api/repos/:repo_id)
+    // get the repo with that id (accessed at GET http://localhost:8080/api/repos/:agencyAcronym)
     .get(function(req, res) {
-        Repo.findById(req.params.repo_id, function(err, repo) {
+  
+
+  
+  
+  
+   //open MongoDB connection
+MongoClient.connect(mongoDetails, function(err, db) {
+    if (err) {
+      res.send("Sorry, there was a problem with the database: "+err);
+      
+      return console.error(err);
+      
+    } else {
+       repos = db.collection("repos");
+      console.log(" We're connected to the DB");  
+         
+      repos.find({agencyAcronym: req.params.agencyAcronym}).toArray(function(err, repodoc) {
             if (err)
-                res.send(err);
-            res.json(repo);
-        });
+            {res.send(err);}
+          else{
+
+            res.json(repodoc);
+          }
+        }); 
+    
+      }
+  }); 
+//close MongoDB connection
+  
+  
+  
+  
+  
+  
     })
-    .put(function(req, res) {
-
-        // use our repo model to find the repo we want
-        Repo.findById(req.params.repo_id, function(err, repo) {
-
-            if (err)
-                res.send('Error: '+err);
-
-            repo = req.body
-
-            // save the state
-            repo.save(function(err) {
-                if (err)
-                    res.send(err);
-
-               else { 
-                 repo.on('es-indexed', function (err,res) {
-                   res.json({ message: 'repo updated!' }); })
-               }
-                         
-            });
-
-        });
-    })
- .delete(function(req, res) {
-        Repo.remove({
-            _id: req.params.repo_id
-        }, function(err, repo) {
-            if (err)
-                res.send(err);
-
-            res.json({ message: 'Repo successfully deleted' });
-        });
-    });
-
-
+    
 // all of our routes will be prefixed with /api
 app.use('/api', router);
 
