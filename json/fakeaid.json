@@ -1,17 +1,26 @@
 {
-	"agencyAcronym": "AID",
+	"agency": "AID",
+	"status": "Alpha",
 	"projects": [{
 		"vcs": "git",
-		"repoPath": "git://github.com/USAID/Feedback.git",
-		"repoName": "Feedback",
+		"repository": "git://github.com/USAID/Feedback.git",
+		"name": "Feedback",
 		"repoID": "9205057",
-		"projectURL": "",
-		"projectName": "USAID/Feedback",
-		"projectDescription": "Do you have ideas or requests on how to use or improve USAID's APIs or the data we've opened at usaid.gov/data? Click on the issues tab to start a discussion.",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "",
+		"downloadURL": " ",
+		"description": "Do you have ideas or requests on how to use or improve USAID's APIs or the data we've opened at usaid.gov/data? Click on the issues tab to start a discussion.",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -58,16 +67,24 @@
 		"codeLanguage": []
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USAID/usaid_dca.git",
-		"repoName": "usaid_dca",
+		"repository": "git://github.com/USAID/usaid_dca.git",
+		"name": "usaid_dca",
 		"repoID": "11528080",
-		"projectURL": "null",
-		"projectName": "USAID/usaid_dca",
-		"projectDescription": "Visualisation of USAID Development Credit Authority data ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "Visualisation of USAID Development Credit Authority data ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -90,16 +107,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USAID/usaidforecastdata.git",
-		"repoName": "usaidforecastdata",
+		"repository": "git://github.com/USAID/usaidforecastdata.git",
+		"name": "usaidforecastdata",
 		"repoID": "14931059",
-		"projectURL": "null",
-		"projectName": "USAID/usaidforecastdata",
-		"projectDescription": "Visualization and Map of USAID Business Forecast ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "Visualization and Map of USAID Business Forecast ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -120,16 +145,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USAID/tracing-guide.git",
-		"repoName": "tracing-guide",
+		"repository": "git://github.com/USAID/tracing-guide.git",
+		"name": "tracing-guide",
 		"repoID": "16954691",
-		"projectURL": "null",
-		"projectName": "USAID/tracing-guide",
-		"projectDescription": "The Kathmandu Tracing Guide, developed by USAID's GeoCenter for training purposes and hosted on Github for more easily editable and mobile devices. ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "The Kathmandu Tracing Guide, developed by USAID's GeoCenter for training purposes and hosted on Github for more easily editable and mobile devices. ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -172,16 +205,24 @@
 		"codeLanguage": []
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USAID/gdlmap.git",
-		"repoName": "gdlmap",
+		"repository": "git://github.com/USAID/gdlmap.git",
+		"name": "gdlmap",
 		"repoID": "17063333",
-		"projectURL": "null",
-		"projectName": "USAID/gdlmap",
-		"projectDescription": " ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": " ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -194,16 +235,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USAID/USAID-DEC.git",
-		"repoName": "USAID-DEC",
+		"repository": "git://github.com/USAID/USAID-DEC.git",
+		"name": "USAID-DEC",
 		"repoID": "18932375",
-		"projectURL": "https://dec.usaid.gov",
-		"projectName": "USAID/USAID-DEC",
-		"projectDescription": "Data from the United States Agency for International Development (USAID) Development Experience Clearinghouse (DEC). ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "https://dec.usaid.gov",
+		"downloadURL": " ",
+		"description": "Data from the United States Agency for International Development (USAID) Development Experience Clearinghouse (DEC). ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -236,16 +285,24 @@
 		"codeLanguage": []
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USAID/eboladata.git",
-		"repoName": "eboladata",
+		"repository": "git://github.com/USAID/eboladata.git",
+		"name": "eboladata",
 		"repoID": "25543053",
-		"projectURL": "null",
-		"projectName": "USAID/eboladata",
-		"projectDescription": "Meeting notes from the Ebola Working Group ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "Meeting notes from the Ebola Working Group ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -266,16 +323,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USAID/LACHack.git",
-		"repoName": "LACHack",
+		"repository": "git://github.com/USAID/LACHack.git",
+		"name": "LACHack",
 		"repoID": "34264662",
-		"projectURL": "http://www.usaid.gov/open/engagement",
-		"projectName": "USAID/LACHack",
-		"projectDescription": "USAID Latin America and Caribbean Open Data Hackathon 2015 ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "http://www.usaid.gov/open/engagement",
+		"downloadURL": " ",
+		"description": "USAID Latin America and Caribbean Open Data Hackathon 2015 ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,

@@ -1,17 +1,26 @@
 {
-	"agencyAcronym": "DOC",
+	"agency": "DOC",
+	"status": "Alpha",
 	"projects": [{
 		"vcs": "git",
-		"repoPath": "git://github.com/CommerceGov/CommerceGov.github.io.git",
-		"repoName": "CommerceGov.github.io",
+		"repository": "git://github.com/CommerceGov/CommerceGov.github.io.git",
+		"name": "CommerceGov.github.io",
 		"repoID": "13225017",
-		"projectURL": "null",
-		"projectName": "CommerceGov/CommerceGov.github.io",
-		"projectDescription": " ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": " ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -24,16 +33,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/CommerceGov/Policies-and-Guidance.git",
-		"repoName": "Policies-and-Guidance",
+		"repository": "git://github.com/CommerceGov/Policies-and-Guidance.git",
+		"name": "Policies-and-Guidance",
 		"repoID": "33949902",
-		"projectURL": "null",
-		"projectName": "CommerceGov/Policies-and-Guidance",
-		"projectDescription": "Official instructions that are directly relevant to work performed by @CommerceGov on Github. ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "Official instructions that are directly relevant to work performed by @CommerceGov on Github. ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -60,16 +77,24 @@
 		"codeLanguage": []
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/CommerceGov/commerce.gov-api.git",
-		"repoName": "commerce.gov-api",
+		"repository": "git://github.com/CommerceGov/commerce.gov-api.git",
+		"name": "commerce.gov-api",
 		"repoID": "43393077",
-		"projectURL": "null",
-		"projectName": "CommerceGov/commerce.gov-api",
-		"projectDescription": "Content API for Commerce.gov ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "Content API for Commerce.gov ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,

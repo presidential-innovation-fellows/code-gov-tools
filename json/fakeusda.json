@@ -1,17 +1,26 @@
 {
-	"agencyAcronym": "USDA",
+	"agency": "USDA",
+	"status": "Alpha",
 	"projects": [{
 		"vcs": "git",
-		"repoPath": "git://github.com/USDA/USDA-APIs.git",
-		"repoName": "USDA-APIs",
+		"repository": "git://github.com/USDA/USDA-APIs.git",
+		"name": "USDA-APIs",
 		"repoID": "10064296",
-		"projectURL": "www.usda.gov/developer",
-		"projectName": "USDA/USDA-APIs",
-		"projectDescription": "Do you have feedback, ideas, or questions for USDA APIs? Use this repository's Issue Tracker to join the discussion. ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "www.usda.gov/developer",
+		"downloadURL": " ",
+		"description": "Do you have feedback, ideas, or questions for USDA APIs? Use this repository's Issue Tracker to join the discussion. ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -46,16 +55,24 @@
 		"codeLanguage": []
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USDA/RIDB.git",
-		"repoName": "RIDB",
+		"repository": "git://github.com/USDA/RIDB.git",
+		"name": "RIDB",
 		"repoID": "29924484",
-		"projectURL": "https://usda.github.io/RIDB",
-		"projectName": "USDA/RIDB",
-		"projectDescription": "Recreation Information Database ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "https://usda.github.io/RIDB",
+		"downloadURL": " ",
+		"description": "Recreation Information Database ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -72,16 +89,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USDA/data-standards.git",
-		"repoName": "data-standards",
+		"repository": "git://github.com/USDA/data-standards.git",
+		"name": "data-standards",
 		"repoID": "64396310",
-		"projectURL": "https://usda.github.io/data-standards",
-		"projectName": "USDA/data-standards",
-		"projectDescription": "A collaborative site for official USDA data elements and data standards. ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "https://usda.github.io/data-standards",
+		"downloadURL": " ",
+		"description": "A collaborative site for official USDA data elements and data standards. ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,

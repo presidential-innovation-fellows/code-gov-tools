@@ -1,17 +1,26 @@
 {
-	"agencyAcronym": "HHS",
+	"agency": "HHS",
+	"status": "Alpha",
 	"projects": [{
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/pillbox_docs.git",
-		"repoName": "pillbox_docs",
+		"repository": "git://github.com/HHS/pillbox_docs.git",
+		"name": "pillbox_docs",
 		"repoID": "427729",
-		"projectURL": "pillbox.nlm.nih.gov",
-		"projectName": "HHS/pillbox_docs",
-		"projectDescription": "Pillbox at the National Library of Medicine ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "pillbox.nlm.nih.gov",
+		"downloadURL": " ",
+		"description": "Pillbox at the National Library of Medicine ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -30,16 +39,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/healthdata.gov.git",
-		"repoName": "healthdata.gov",
+		"repository": "git://github.com/HHS/healthdata.gov.git",
+		"name": "healthdata.gov",
 		"repoID": "3701186",
-		"projectURL": "null",
-		"projectName": "HHS/healthdata.gov",
-		"projectDescription": "null ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "null ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -50,16 +67,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/ckan.git",
-		"repoName": "ckan",
+		"repository": "git://github.com/HHS/ckan.git",
+		"name": "ckan",
 		"repoID": "5560972",
-		"projectURL": "http://ckan.org/",
-		"projectName": "HHS/ckan",
-		"projectDescription": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers the http://thedatahub.org/ and http://data.gov.uk/ among many other sites. ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "http://ckan.org/",
+		"downloadURL": " ",
+		"description": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers the http://thedatahub.org/ and http://data.gov.uk/ among many other sites. ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -130,16 +155,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/voc-public.git",
-		"repoName": "voc-public",
+		"repository": "git://github.com/HHS/voc-public.git",
+		"name": "voc-public",
 		"repoID": "7041950",
-		"projectURL": "null",
-		"projectName": "HHS/voc-public",
-		"projectDescription": " ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": " ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -152,16 +185,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/voc-admin.git",
-		"repoName": "voc-admin",
+		"repository": "git://github.com/HHS/voc-admin.git",
+		"name": "voc-admin",
 		"repoID": "7444376",
-		"projectURL": "null",
-		"projectName": "HHS/voc-admin",
-		"projectDescription": " ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": " ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -174,16 +215,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/syndication.git",
-		"repoName": "syndication",
+		"repository": "git://github.com/HHS/syndication.git",
+		"name": "syndication",
 		"repoID": "9894552",
-		"projectURL": "null",
-		"projectName": "HHS/syndication",
-		"projectDescription": " ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": " ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -196,16 +245,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/ckanext-datajson.git",
-		"repoName": "ckanext-datajson",
+		"repository": "git://github.com/HHS/ckanext-datajson.git",
+		"name": "ckanext-datajson",
 		"repoID": "10336546",
-		"projectURL": "http://hub.healthdata.gov/data.json",
-		"projectName": "HHS/ckanext-datajson",
-		"projectDescription": "Custom CKAN extension for Healthdata.gov ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "http://hub.healthdata.gov/data.json",
+		"downloadURL": " ",
+		"description": "Custom CKAN extension for Healthdata.gov ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -226,16 +283,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/hhs.github.io.git",
-		"repoName": "hhs.github.io",
+		"repository": "git://github.com/HHS/hhs.github.io.git",
+		"name": "hhs.github.io",
 		"repoID": "15012265",
-		"projectURL": "null",
-		"projectName": "HHS/hhs.github.io",
-		"projectDescription": "HHS Organization Page ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "HHS Organization Page ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -252,16 +317,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/pillbox.git",
-		"repoName": "pillbox",
+		"repository": "git://github.com/HHS/pillbox.git",
+		"name": "pillbox",
 		"repoID": "16514696",
-		"projectURL": "https://hhs.github.io/pillbox/",
-		"projectName": "HHS/pillbox",
-		"projectDescription": "Pillbox for Developers homepage ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "https://hhs.github.io/pillbox/",
+		"downloadURL": " ",
+		"description": "Pillbox for Developers homepage ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -278,16 +351,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/pillbox-data-process.git",
-		"repoName": "pillbox-data-process",
+		"repository": "git://github.com/HHS/pillbox-data-process.git",
+		"name": "pillbox-data-process",
 		"repoID": "16514831",
-		"projectURL": "https://hhs.github.io/pillbox/",
-		"projectName": "HHS/pillbox-data-process",
-		"projectDescription": "Pillbox for Developers data processing code ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "https://hhs.github.io/pillbox/",
+		"downloadURL": " ",
+		"description": "Pillbox for Developers data processing code ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -308,16 +389,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/CoECI-CMS-Healthcare-Fraud-Prevention.git",
-		"repoName": "CoECI-CMS-Healthcare-Fraud-Prevention",
+		"repository": "git://github.com/HHS/CoECI-CMS-Healthcare-Fraud-Prevention.git",
+		"name": "CoECI-CMS-Healthcare-Fraud-Prevention",
 		"repoID": "19577113",
-		"projectURL": "",
-		"projectName": "HHS/CoECI-CMS-Healthcare-Fraud-Prevention",
-		"projectDescription": "The Healthcare Fraud Prevention Partnership (HFPP) through United States Centers for Medicare & Medicaid Services (CMS) in collaboration with NASA’s Center of Excellence for Collaboration (CoECI), Harvard, and TopCoder developed software that supports a data exchange network that enables healthcare insurance-paying entities in both the public and private sector to safely and securely share information for purposes of prevention and detection of fraud, waste and abuse across partners. ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "",
+		"downloadURL": " ",
+		"description": "The Healthcare Fraud Prevention Partnership (HFPP) through United States Centers for Medicare & Medicaid Services (CMS) in collaboration with NASA’s Center of Excellence for Collaboration (CoECI), Harvard, and TopCoder developed software that supports a data exchange network that enables healthcare insurance-paying entities in both the public and private sector to safely and securely share information for purposes of prevention and detection of fraud, waste and abuse across partners. ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -426,16 +515,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/coeci-cms-mpsp.git",
-		"repoName": "coeci-cms-mpsp",
+		"repository": "git://github.com/HHS/coeci-cms-mpsp.git",
+		"name": "coeci-cms-mpsp",
 		"repoID": "22169672",
-		"projectURL": "http://nasa.github.io/coeci-cms-mpsp/",
-		"projectName": "HHS/coeci-cms-mpsp",
-		"projectDescription": "Welcome to the Medicaid Provider Enrollment Screening Portal ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "http://nasa.github.io/coeci-cms-mpsp/",
+		"downloadURL": " ",
+		"description": "Welcome to the Medicaid Provider Enrollment Screening Portal ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -456,16 +553,24 @@
 		"codeLanguage": []
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/HHS-Responsive-Design.git",
-		"repoName": "HHS-Responsive-Design",
+		"repository": "git://github.com/HHS/HHS-Responsive-Design.git",
+		"name": "HHS-Responsive-Design",
 		"repoID": "24160412",
-		"projectURL": "null",
-		"projectName": "HHS/HHS-Responsive-Design",
-		"projectDescription": "A public repository for sharing codes ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "A public repository for sharing codes ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -482,16 +587,24 @@
 		"codeLanguage": []
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/lodestar.git",
-		"repoName": "lodestar",
+		"repository": "git://github.com/HHS/lodestar.git",
+		"name": "lodestar",
 		"repoID": "24234939",
-		"projectURL": "null",
-		"projectName": "HHS/lodestar",
-		"projectDescription": "Linked Data explorer and SPARQL endpoint ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "Linked Data explorer and SPARQL endpoint ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -512,16 +625,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/meshrdf.git",
-		"repoName": "meshrdf",
+		"repository": "git://github.com/HHS/meshrdf.git",
+		"name": "meshrdf",
 		"repoID": "25715997",
-		"projectURL": "null",
-		"projectName": "HHS/meshrdf",
-		"projectDescription": "Code and documentation for the release of MeSH in RDF format ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "Code and documentation for the release of MeSH in RDF format ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -544,16 +665,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/pillbox-engine.git",
-		"repoName": "pillbox-engine",
+		"repository": "git://github.com/HHS/pillbox-engine.git",
+		"name": "pillbox-engine",
 		"repoID": "26138689",
-		"projectURL": "",
-		"projectName": "HHS/pillbox-engine",
-		"projectDescription": "The new Pillbox Engine. A local web-based application for downloading and management of DailyMed SPL Data ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "",
+		"downloadURL": " ",
+		"description": "The new Pillbox Engine. A local web-based application for downloading and management of DailyMed SPL Data ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -588,16 +717,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/ckanext-harvest.git",
-		"repoName": "ckanext-harvest",
+		"repository": "git://github.com/HHS/ckanext-harvest.git",
+		"name": "ckanext-harvest",
 		"repoID": "30425102",
-		"projectURL": "",
-		"projectName": "HHS/ckanext-harvest",
-		"projectDescription": "CKAN Remote Harvesting Extension ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "",
+		"downloadURL": " ",
+		"description": "CKAN Remote Harvesting Extension ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -616,16 +753,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/HHS-Analytics-DAP.git",
-		"repoName": "HHS-Analytics-DAP",
+		"repository": "git://github.com/HHS/HHS-Analytics-DAP.git",
+		"name": "HHS-Analytics-DAP",
 		"repoID": "34055785",
-		"projectURL": "null",
-		"projectName": "HHS/HHS-Analytics-DAP",
-		"projectDescription": "A repository for sharing DAP tracing code with other OpDivs ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "A repository for sharing DAP tracing code with other OpDivs ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -646,16 +791,24 @@
 		"codeLanguage": []
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/uts-rest-api.git",
-		"repoName": "uts-rest-api",
+		"repository": "git://github.com/HHS/uts-rest-api.git",
+		"name": "uts-rest-api",
 		"repoID": "39792350",
-		"projectURL": "",
-		"projectName": "HHS/uts-rest-api",
-		"projectDescription": "A repository of code samples in various languages that show how to use the UMLS Terminology Services REST API ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "",
+		"downloadURL": " ",
+		"description": "A repository of code samples in various languages that show how to use the UMLS Terminology Services REST API ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -688,16 +841,24 @@
 		"codeLanguage": []
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/HHS/HHSonGitHub.git",
-		"repoName": "HHSonGitHub",
+		"repository": "git://github.com/HHS/HHSonGitHub.git",
+		"name": "HHSonGitHub",
 		"repoID": "45567807",
-		"projectURL": "null",
-		"projectName": "HHS/HHSonGitHub",
-		"projectDescription": "A repository for guidance on use of the HHS organization account on GitHub. ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "A repository for guidance on use of the HHS organization account on GitHub. ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,

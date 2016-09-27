@@ -6,7 +6,7 @@ html(lang='en')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='description', content="The people's code.")
-    title code.gov
+    title code.gov API and metadata schema (Alpha)
     link(rel='canonical', href='https://code.gov/')
     link(rel='stylesheet', href='css/uswds.min.css')
     //
@@ -76,13 +76,13 @@ html(lang='en')
             each repo in repos
               each project in repo.projects
                 tr
-                  th(scope='row')= repo.agencyAcronym
+                  th(scope='row')= repo.agency
 
 
                     td
                       =project.projectName
-                    td= project.projectDescription
-                    td= project.repoPath  
+                    td= project.description
+                    td= project.repository  
                     td 
                       each tag in project.projectTags
                         =tag.tag+', '

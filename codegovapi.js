@@ -114,7 +114,7 @@ for(i=1; i < AgencyObj.length; i++) {
     
     
     
-    repos.update({agencyAcronym: value.ACRONYM}, JSON.parse(body), {upsert:false});
+    repos.update({agency: value.ACRONYM}, JSON.parse(body), {upsert:false});
     //repos.insert(body);
     
   });
@@ -160,7 +160,7 @@ var searchterm, searchquery;
           console.log("search term is: "+searchterm);
           searchquery='{$elemMatch:{tag:searchterm}}';
           //repos.find({projects:{$elemMatch:{"pjctTags.tag":searchterm}}}, {'projects.$':1}).toArray(function(err, repodocs) {
-          repos.find({projects:{$elemMatch:{"projectTags.tag":searchterm}}}, {'projects.$':1, agencyAcronym:1}).toArray(function(err, repodocs) {
+          repos.find({projects:{$elemMatch:{"projectTags.tag":searchterm}}}, {'projects.$':1, agency:1}).toArray(function(err, repodocs) {
               if (err) {
                 return console.error(err);
               } else {
@@ -213,12 +213,12 @@ var options = {
     
      jsoninventory = JSON.parse(body);
     codegovinventory_projects='';
-    codegovinventory_start = '{ "agencyAcronym": "TEST","projects":[';
+    codegovinventory_start = '{ "agency": "TEST","status":"Alpha","projects":[';
     
     for(var i=0; i < jsoninventory.length; i++) {
     
       codegovinventory_projects+=
-      '{"vcs":"git", "repoPath": "'+jsoninventory[i].git_url+'", "repoName": "'+jsoninventory[i].name+'", "repoID":"'+ jsoninventory[i].id +'","projectURL":"'+jsoninventory[i].homepage+'","projectName":"'+jsoninventory[i].full_name+'","projectDescription":"'+jsoninventory[i].description+' ",'+'"POCemail":"noone@email.com", "license":[{"license":"NA"}],"openproject":1,"govwideReuseproject":0,"closedproject":0,"exemption":null,' +' "projectTags":[';
+      '{"vcs":"git", "repository": "'+jsoninventory[i].git_url+'", "name": "'+jsoninventory[i].name+'", "repoID":"'+ jsoninventory[i].id +'","homepage":"'+jsoninventory[i].homepage+'","downloadURL":" ","description":"'+jsoninventory[i].description+' ",'+'"contact":[{"email":" ","name":" ","twitter":" ","phone":" "}],"partners":[{"name":" "},{"email":" "}],"license":"https://path.to/license","openproject":1,"govwideReuseproject":0,"closedproject":0,"exemption":null,' +' "projectTags":[';
       
       //loop through project tags
       if(jsoninventory[i].description!=null)
@@ -297,7 +297,7 @@ router.use(function(req, res, next) {
 // test route to make sure everything is working (accessed at GET http://localhost:[portnum]/api)
 router.get('/', function(req, res) {
   //res.json({ message: 'This is the Code.gov API' });  
-  res.send("<html><h1>Welcome to the Code.gov API</h1><br><br> <h2>ENDPOINTS</h2>: <ul> <li> /api/repos  --list all federal agency repos</li> <li> /api/repos/agencyAcronym  --list repos for specific agency</li></ul><br><hr> <h2>AGENCY ACRONYMS:</h2><ul> <li>Department of Agriculture: 	<em>USDA</em></li><li>Department of Commerce:	<em>DOC</em></li><li>Department of Defense:	<em>DOD</em></li><li>Department of Education:	<em>ED</em></li><li>Department of Energy:	<em>DOE</em></li><li>Department of Health and Human Services:	<em>HHS</em></li><li>Department of Housing and Urban Development:	<em>HUD</em></li><li>Department of Interior:<em>	DOI</em></li><li>Department of Justice:<em>	DOJ</em></li><li>Department of Labor:<em>	DOL</em></li><li>Department of State:<em>	DOS</em></li><li>Department of Transportation:<em>	DOT</em></li><li>Department of Treasury:<em>	TRE</em></li><li>Department of Veterans Affairs:	<em>VA</em></li><li>Environmental Protection Agency	:<em>EPA</em></li><li>National Aeronautics and Space Administration:	<em>NASA</em></li><li>Agency for International Development:	<em>AID</em></li><li>Federal Emergency Management Agency:	<em>FEMA</em></li><li>General Services Administration: 	<em>GSA</em></li><li>National Science Foundation	: NSF</em></li><li>Nuclear Regulatory Commission:	<em>NRC</em></li><li>Office of Personnel Management:	<em>OPM</em></li><li>Small Business Administration:	<em>SBA</em></li> </ul> </html>");
+  res.send("<html><h1>Welcome to the Code.gov API</h1><br><br> <h2>ENDPOINTS</h2>: <ul> <li> /api/repos  --list all federal agency repos</li> <li> /api/repos/agency  --list repos for specific agency</li></ul><br><hr> <h2>AGENCY ACRONYMS:</h2><ul> <li>Department of Agriculture: 	<em>USDA</em></li><li>Department of Commerce:	<em>DOC</em></li><li>Department of Defense:	<em>DOD</em></li><li>Department of Education:	<em>ED</em></li><li>Department of Energy:	<em>DOE</em></li><li>Department of Health and Human Services:	<em>HHS</em></li><li>Department of Housing and Urban Development:	<em>HUD</em></li><li>Department of Interior:<em>	DOI</em></li><li>Department of Justice:<em>	DOJ</em></li><li>Department of Labor:<em>	DOL</em></li><li>Department of State:<em>	DOS</em></li><li>Department of Transportation:<em>	DOT</em></li><li>Department of Treasury:<em>	TRE</em></li><li>Department of Veterans Affairs:	<em>VA</em></li><li>Environmental Protection Agency	:<em>EPA</em></li><li>National Aeronautics and Space Administration:	<em>NASA</em></li><li>Agency for International Development:	<em>AID</em></li><li>Federal Emergency Management Agency:	<em>FEMA</em></li><li>General Services Administration: 	<em>GSA</em></li><li>National Science Foundation	: NSF</em></li><li>Nuclear Regulatory Commission:	<em>NRC</em></li><li>Office of Personnel Management:	<em>OPM</em></li><li>Small Business Administration:	<em>SBA</em></li> </ul> </html>");
     
 
 });
@@ -340,9 +340,9 @@ MongoClient.connect(mongoDetails, function(err, db) {
     });
 
 // ----------------------------------------------------
-router.route('/repos/:agencyAcronym')
+router.route('/repos/:agency')
 
-    // get the repo with that id (accessed at GET http://localhost:8080/api/repos/:agencyAcronym)
+    // get the repo with that id (accessed at GET http://localhost:8080/api/repos/:agency)
     .get(function(req, res) {
   
 
@@ -360,7 +360,7 @@ MongoClient.connect(mongoDetails, function(err, db) {
        repos = db.collection("repos");
       console.log(" We're connected to the DB");  
          
-      repos.find({agencyAcronym: req.params.agencyAcronym}).toArray(function(err, repodoc) {
+      repos.find({agency: req.params.agency}).toArray(function(err, repodoc) {
             if (err)
             {res.send(err);}
           else{

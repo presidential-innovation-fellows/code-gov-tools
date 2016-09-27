@@ -1,5 +1,4 @@
 var mongoose     = require('mongoose'),
-    
     mongoosastic = require('mongoosastic');
 var Schema       = mongoose.Schema;
 
@@ -8,31 +7,48 @@ var RepoSchema   = new Schema({
     
     
     
-      agencyAcronym: String,
+      agency: String,
       
       projects:
     
         [
           {
-          
+          status: String,
           vcs: String,
-          repoPath: String,
-          repoName: String,
+          repository: String,
+          name: String,
           repoID: Number,
-          projectURL: String,
-          projectName: String,
-          projectDescrption: {type: String, es_indexed:true},
+          homepage: String,
+          downloadURL: String,
+          description: {type: String, es_indexed:true},
           projectTags: [String],
           codeLanguage: {type: [String], es_indexed:true},
-          Updated: { 
+          updated: { 
             
+            type: [Date], default: Date.now,
+            type: [Date], default: Date.now,
             type: [Date], default: Date.now 
           
           },
+          contact: { 
+            
+            type: [String], email: String,
+            type: [String], name: String,
+            type: [String], twitter: String,
+            type: [String], phone: String
+          },
+          partners: { 
+            
+            name: String,
+            email: String
+            
+          },
+        
+          codeLanguage: {type: [String], es_indexed:true},  
           
-          POCemail: String,
+          
           license: {type: [String], es_indexed:true},
-          openproject: Boolean,
+          openSourceProject: Boolean,
           govwideReuseproject:  Boolean,
           closedproject: Boolean,
           exemption: String

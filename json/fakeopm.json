@@ -1,17 +1,26 @@
 {
-	"agencyAcronym": "OPM",
+	"agency": "OPM",
+	"status": "Alpha",
 	"projects": [{
 		"vcs": "git",
-		"repoPath": "git://github.com/USAJOBS/design-system.git",
-		"repoName": "design-system",
+		"repository": "git://github.com/USAJOBS/design-system.git",
+		"name": "design-system",
 		"repoID": "44112444",
-		"projectURL": "http://usajobs.github.io/design-system/",
-		"projectName": "USAJOBS/design-system",
-		"projectDescription": "The design system for the next generation of USAJOBs. Describes the design language and reusable components of the site. ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "http://usajobs.github.io/design-system/",
+		"downloadURL": " ",
+		"description": "The design system for the next generation of USAJOBs. Describes the design language and reusable components of the site. ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -46,16 +55,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USAJOBS/open-source-policy.git",
-		"repoName": "open-source-policy",
+		"repository": "git://github.com/USAJOBS/open-source-policy.git",
+		"name": "open-source-policy",
 		"repoID": "44256248",
-		"projectURL": "https://usajobs.gov",
-		"projectName": "USAJOBS/open-source-policy",
-		"projectDescription": "This repository contains the official Open Source Policy of USAJOBS ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "https://usajobs.gov",
+		"downloadURL": " ",
+		"description": "This repository contains the official Open Source Policy of USAJOBS ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -78,16 +95,24 @@
 		"codeLanguage": []
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USAJOBS/Help.git",
-		"repoName": "Help",
+		"repository": "git://github.com/USAJOBS/Help.git",
+		"name": "Help",
 		"repoID": "52627605",
-		"projectURL": "http://usajobs.github.io/Help/",
-		"projectName": "USAJOBS/Help",
-		"projectDescription": "Next generation of help content for USAJOBS ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "http://usajobs.github.io/Help/",
+		"downloadURL": " ",
+		"description": "Next generation of help content for USAJOBS ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -108,16 +133,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USAJOBS/analytics.usajobs.gov.git",
-		"repoName": "analytics.usajobs.gov",
+		"repository": "git://github.com/USAJOBS/analytics.usajobs.gov.git",
+		"name": "analytics.usajobs.gov",
 		"repoID": "58501015",
-		"projectURL": "https://analytics.usajobs.gov",
-		"projectName": "USAJOBS/analytics.usajobs.gov",
-		"projectDescription": "USAJOBS web traffic. ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "https://analytics.usajobs.gov",
+		"downloadURL": " ",
+		"description": "USAJOBS web traffic. ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -136,16 +169,24 @@
 		}]
 	}, {
 		"vcs": "git",
-		"repoPath": "git://github.com/USAJOBS/analytics-reporter.git",
-		"repoName": "analytics-reporter",
+		"repository": "git://github.com/USAJOBS/analytics-reporter.git",
+		"name": "analytics-reporter",
 		"repoID": "58501082",
-		"projectURL": "",
-		"projectName": "USAJOBS/analytics-reporter",
-		"projectDescription": "Lightweight analytics reporting and publishing tool for Google Analytics data. Powers https://analytics.usa.gov, http://analytics.phila.gov, http://analytics.cityofsacramento.org, and more. ",
-		"POCemail": "noone@email.com",
-		"license": [{
-			"license": "NA"
+		"homepage": "",
+		"downloadURL": " ",
+		"description": "Lightweight analytics reporting and publishing tool for Google Analytics data. Powers https://analytics.usa.gov, http://analytics.phila.gov, http://analytics.cityofsacramento.org, and more. ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
 		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
