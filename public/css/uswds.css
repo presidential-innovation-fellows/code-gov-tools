@@ -1373,7 +1373,7 @@ select.usa-input-success {
 label {
   display: block;
   margin-top: 3rem;
-  max-width: 46rem;
+  
 }
 
 textarea {
@@ -1672,9 +1672,9 @@ ul li {
 }
 
 ul li:before {
-  content: "\2022";
+  content: "";
   display: table-cell;
-  padding-right: 0.4em;
+  padding-right: 0.1em;
 }
 
 ol li {
@@ -1683,7 +1683,7 @@ ol li {
 }
 
 ol li:before {
-  content: counter(table-ol) ".";
+  content: counter(table-ol) "";
   display: table-cell;
   padding-right: 0.4em;
   text-align: right;
@@ -2417,7 +2417,7 @@ li.usa-footer-primary-content:last-child {
 
 @media screen and (min-width: 600px) {
   form {
-    max-width: 32rem;
+   /* max-width: 32rem;*/
   }
 }
 

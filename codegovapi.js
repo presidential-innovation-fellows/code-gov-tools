@@ -97,6 +97,37 @@ app.get('/', function(req, res) {
     } else {
        repos = db.collection("repos");
       console.log(" We're connected to the DB");  
+        
+      repos.find({agency:{$exists:true}}).toArray(function(err, repodocs) {
+        if (err) {
+            return console.error(err);
+        } else {
+          
+            res.render('index.pug', {
+                repos:repodocs
+            });
+        }
+    });
+  }
+  }); //close MongoDB connection*/ 
+}); //close app.get(/)
+
+app.get('/harvest', function(req, res) {
+var body,responsedata1, responsedata2, responsedata3;
+  //build the home page
+ 
+   var message ='';     
+  
+  MongoClient.connect(mongoDetails, function(err, db) {
+    if (err) {
+      res.send("Sorry, there was a problem with the database: "+err);
+      
+      return console.error(err);
+      
+    } else {
+       repos = db.collection("repos");
+      console.log("We're connected to the DB");  
+      message+="We've connected to the database<br>";
       
       
 // grab code.json files from various agencies.
@@ -109,6 +140,7 @@ for(i=1; i < AgencyObj.length; i++) {
     value=AgencyObj[i];
     
     console.log("Dev URL for "+value.ACRONYM+ " is "+value.DEVURL);
+    message+="Loading JSON data from "+value.ACRONYM+ " located at "+value.DEVURL+"<br>";
     
     
   
@@ -116,7 +148,7 @@ for(i=1; i < AgencyObj.length; i++) {
     
     
     
-    repos.update({agency: value.ACRONYM}, JSON.parse(body), {upsert:false});
+    repos.update({agency: {$eq:value.ACRONYM}}, JSON.parse(body), {upsert:true});
     //repos.insert(body);
     
   });
@@ -125,20 +157,20 @@ for(i=1; i < AgencyObj.length; i++) {
 } //end for loop
        
     
-      repos.find().toArray(function(err, repodocs) {
-        if (err) {
-            return console.error(err);
-        } else {
-          
-            res.render('index.pug', {
-                repos:repodocs
-            });
-        }
-    })
+   message+="<br> JSON harvesting complete";
+   res.send(message);
   }
   }); //close MongoDB connection*/ 
+
+
 }); //close app.get(/)
+app.get('/convert', function(req, res) {
+
+
+res.render('convert.pug')
+}); //close app.get(/convert)
   
+
   
 
 
