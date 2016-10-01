@@ -4,6 +4,7 @@
 // =============================================================================
 
 var express    = require('express');        // call express
+
 var MongoClient = require('mongodb').MongoClient;
 var app        = express();                 // define our app using express
 var bodyParser = require('body-parser');
@@ -20,6 +21,7 @@ require('dotenv').load();
 
 
 var mongoDetails = process.env.MONGOURI;
+
 
 /*
 //elastic search mapping
