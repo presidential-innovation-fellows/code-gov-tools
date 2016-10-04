@@ -9,13 +9,12 @@ This repository is home to the code powering the code.gov API. To learn more abo
 
 ## Summary
 
-We've set up three dummy URLs: https://fakeagency1.apps.cloud.gov, https://fakeagency2.apps.cloud.gov, and https://fakeagency3.apps.cloud.gov. Each of these three houses a different code.json file in its root directory.
+We've created a suite of tools available at localhost:3001/
 
-A simple search page to browse demo repos is at localhost:3001/
-
-The API endpoint is at localhost:3001/api/
-
-See list of repos at localhost:3001/api/repos
+* Search repos: (localhost:3001/) search available repos that have been harvested into the database
+* harvest JSON files: (localhost:3001/harvest) pull the latest set of agency repositories as defined in agency_endpoint.json
+* Run API: (localhost:3001/api) an api to browse various agency repo json files in full
+* Create/convert inventories: (localhost:3001/convert) tools to create/convert code repository schemas into the latest metadata schema
 
 
 ## Install
