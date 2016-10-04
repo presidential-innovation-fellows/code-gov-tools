@@ -19,22 +19,9 @@ var path = require("path");
 var pug = require('pug');
 require('dotenv').load();
 
-
+/* REPLACE 'process.env.MONGURI' with the URI for your local MongoDB instance */
 var mongoDetails = process.env.MONGOURI;
 
-
-/*
-//elastic search mapping
-Repo.createMapping(function(err, mapping){  
-  if(err){
-    console.log('error creating mapping (you can safely ignore this)');
-    console.log(err);
-  }else{
-    console.log('mapping created!');
-    console.log(mapping);
-  }
-});
-*/
 
 
 app.use(express.static(path.join(__dirname, '/public')));
@@ -77,7 +64,7 @@ function removestopwords(phrase) {
 // =============================================================================
 
 var AgencyObj = require("./agency_endpoint.json");
-console.log("Details of number 7: "+AgencyObj[6].NUM+" AND "+AgencyObj[6].ACRONYM+" AND "+AgencyObj[6].DEVURL);
+//console.log("Details of number 7: "+AgencyObj[6].NUM+" AND "+AgencyObj[6].ACRONYM+" AND "+AgencyObj[6].DEVURL);
 
 
 // =============================================================================
@@ -131,6 +118,7 @@ var body,responsedata1, responsedata2, responsedata3;
       
       
 // grab code.json files from various agencies.
+// SWITCH FROM DEVURL to PRODURL for production
 // =============================================================================
 console.log("length of AgencyObj: "+AgencyObj.length);   
       var key,value;
