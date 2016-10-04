@@ -22,7 +22,7 @@
     "mongoosastic":"4.0.2"
   },
   "engines": {
-    "node": "4.4.2",
+    "node": "4.4.7",
     "npm": "3.8.5"
   }
 }

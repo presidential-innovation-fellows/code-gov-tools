@@ -114,7 +114,7 @@ app.get('/', function(req, res) {
 
 app.get('/harvest', function(req, res) {
 var body,responsedata1, responsedata2, responsedata3;
-  //build the home page
+  
  
    var message ='';     
   
@@ -135,28 +135,31 @@ var body,responsedata1, responsedata2, responsedata3;
 console.log("length of AgencyObj: "+AgencyObj.length);   
       var key,value;
       
-for(i=1; i < AgencyObj.length; i++) {
+for(key=1; key < AgencyObj.length; key++) {
   
-    value=AgencyObj[i];
+    value=AgencyObj[key];
     
     console.log("Dev URL for "+value.ACRONYM+ " is "+value.DEVURL);
     message+="Loading JSON data from "+value.ACRONYM+ " located at "+value.DEVURL+"<br>";
-    
-    
   
   request(value.DEVURL, function (error, response, body) {
-    
-    
-    
+    if (error)
+    {console.log(error)}
+    else{
+    console.log(value.DEVURL+'\n');
     repos.update({agency: {$eq:value.ACRONYM}}, JSON.parse(body), {upsert:true});
+    console.log(value.ACRONYM+'\n');
+    //repos.update({$and: [{agency: {$eq:value.ACRONYM}}, {agencyAcronym:{$exists:false}}]}, JSON.parse(body), {upsert:true});
     //repos.insert(body);
-    
+    }
   });
 
     
 } //end for loop
        
-    
+  repos.remove( { "agencyAcronym": { $exists: true } } );
+  repos.remove( { agencyAcronym: { $exists: true } } );
+        
    message+="<br> JSON harvesting complete";
    res.send(message);
   }
