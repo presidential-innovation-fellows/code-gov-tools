@@ -11,7 +11,7 @@
     "express": "4.0.0",
     "jquery": "3.1.0",
     "mongodb": "2.1.18",
-    "mongodb": "2.0.12",
+    "mongodb-core": "2.0.12",
     "mongoosastic": "4.0.2",
     "mongoose": "4.4.12",
     "morgan": "1.7.0",
