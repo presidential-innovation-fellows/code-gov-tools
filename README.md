@@ -18,14 +18,14 @@ We've created a suite of tools available at localhost:3001/
 ```
 
 ## Install
-Please install [Node.js](http://nodejs.org/) first 
+Please install [Node.js](http://nodejs.org/) first
 ```
 npm install
-node codegovapi
+npm start
 ```
 
 ## Configuration
-1. In codegovapi.js, you'll need to update the credentials for your local MongoDB server and create a database (e.g., "testdatabase").
+1. In `index.js`, you'll need to update the credentials for your local MongoDB server and create a database (e.g., "testdatabase").
 
 Find the line the says:
 ```
@@ -41,16 +41,16 @@ mongodb://username:password@host:port/testdatabase
 
 ## Contributing
 
-Here’s how you can help contribute to code.gov: 
+Here’s how you can help contribute to code.gov:
 
-* Source Code Policy 
+* Source Code Policy
   * To provide feedback on the [Federal Source Code Policy](https://sourcecode.cio.gov/), you should follow [this issue tracker](https://github.com/WhiteHouse/source-code-policy/issues)
 
-* Code.gov 
+* Code.gov
     * To provide feedback on [the code.gov website], you should follow this [repository](https://github.com/presidential-innovation-fellows/code-gov-web) and [this issues tracker](https://github.com/presidential-innovation-fellows/code-gov-web/issues).
     * If you aren't sure where your question or idea fits, this is a good place to share it.
 
-## Questions? 
+## Questions?
 
 If you have questions, please feel [free to open an issue here](https://github.com/presidential-innovation-fellows/code-gov-web/issues): [https://github.com/presidential-innovation-fellows/code-gov-web/issues](https://github.com/presidential-innovation-fellows/code-gov-web/issues) or send us an email at code@listserv.gsa.gov.
 
@@ -63,6 +63,3 @@ As stated in [CONTRIBUTING](CONTRIBUTING.md):
 > All contributions to this project will be released under the CC0
 dedication. By submitting a pull request, you are agreeing to comply
 with this waiver of copyright interest.
-
-
-

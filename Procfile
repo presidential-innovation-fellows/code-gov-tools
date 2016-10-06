@@ -1,1 +1,1 @@
-api: node codegovapi.js
+api: node index.js
