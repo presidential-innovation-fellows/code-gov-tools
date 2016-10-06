@@ -336,8 +336,6 @@ router.route('/repos').get(function(req, res) {
   });
 });
 
-// ----------------------------------------------------
-
 // get the repo with that id (accessed at GET http://localhost:8080/api/repos/:agency)
 router.route('/repos/:agency').get(function(req, res) {
   MongoClient.connect(mongoDetails, function(err, db) {
