@@ -1,5 +1,5 @@
 {
-  "name": "code-gov-api",
+  "name": "code-gov-tools",
   "scripts": {
     "start": "node index.js"
   },
