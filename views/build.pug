@@ -1,0 +1,20 @@
+extends ./index.pug
+block body
+  script(src='https://code.jquery.com/jquery-1.11.1.min.js', type='text/javascript')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js', type='text/javascript')
+  link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css', rel='stylesheet', type='text/css')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js', type='text/javascript')
+
+  link(href='https://code.cloudcms.com/alpaca/1.5.15/bootstrap/alpaca.min.css', rel='stylesheet', type='text/css')
+  script(src='https://code.cloudcms.com/alpaca/1.5.15/bootstrap/alpaca.min.js', type='text/javascript')
+  script(type='text/javascript', src='js/builder.js')
+  .usa-grid
+    .usa-width-one-whole
+      h2 Build Code.gov Inventory- coming soon        
+       #form
+        pre#results.
+        .text-center
+          a#download_link
+            button#download.btn.btn-default(type='submit', disabled='disabled') Download File
+
+

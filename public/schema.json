@@ -1,0 +1,168 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "agency"
+    ],
+    "properties": {
+        "agency": {
+            "title": "agency",
+            "description": "Agency name",
+            "type": "string"
+        },
+        "projects": {
+            "title": "projects",
+            "description": "Agency projects",
+            "type": "object",
+            "required": [
+                "name",
+                "description",
+                "license",
+                "openSourceProject",
+                "governmentWideReuseProject",
+                "tags"
+            ],
+            "properties": {
+                "name": {
+                    "title": "name",
+                    "description": "Project name",
+                    "type": "string"
+                },
+                "description": {
+                    "title": "description",
+                    "description": "Project description",
+                    "type": "string"
+                },
+                "license": {
+                    "title": "license",
+                    "description": "Project license",
+                    "anyOf": [
+                        {
+                            "type": "null"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "openSourceProject": {
+                    "title": "openSourceProject",
+                    "description": "Project open source status",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                },
+                "governmentWideReuseProject": {
+                    "title": "governmentWideReuseProject",
+                    "description": "Project government wide reuse status",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                },
+                "tags": {
+                    "title": "tags",
+                    "description": "Project tags",
+                    "type": "array"
+                },
+                "status": {
+                    "title": "status",
+                    "description": "Project status",
+                    "type": "string",
+                    "enum": [
+                        "Ideation",
+                        "Alpha",
+                        "Beta",
+                        "Production",
+                        "Archival"
+                    ]
+                },
+                "vcs": {
+                    "title": "vcs",
+                    "description": "Project Version Control System",
+                    "type": "string"
+                },
+                "repository": {
+                    "title": "repository",
+                    "description": "Repository URL",
+                    "type": "string"
+                },
+                "homepage": {
+                    "title": "homepage",
+                    "description": "URL of the project homepage",
+                    "type": "string"
+                },
+                "downloadURL": {
+                    "title": "downloadURL",
+                    "description": "URL where a distribution of the project can be found",
+                    "type": "string"
+                },
+                "languages": {
+                    "title": "languages",
+                    "description": "Programming languages in use on the project",
+                    "type": "array" 
+                },
+                "contact": {
+                    "title": "contact",
+                    "description": "Contact information for the project",
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "title": "name",
+                            "description": "Project contact name",
+                            "type": "string"
+                        },
+                        "twitter": {
+                            "title": "twitter",
+                            "description": "Twitter URL",
+                            "type": "string"
+                        },
+                        "phone": {
+                            "title": "phone",
+                            "description": "Phone number",
+                            "type": "string"
+                        },
+                        "email": {
+                            "title": "email",
+                            "description": "Email address",
+                            "type": "string"
+                        }
+                    }
+                },
+                "partners": {
+                    "title": "partners",
+                    "description": "Partner agencies involved in the project",
+                    "type": "array"
+                },
+                "exemption": {
+                    "title": "exemption",
+                    "description": "Exemption that applies to this project",
+                    "type": "number",
+                    "minimum": 1,
+                    "maximum": 5
+                },
+                "updated": {
+                    "title": "updated",
+                    "description": "Dates the source code and metadata have been updated",
+                    "type": "object",
+                    "properties": {
+                        "metadataLastUpdated": {
+                            "title": "metadataLastUpdated",
+                            "description": "Date that the metadata was last updated",
+                            "type": "string"
+                        },
+                        "lastCommit": {
+                            "title": "lastCommit",
+                            "description": "Date of the last commit to the repository",
+                            "type": "string"
+                        },
+                        "lastModified": {
+                            "title": "lastModified",
+                            "description": "Date that the codebase was last modified",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

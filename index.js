@@ -145,6 +145,9 @@ app.get('/harvest', function(req, res) {
 app.get('/convert', function(req, res) {
   res.render('convert.pug')
 });
+app.get('/build', function(req, res) {
+  res.render('build.pug')
+});
 
 app.post('/', function(req, res) {
   var searchterm, searchquery;

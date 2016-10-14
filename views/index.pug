@@ -7,7 +7,7 @@ block head
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='description', content="The people's code.")
-    title code.gov API and metadata schema (Alpha)
+    title code.gov API and metadata schema (v1.0.1)
     link(rel='canonical', href='https://code.gov/')
     link(rel='stylesheet', href='css/uswds.css')
     link(rel='stylesheet', href='css/styleguide.css')
@@ -63,13 +63,12 @@ block head
               li
                 a.usa-nav-link(href='/harvest')
                   span Harvest JSON files
-
-              li
-                a.usa-nav-link(href='/api')
-                  span Run API 
               li
                 a.usa-nav-link(href='/convert')
                   span Map/Convert Inventories
+              li
+                a.usa-nav-link(href='/build')
+                  span Build Your Inventory
     block body
       .usa-grid
         .usa-width-one-half
