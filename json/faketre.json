@@ -1,705 +1,110 @@
 {
-  "agency": "TRE",
-  "status": "Alpha",
-  "projects": [
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/fedspendingtransparency.github.io.git",
-      "name": "fedspendingtransparency.github.io",
-      "repoID": "24609061",
-      "homepage": "http:\/\/fedspendingtransparency.github.io",
-      "downloadURL": " ",
-      "description": "Federal Spending Transparency ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "federal"
-        },
-        {
-          "tag": "spending"
-        },
-        {
-          "tag": "transparency"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "CSS"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/Data-Transparency-Town-Hall.git",
-      "name": "Data-Transparency-Town-Hall",
-      "repoID": "24610228",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "Presentation and comments from the September 26, 2014 Data Transparency Town Hall ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "presentation"
-        },
-        {
-          "tag": "comments"
-        },
-        {
-          "tag": "september"
-        },
-        {
-          "tag": "26"
-        },
-        {
-          "tag": "2014"
-        },
-        {
-          "tag": "data"
-        },
-        {
-          "tag": "transparency"
-        },
-        {
-          "tag": "town"
-        },
-        {
-          "tag": "hall"
-        }
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/USASpending-Issue-Tracker.git",
-      "name": "USASpending-Issue-Tracker",
-      "repoID": "33267917",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "A public repository to track issues around the relaunch of USASpending.gov ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "public"
-        },
-        {
-          "tag": "repository"
-        },
-        {
-          "tag": "track"
-        },
-        {
-          "tag": "issues"
-        },
-        {
-          "tag": "around"
-        },
-        {
-          "tag": "relaunch"
-        },
-        {
-          "tag": "usaspending"
-        },
-        {
-          "tag": "gov"
-        }
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/data-act-broker.git",
-      "name": "data-act-broker",
-      "repoID": "47127389",
-      "homepage": "",
-      "downloadURL": " ",
-      "description": "DEPRECATED: data-act-broker-backend ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "deprecated"
-        },
-        {
-          "tag": "data"
-        },
-        {
-          "tag": "act"
-        },
-        {
-          "tag": "broker"
-        },
-        {
-          "tag": "backend"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "Python"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/data-act-broker-web-app.git",
-      "name": "data-act-broker-web-app",
-      "repoID": "47277547",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        {
-          "language": "JavaScript"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/data-act-validator.git",
-      "name": "data-act-validator",
-      "repoID": "47648589",
-      "homepage": "",
-      "downloadURL": " ",
-      "description": "DEPRECATED: data-act-broker-backend ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "deprecated"
-        },
-        {
-          "tag": "data"
-        },
-        {
-          "tag": "act"
-        },
-        {
-          "tag": "broker"
-        },
-        {
-          "tag": "backend"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "Python"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/data-act-core.git",
-      "name": "data-act-core",
-      "repoID": "47700007",
-      "homepage": "",
-      "downloadURL": " ",
-      "description": "DEPRECATED: data-act-broker-backend ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "deprecated"
-        },
-        {
-          "tag": "data"
-        },
-        {
-          "tag": "act"
-        },
-        {
-          "tag": "broker"
-        },
-        {
-          "tag": "backend"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "Python"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/data-act-build-tools.git",
-      "name": "data-act-build-tools",
-      "repoID": "48065056",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        {
-          "language": "Python"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/data-act-job-manager.git",
-      "name": "data-act-job-manager",
-      "repoID": "49076994",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "Data Act Job Manager ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "data"
-        },
-        {
-          "tag": "act"
-        },
-        {
-          "tag": "job"
-        },
-        {
-          "tag": "manager"
-        }
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/openbeta.git",
-      "name": "openbeta",
-      "repoID": "54415668",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "Refresh for the OpenBeta site ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "refresh"
-        },
-        {
-          "tag": "openbeta"
-        },
-        {
-          "tag": "site"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "HTML"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/DATAActStyleGuide.git",
-      "name": "DATAActStyleGuide",
-      "repoID": "56064792",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "A style guide for the DATA Act site and broker ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "style"
-        },
-        {
-          "tag": "guide"
-        },
-        {
-          "tag": "data"
-        },
-        {
-          "tag": "act"
-        },
-        {
-          "tag": "site"
-        },
-        {
-          "tag": "broker"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "CSS"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/data-store-api.git",
-      "name": "data-store-api",
-      "repoID": "57244734",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        {
-          "language": "Python"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/data-act-broker-backend.git",
-      "name": "data-act-broker-backend",
-      "repoID": "57313310",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        {
-          "language": "Python"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/usaspending-website.git",
-      "name": "usaspending-website",
-      "repoID": "65394770",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        {
-          "language": "CSS"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/fedspendingtransparency\/usaspending-api.git",
-      "name": "usaspending-api",
-      "repoID": "65394827",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        {
-          "language": "Python"
-        }
-      ]
-    }
-  ]
+	"agency": "TRE",
+	"status": "code.gov schema 1.0",
+	"projects": [{
+		"vcs": "git",
+		"repository": "git://github.com/fedspendingtransparency/fedspendingtransparency.github.io.git",
+		"name": "fedspendingtransparency.github.io",
+		"repoID": "24609061",
+		"homepage": "http://fedspendingtransparency.github.io",
+		"downloadURL": " ",
+		"description": "Federal Spending Transparency ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
+		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
+		"openproject": 1,
+		"govwideReuseproject": 0,
+		"closedproject": 0,
+		"exemption": null,
+		"projectTags": [{
+			"tag": "federal"
+		}, {
+			"tag": "spending"
+		}, {
+			"tag": "transparency"
+		}],
+		"codeLanguage": [{
+			"language": "CSS"
+		}],
+		"updated": {
+			"lastCommit": "2016-10-03T00:30:28Z",
+			"metadataLastUpdated": "2014-09-29T19:11:53Z",
+			"lastModified": "2016-10-04T20:29:08Z"
+		}
+	}, {
+		"vcs": "git",
+		"repository": "git://github.com/fedspendingtransparency/data-act-broker-backend.git",
+		"name": "data-act-broker-backend",
+		"repoID": "57313310",
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "null ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
+		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
+		"openproject": 1,
+		"govwideReuseproject": 0,
+		"closedproject": 0,
+		"exemption": null,
+		"projectTags": [],
+		"codeLanguage": [{
+			"language": "Python"
+		}],
+		"updated": {
+			"lastCommit": "2016-08-30T17:03:39Z",
+			"metadataLastUpdated": "2016-04-28T15:39:36Z",
+			"lastModified": "2016-10-20T19:46:35Z"
+		}
+	}, {
+		"vcs": "git",
+		"repository": "git://github.com/fedspendingtransparency/data-act-broker-web-app.git",
+		"name": "data-act-broker-web-app",
+		"repoID": "47277547",
+		"homepage": "null",
+		"downloadURL": " ",
+		"description": "null ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
+		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
+		"openproject": 1,
+		"govwideReuseproject": 0,
+		"closedproject": 0,
+		"exemption": null,
+		"projectTags": [],
+		"codeLanguage": [{
+			"language": "JavaScript"
+		}],
+		"updated": {
+			"lastCommit": "2016-09-04T17:27:20Z",
+			"metadataLastUpdated": "2015-12-02T17:41:07Z",
+			"lastModified": "2016-10-20T19:50:02Z"
+		}
+	}]
 }
