@@ -25,7 +25,7 @@ var repo              = require("./models/repo.js");
 var stream = repo.synchronize();
 
 // load environment vars
-// dotenv.load();
+ dotenv.load();
 // NOTE: loads the mongo uri from the env variable MONGOURI
 //       make sure your env has the right uri in the form of
 //       mongodb://username:password@host:port/testdatabase
@@ -49,6 +49,7 @@ app.set('json spaces', 2);
  * ------------------------------------------------------------------ */
 
 app.get('/', function(req, res) {
+  console.log("mongodetails is: "+mongoDetails);
   MongoClient.connect(mongoDetails, function(err, db) {
     if (err) {
       res.send("Sorry, there was a problem with the database: " + err);
@@ -209,7 +210,7 @@ app.post('/', function(req, res) {
 
 app.post('/convert', function(req, res) {
   var jsoninventory, record, codegovinventory_start,
-      codegovinventory_projects, codegovinventory;
+      codegovinventory_projects,codegovinventory_updated, codegovinventory;
 
   var options = {
     url: req.body.jsonurl,
@@ -221,9 +222,16 @@ app.post('/convert', function(req, res) {
 
   request(options, function(error, response, body) {
     jsoninventory = JSON.parse(body);
+    
+    if (jsoninventory.length==undefined){
+      body = JSON.stringify(eval('['+body+']'));
+      console.log("this is the body: "+body);
+      jsoninventory = JSON.parse(body);
+    }
     codegovinventory_projects = '';
-    codegovinventory_start = '{ "agency": "TEST","status":"Alpha","projects":[';
-
+    codegovinventory_updated='';
+    codegovinventory_start = '{ "agency": "TEST","status":"code.gov schema 1.0","projects":[';
+console.log("length:" +jsoninventory.length+"jsoninventory: "+jsoninventory);
     for (var i = 0; i < jsoninventory.length; i++) {
 
       codegovinventory_projects +=
@@ -247,7 +255,7 @@ app.post('/convert', function(req, res) {
         var tags = stopwords.remove(tagwords);
 
         for (var k = 0; k < tags.length; k++) {
-          if ((tags[k] == null || tags[k] == '') && ((k + 1) != tags.length)) {
+          if ((tags[k] == null || tags[k] == ''|| 0 === tags[k].length) && ((k + 1) != tags.length)) {
             continue;
           }
           codegovinventory_projects += '{"tag":"' + tags[k] + '"}';
@@ -273,12 +281,19 @@ app.post('/convert', function(req, res) {
 
 
       }
-      codegovinventory_projects += ']}'; //end languages
-
+      codegovinventory_projects += '],'; //end languages
+      
+      //start updated section
+      codegovinventory_updated='"updated":{"lastCommit": "'+jsoninventory[i].updated_at+'","metadataLastUpdated":"'+jsoninventory[i].created_at+'","lastModified":"'+jsoninventory[i].pushed_at+'"}}' ;
+      codegovinventory_projects+=codegovinventory_updated;
+      //end updated section
+      
       if (i + 1 < jsoninventory.length) {
         codegovinventory_projects += ',';
       }
       //end language section
+      
+      
     }
 
     codegovinventory = codegovinventory_start + codegovinventory_projects + ']}';
