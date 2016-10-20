@@ -1,15 +1,15 @@
 {
-  "agency": "EPA",
+  "agency": "CFPB",
   "status": "Alpha",
   "projects": [
     {
       "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/epafiles.git",
-      "name": "epafiles",
-      "repoID": "4992962",
-      "homepage": "null",
+      "repository": "git:\/\/github.com\/cfpb\/django-nudge.git",
+      "name": "django-nudge",
+      "repoID": "3275720",
+      "homepage": "",
       "downloadURL": " ",
-      "description": "EPA's Master Look and Feel ",
+      "description": "Gently push content from development to production. This is a public domain work of the US Government. ",
       "contact": [
         {
           "email": " ",
@@ -33,595 +33,31 @@
       "exemption": null,
       "projectTags": [
         {
-          "tag": "epa"
+          "tag": "gently"
         },
         {
-          "tag": "s"
-        },
-        {
-          "tag": "master"
-        },
-        {
-          "tag": "look"
-        },
-        {
-          "tag": "feel"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "HTML"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/My-Right-To-Know--MyRTK-.git",
-      "name": "My-Right-To-Know--MyRTK-",
-      "repoID": "10644334",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "This application compares toxic chemical releases from individual facilities to releases from other facilities in the same county, as well as to releases from other facilities in the same industry sector. ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "application"
-        },
-        {
-          "tag": "compares"
-        },
-        {
-          "tag": "toxic"
-        },
-        {
-          "tag": "chemical"
-        },
-        {
-          "tag": "releases"
-        },
-        {
-          "tag": "individual"
-        },
-        {
-          "tag": "facilities"
-        },
-        {
-          "tag": "releases"
-        },
-        {
-          "tag": "facilities"
-        },
-        {
-          "tag": "same"
-        },
-        {
-          "tag": "county"
-        },
-        {
-          "tag": "well"
-        },
-        {
-          "tag": "releases"
-        },
-        {
-          "tag": "facilities"
-        },
-        {
-          "tag": "same"
-        },
-        {
-          "tag": "industry"
-        },
-        {
-          "tag": "sector"
-        },
-        {
-          "tag": ""
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "JavaScript"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/PHP-SDWIS-SAMPLE-Envirofacts-API.git",
-      "name": "PHP-SDWIS-SAMPLE-Envirofacts-API",
-      "repoID": "11580872",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "PHP Sample Code Using Envirofacts Safe Drinking Water Information System (SDWIS) Representational State Transfer (REST) Application Programming Interface (API) ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "php"
-        },
-        {
-          "tag": "sample"
-        },
-        {
-          "tag": "code"
-        },
-        {
-          "tag": "using"
-        },
-        {
-          "tag": "envirofacts"
-        },
-        {
-          "tag": "safe"
-        },
-        {
-          "tag": "drinking"
-        },
-        {
-          "tag": "water"
-        },
-        {
-          "tag": "information"
-        },
-        {
-          "tag": "system"
-        },
-        {
-          "tag": "sdwis"
-        },
-        {
-          "tag": "representational"
-        },
-        {
-          "tag": "state"
-        },
-        {
-          "tag": "transfer"
-        },
-        {
-          "tag": "rest"
-        },
-        {
-          "tag": "application"
-        },
-        {
-          "tag": "programming"
-        },
-        {
-          "tag": "interface"
-        },
-        {
-          "tag": "api"
-        },
-        {
-          "tag": ""
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "PHP"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/XCode-RadNet-Sample-Envirofacts-API.git",
-      "name": "XCode-RadNet-Sample-Envirofacts-API",
-      "repoID": "11643888",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "iOS Sample Envirofacts RadNet Representational State Transfer (REST) Application Programming Interface (API) ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "ios"
-        },
-        {
-          "tag": "sample"
-        },
-        {
-          "tag": "envirofacts"
-        },
-        {
-          "tag": "radnet"
-        },
-        {
-          "tag": "representational"
-        },
-        {
-          "tag": "state"
-        },
-        {
-          "tag": "transfer"
-        },
-        {
-          "tag": "rest"
-        },
-        {
-          "tag": "application"
-        },
-        {
-          "tag": "programming"
-        },
-        {
-          "tag": "interface"
-        },
-        {
-          "tag": "api"
-        },
-        {
-          "tag": ""
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "Objective-C"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/ANDROID-Multisystem-Data-Sample-Envirofacts-API.git",
-      "name": "ANDROID-Multisystem-Data-Sample-Envirofacts-API",
-      "repoID": "11662806",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "Android Sample: Envirofacts MultiSystem Representational State Transfer (REST) Application Programming Interface (API) ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "android"
-        },
-        {
-          "tag": "sample"
-        },
-        {
-          "tag": "envirofacts"
-        },
-        {
-          "tag": "multisystem"
-        },
-        {
-          "tag": "representational"
-        },
-        {
-          "tag": "state"
-        },
-        {
-          "tag": "transfer"
-        },
-        {
-          "tag": "rest"
-        },
-        {
-          "tag": "application"
-        },
-        {
-          "tag": "programming"
-        },
-        {
-          "tag": "interface"
-        },
-        {
-          "tag": "api"
-        },
-        {
-          "tag": ""
-        }
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/.NET-DfE-Data-Sample-Envirofacts-API.git",
-      "name": ".NET-DfE-Data-Sample-Envirofacts-API",
-      "repoID": "11663045",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": ".Net Sample: Envirofacts Design for the Environment (DfE) Representational State Transfer (REST) Application Programming Interface (API) ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "net"
-        },
-        {
-          "tag": "sample"
-        },
-        {
-          "tag": "envirofacts"
-        },
-        {
-          "tag": "design"
-        },
-        {
-          "tag": "environment"
-        },
-        {
-          "tag": "dfe"
-        },
-        {
-          "tag": "representational"
-        },
-        {
-          "tag": "state"
-        },
-        {
-          "tag": "transfer"
-        },
-        {
-          "tag": "rest"
-        },
-        {
-          "tag": "application"
-        },
-        {
-          "tag": "programming"
-        },
-        {
-          "tag": "interface"
-        },
-        {
-          "tag": "api"
-        },
-        {
-          "tag": ""
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "ASP"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/lakemorpho.git",
-      "name": "lakemorpho",
-      "repoID": "14435853",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "ORD lakemorpho ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "ord"
-        },
-        {
-          "tag": "lakemorpho"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "R"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/share-no-cookies.git",
-      "name": "share-no-cookies",
-      "repoID": "15618407",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "A non-jQuery dependent way to share your content without cookies ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "non"
-        },
-        {
-          "tag": "jquery"
-        },
-        {
-          "tag": "dependent"
-        },
-        {
-          "tag": "way"
-        },
-        {
-          "tag": "share"
+          "tag": "push"
         },
         {
           "tag": "content"
         },
         {
-          "tag": "without"
+          "tag": "development"
         },
         {
-          "tag": "cookies"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "JavaScript"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/FRS-getfacilities-samples.git",
-      "name": "FRS-getfacilities-samples",
-      "repoID": "16965118",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "OEI FRS-getfacilities-samples repository. ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
+          "tag": "production"
         },
         {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "oei"
+          "tag": "public"
         },
         {
-          "tag": "frs"
+          "tag": "domain"
         },
         {
-          "tag": "getfacilities"
+          "tag": "work"
         },
         {
-          "tag": "samples"
-        },
-        {
-          "tag": "repository"
+          "tag": "government"
         },
         {
           "tag": ""
@@ -629,18 +65,18 @@
       ],
       "codeLanguage": [
         {
-          "language": "HTML"
+          "language": "Python"
         }
       ]
     },
     {
       "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/Stormwater-Management-Model.git",
-      "name": "Stormwater-Management-Model",
-      "repoID": "17753855",
-      "homepage": "null",
+      "repository": "git:\/\/github.com\/cfpb\/transit_subsidy.git",
+      "name": "transit_subsidy",
+      "repoID": "3970880",
+      "homepage": "",
       "downloadURL": " ",
-      "description": "ORD Stormwater Management Model repository ",
+      "description": "Open source version of a simple Transit Subsidy intake form. This is what is commonly used by United Stated federal government agencies. This is a public domain work of the US Government. ",
       "contact": [
         {
           "email": " ",
@@ -664,535 +100,1086 @@
       "exemption": null,
       "projectTags": [
         {
-          "tag": "ord"
+          "tag": "open"
         },
         {
-          "tag": "stormwater"
+          "tag": "source"
         },
         {
-          "tag": "management"
+          "tag": "version"
         },
         {
-          "tag": "model"
+          "tag": "simple"
         },
         {
-          "tag": "repository"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "C"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/Water-Distribution-Network-Model.git",
-      "name": "Water-Distribution-Network-Model",
-      "repoID": "17753958",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "ORD Water Distribution Network Model ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
+          "tag": "transit"
         },
         {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "ord"
+          "tag": "subsidy"
         },
         {
-          "tag": "water"
+          "tag": "intake"
         },
         {
-          "tag": "distribution"
+          "tag": "form"
         },
         {
-          "tag": "network"
+          "tag": "commonly"
         },
         {
-          "tag": "model"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "C"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/R-micromap-package-development.git",
-      "name": "R-micromap-package-development",
-      "repoID": "22473707",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "ORD for R micromap package development ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
+          "tag": "used"
         },
         {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "ord"
+          "tag": "united"
         },
         {
-          "tag": "r"
+          "tag": "stated"
         },
         {
-          "tag": "micromap"
+          "tag": "federal"
         },
         {
-          "tag": "package"
-        },
-        {
-          "tag": "development"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "R"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/LakeTrophicModelling.git",
-      "name": "LakeTrophicModelling",
-      "repoID": "23401042",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "ORD LakeTrophicModelling ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "ord"
-        },
-        {
-          "tag": "laketrophicmodelling"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "R"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/hkm2014ESA.git",
-      "name": "hkm2014ESA",
-      "repoID": "24156562",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "ORD repo for hkm2014ESA project ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "ord"
-        },
-        {
-          "tag": "repo"
-        },
-        {
-          "tag": "hkm2014esa"
-        },
-        {
-          "tag": "project"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "TeX"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/Public_Web_AppBuilder.git",
-      "name": "Public_Web_AppBuilder",
-      "repoID": "27598624",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "OEI - EPA_Public_Esri_Web_AppBuilder ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "oei"
-        },
-        {
-          "tag": "epa_public_esri_web_appbuilder"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "JavaScript"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/introR.git",
-      "name": "introR",
-      "repoID": "28233402",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "ORD - introR ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "ord"
-        },
-        {
-          "tag": "intror"
-        }
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/elpaso-widget-js.git",
-      "name": "elpaso-widget-js",
-      "repoID": "31382440",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "OEI - elpaso-widget-js ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "oei"
-        },
-        {
-          "tag": "elpaso"
-        },
-        {
-          "tag": "widget"
-        },
-        {
-          "tag": "js"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "JavaScript"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/epa-data.git",
-      "name": "epa-data",
-      "repoID": "34909654",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/E-Enterprise-Portal.git",
-      "name": "E-Enterprise-Portal",
-      "repoID": "36677210",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "E-Enterprise is a transformative approach to make environmental information and data more accessible, efficient, and evidence-based through advances in monitoring, reporting, and information technology. The Portal is designed to be a modern and efficient interface for environmental transactions. This includes easier access to information and making transactions with environmental agencies as efficient and effective as possible. ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "e"
-        },
-        {
-          "tag": "enterprise"
-        },
-        {
-          "tag": "transformative"
-        },
-        {
-          "tag": "approach"
-        },
-        {
-          "tag": "make"
-        },
-        {
-          "tag": "environmental"
-        },
-        {
-          "tag": "information"
-        },
-        {
-          "tag": "data"
-        },
-        {
-          "tag": "more"
-        },
-        {
-          "tag": "accessible"
-        },
-        {
-          "tag": "efficient"
-        },
-        {
-          "tag": "evidence"
-        },
-        {
-          "tag": "based"
-        },
-        {
-          "tag": "through"
-        },
-        {
-          "tag": "advances"
-        },
-        {
-          "tag": "monitoring"
-        },
-        {
-          "tag": "reporting"
-        },
-        {
-          "tag": "information"
-        },
-        {
-          "tag": "technology"
-        },
-        {
-          "tag": "portal"
-        },
-        {
-          "tag": "designed"
-        },
-        {
-          "tag": "modern"
-        },
-        {
-          "tag": "efficient"
-        },
-        {
-          "tag": "interface"
-        },
-        {
-          "tag": "environmental"
-        },
-        {
-          "tag": "transactions"
-        },
-        {
-          "tag": "includes"
-        },
-        {
-          "tag": "easier"
-        },
-        {
-          "tag": "access"
-        },
-        {
-          "tag": "information"
-        },
-        {
-          "tag": "making"
-        },
-        {
-          "tag": "transactions"
-        },
-        {
-          "tag": "environmental"
+          "tag": "government"
         },
         {
           "tag": "agencies"
         },
         {
-          "tag": "efficient"
+          "tag": "public"
         },
         {
-          "tag": "effective"
+          "tag": "domain"
         },
         {
-          "tag": "possible"
+          "tag": "work"
+        },
+        {
+          "tag": "government"
         },
         {
           "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "JavaScript"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/ec2mapper.git",
+      "name": "ec2mapper",
+      "repoID": "5113432",
+      "homepage": "null",
+      "downloadURL": " ",
+      "description": "EC2mapper is a web application that provides a user-friendly interface to view Amazon AWS network configurations, while allowing changes to be easily tracked over time. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "ec2mapper"
+        },
+        {
+          "tag": "web"
+        },
+        {
+          "tag": "application"
+        },
+        {
+          "tag": "provides"
+        },
+        {
+          "tag": "user"
+        },
+        {
+          "tag": "friendly"
+        },
+        {
+          "tag": "interface"
+        },
+        {
+          "tag": "view"
+        },
+        {
+          "tag": "amazon"
+        },
+        {
+          "tag": "aws"
+        },
+        {
+          "tag": "network"
+        },
+        {
+          "tag": "configurations"
+        },
+        {
+          "tag": "allowing"
+        },
+        {
+          "tag": "changes"
+        },
+        {
+          "tag": "easily"
+        },
+        {
+          "tag": "tracked"
+        },
+        {
+          "tag": "over"
+        },
+        {
+          "tag": "time"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "JavaScript"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/hmda-tools.git",
+      "name": "hmda-tools",
+      "repoID": "8223180",
+      "homepage": "https:\/\/hmda-tools.readthedocs.org\/",
+      "downloadURL": " ",
+      "description": "Tools to make importing and analyzing mortgage application data easier. This is a public domain work of the US Government. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "tools"
+        },
+        {
+          "tag": "make"
+        },
+        {
+          "tag": "importing"
+        },
+        {
+          "tag": "analyzing"
+        },
+        {
+          "tag": "mortgage"
+        },
+        {
+          "tag": "application"
+        },
+        {
+          "tag": "data"
+        },
+        {
+          "tag": "easier"
+        },
+        {
+          "tag": "public"
+        },
+        {
+          "tag": "domain"
+        },
+        {
+          "tag": "work"
+        },
+        {
+          "tag": "government"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "Python"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/clouseau.git",
+      "name": "clouseau",
+      "repoID": "8520426",
+      "homepage": "",
+      "downloadURL": " ",
+      "description": "Search your repository's git history for undesirable text patterns such as passwords, ssh keys and othe personal identifiable information ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "search"
+        },
+        {
+          "tag": "repository"
+        },
+        {
+          "tag": "s"
+        },
+        {
+          "tag": "git"
+        },
+        {
+          "tag": "history"
+        },
+        {
+          "tag": "undesirable"
+        },
+        {
+          "tag": "text"
+        },
+        {
+          "tag": "patterns"
+        },
+        {
+          "tag": "such"
+        },
+        {
+          "tag": "passwords"
+        },
+        {
+          "tag": "ssh"
+        },
+        {
+          "tag": "keys"
+        },
+        {
+          "tag": "othe"
+        },
+        {
+          "tag": "personal"
+        },
+        {
+          "tag": "identifiable"
+        },
+        {
+          "tag": "information"
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "Python"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/qu.git",
+      "name": "qu",
+      "repoID": "8626067",
+      "homepage": "http:\/\/cfpb.github.io\/qu\/",
+      "downloadURL": " ",
+      "description": "qu is a data platform created to serve public data sets. This is a public domain work of the US Government. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "qu"
+        },
+        {
+          "tag": "data"
+        },
+        {
+          "tag": "platform"
+        },
+        {
+          "tag": "created"
+        },
+        {
+          "tag": "serve"
+        },
+        {
+          "tag": "public"
+        },
+        {
+          "tag": "data"
+        },
+        {
+          "tag": "sets"
+        },
+        {
+          "tag": "public"
+        },
+        {
+          "tag": "domain"
+        },
+        {
+          "tag": "work"
+        },
+        {
+          "tag": "government"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "Clojure"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/django-cache-tools.git",
+      "name": "django-cache-tools",
+      "repoID": "8854905",
+      "homepage": "",
+      "downloadURL": " ",
+      "description": "Tools to make caching easier in Django ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "tools"
+        },
+        {
+          "tag": "make"
+        },
+        {
+          "tag": "caching"
+        },
+        {
+          "tag": "easier"
+        },
+        {
+          "tag": "django"
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "Python"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/idea-box.git",
+      "name": "idea-box",
+      "repoID": "8860406",
+      "homepage": "",
+      "downloadURL": " ",
+      "description": "An application that lets an organization collect ideas, comment on them, and vote them up. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "application"
+        },
+        {
+          "tag": "lets"
+        },
+        {
+          "tag": "organization"
+        },
+        {
+          "tag": "collect"
+        },
+        {
+          "tag": "ideas"
+        },
+        {
+          "tag": "comment"
+        },
+        {
+          "tag": "vote"
+        },
+        {
+          "tag": "up"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "Python"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/regulations-parser.git",
+      "name": "regulations-parser",
+      "repoID": "9153617",
+      "homepage": "",
+      "downloadURL": " ",
+      "description": "Parser for U.S. federal regulations and other regulatory information ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "parser"
+        },
+        {
+          "tag": "u"
+        },
+        {
+          "tag": "s"
+        },
+        {
+          "tag": "federal"
+        },
+        {
+          "tag": "regulations"
+        },
+        {
+          "tag": "regulatory"
+        },
+        {
+          "tag": "information"
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "Python"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/regulations-core.git",
+      "name": "regulations-core",
+      "repoID": "9153642",
+      "homepage": "null",
+      "downloadURL": " ",
+      "description": "An engine that supplies the API that allows users to read regulations and their various layers. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "engine"
+        },
+        {
+          "tag": "supplies"
+        },
+        {
+          "tag": "api"
+        },
+        {
+          "tag": "allows"
+        },
+        {
+          "tag": "users"
+        },
+        {
+          "tag": "read"
+        },
+        {
+          "tag": "regulations"
+        },
+        {
+          "tag": "various"
+        },
+        {
+          "tag": "layers"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "Python"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/regulations-site.git",
+      "name": "regulations-site",
+      "repoID": "9153725",
+      "homepage": "",
+      "downloadURL": " ",
+      "description": "Web interface for viewing U.S. federal regulations and other regulatory information ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "web"
+        },
+        {
+          "tag": "interface"
+        },
+        {
+          "tag": "viewing"
+        },
+        {
+          "tag": "u"
+        },
+        {
+          "tag": "s"
+        },
+        {
+          "tag": "federal"
+        },
+        {
+          "tag": "regulations"
+        },
+        {
+          "tag": "regulatory"
+        },
+        {
+          "tag": "information"
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "JavaScript"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/sheer.git",
+      "name": "sheer",
+      "repoID": "11128693",
+      "homepage": "",
+      "downloadURL": " ",
+      "description": "A tool for loading arbitrary content into Elasticsearch and serving that content on the web. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "tool"
+        },
+        {
+          "tag": "loading"
+        },
+        {
+          "tag": "arbitrary"
+        },
+        {
+          "tag": "content"
+        },
+        {
+          "tag": "elasticsearch"
+        },
+        {
+          "tag": "serving"
+        },
+        {
+          "tag": "content"
+        },
+        {
+          "tag": "web"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "Python"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/django-widgeter.git",
+      "name": "django-widgeter",
+      "repoID": "12160904",
+      "homepage": "null",
+      "downloadURL": " ",
+      "description": "A simple engine for backend widgets ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "simple"
+        },
+        {
+          "tag": "engine"
+        },
+        {
+          "tag": "backend"
+        },
+        {
+          "tag": "widgets"
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "Python"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/api.git",
+      "name": "api",
+      "repoID": "12241595",
+      "homepage": "http:\/\/cfpb.github.io\/api\/hmda\/",
+      "downloadURL": " ",
+      "description": "Documentation to support upcoming data platform API and data sets ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "documentation"
+        },
+        {
+          "tag": "support"
+        },
+        {
+          "tag": "upcoming"
+        },
+        {
+          "tag": "data"
+        },
+        {
+          "tag": "platform"
+        },
+        {
+          "tag": "api"
+        },
+        {
+          "tag": "data"
+        },
+        {
+          "tag": "sets"
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "CSS"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/cfpb.github.io.git",
+      "name": "cfpb.github.io",
+      "repoID": "12575239",
+      "homepage": "https:\/\/cfpb.github.io\/",
+      "downloadURL": " ",
+      "description": "A site for the CFPB to share and discuss its technology work with the world. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "site"
+        },
+        {
+          "tag": "cfpb"
+        },
+        {
+          "tag": "share"
+        },
+        {
+          "tag": "discuss"
+        },
+        {
+          "tag": "technology"
+        },
+        {
+          "tag": "work"
+        },
+        {
+          "tag": "world"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "CSS"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/source-code-policy.git",
+      "name": "source-code-policy",
+      "repoID": "13473305",
+      "homepage": "http:\/\/cfpb.github.io\/source-code-policy\/",
+      "downloadURL": " ",
+      "description": "The CFPB's official Source Code Policy. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "cfpb"
+        },
+        {
+          "tag": "s"
+        },
+        {
+          "tag": "official"
+        },
+        {
+          "tag": "source"
+        },
+        {
+          "tag": "code"
+        },
+        {
+          "tag": "policy"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/DOCter.git",
+      "name": "DOCter",
+      "repoID": "14559867",
+      "homepage": "http:\/\/cfpb.github.io\/DOCter\/",
+      "downloadURL": " ",
+      "description": "A Jekyll template for project documentation ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "jekyll"
+        },
+        {
+          "tag": "template"
+        },
+        {
+          "tag": "project"
+        },
+        {
+          "tag": "documentation"
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "CSS"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/wp-json-api.git",
+      "name": "wp-json-api",
+      "repoID": "14899860",
+      "homepage": "http:\/\/wordpress.org\/extend\/plugins\/json-api\/",
+      "downloadURL": " ",
+      "description": "WordPress JSON API ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "wordpress"
+        },
+        {
+          "tag": "json"
+        },
+        {
+          "tag": "api"
         }
       ],
       "codeLanguage": [
@@ -1203,12 +1190,12 @@
     },
     {
       "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/SearchEFbyCity-widget-js.git",
-      "name": "SearchEFbyCity-widget-js",
-      "repoID": "38383079",
-      "homepage": "null",
+      "repository": "git:\/\/github.com\/cfpb\/design-manual.git",
+      "name": "design-manual",
+      "repoID": "15075854",
+      "homepage": "https:\/\/cfpb.github.io\/design-manual\/",
       "downloadURL": " ",
-      "description": "null ",
+      "description": "A set of design principles and standards for the Consumer Financial Protection Bureau. ",
       "contact": [
         {
           "email": " ",
@@ -1231,22 +1218,48 @@
       "closedproject": 0,
       "exemption": null,
       "projectTags": [
-        
+        {
+          "tag": "set"
+        },
+        {
+          "tag": "design"
+        },
+        {
+          "tag": "principles"
+        },
+        {
+          "tag": "standards"
+        },
+        {
+          "tag": "consumer"
+        },
+        {
+          "tag": "financial"
+        },
+        {
+          "tag": "protection"
+        },
+        {
+          "tag": "bureau"
+        },
+        {
+          "tag": ""
+        }
       ],
       "codeLanguage": [
         {
-          "language": "JavaScript"
+          "language": "CSS"
         }
       ]
     },
     {
       "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/SearchEFbyCounty-widget-js.git",
-      "name": "SearchEFbyCounty-widget-js",
-      "repoID": "38383091",
+      "repository": "git:\/\/github.com\/cfpb\/jmeter-bootstrap.git",
+      "name": "jmeter-bootstrap",
+      "repoID": "15610845",
       "homepage": "null",
       "downloadURL": " ",
-      "description": "null ",
+      "description": "Downloads JMeter and JMeter plugins and demonstrates usage via examples. Suggested to be used as a git submodule ",
       "contact": [
         {
           "email": " ",
@@ -1269,22 +1282,57 @@
       "closedproject": 0,
       "exemption": null,
       "projectTags": [
-        
+        {
+          "tag": "downloads"
+        },
+        {
+          "tag": "jmeter"
+        },
+        {
+          "tag": "jmeter"
+        },
+        {
+          "tag": "plugins"
+        },
+        {
+          "tag": "demonstrates"
+        },
+        {
+          "tag": "usage"
+        },
+        {
+          "tag": "via"
+        },
+        {
+          "tag": "examples"
+        },
+        {
+          "tag": "suggested"
+        },
+        {
+          "tag": "used"
+        },
+        {
+          "tag": "git"
+        },
+        {
+          "tag": "submodule"
+        }
       ],
       "codeLanguage": [
         {
-          "language": "JavaScript"
+          "language": "Python"
         }
       ]
     },
     {
       "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/SearchEFbyState-widget-js.git",
-      "name": "SearchEFbyState-widget-js",
-      "repoID": "38383110",
-      "homepage": "null",
+      "repository": "git:\/\/github.com\/cfpb\/collab.git",
+      "name": "collab",
+      "repoID": "15971137",
+      "homepage": "http:\/\/cfpb.github.io\/collab",
       "downloadURL": " ",
-      "description": "null ",
+      "description": "Collab is a Django project with a standard set of configurations to provide services to reusable apps. ",
       "contact": [
         {
           "email": " ",
@@ -1307,245 +1355,51 @@
       "closedproject": 0,
       "exemption": null,
       "projectTags": [
-        
-      ],
-      "codeLanguage": [
         {
-          "language": "JavaScript"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/SearchEFbyZIP-widget-js.git",
-      "name": "SearchEFbyZIP-widget-js",
-      "repoID": "38383119",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
+          "tag": "collab"
         },
         {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        {
-          "language": "JavaScript"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/AddLayerFromWeb-widget-js.git",
-      "name": "AddLayerFromWeb-widget-js",
-      "repoID": "39267919",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
+          "tag": "django"
         },
         {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        {
-          "language": "JavaScript"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/Microcystinchla.git",
-      "name": "Microcystinchla",
-      "repoID": "42331244",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
+          "tag": "project"
         },
         {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        {
-          "language": "HTML"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/modelling_hab_indices.git",
-      "name": "modelling_hab_indices",
-      "repoID": "42459447",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
+          "tag": "standard"
         },
         {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/EDG-Clip-N-Ship-flex.git",
-      "name": "EDG-Clip-N-Ship-flex",
-      "repoID": "43370643",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
+          "tag": "set"
         },
         {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        {
-          "language": "ActionScript"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/quickmapr.git",
-      "name": "quickmapr",
-      "repoID": "43559905",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
+          "tag": "configurations"
         },
         {
-          "email": " "
+          "tag": "provide"
+        },
+        {
+          "tag": "services"
+        },
+        {
+          "tag": "reusable"
+        },
+        {
+          "tag": "apps"
+        },
+        {
+          "tag": ""
         }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
       ],
       "codeLanguage": [
         {
-          "language": "R"
+          "language": "Python"
         }
       ]
     },
     {
       "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/StreamCat.git",
-      "name": "StreamCat",
-      "repoID": "45130222",
+      "repository": "git:\/\/github.com\/cfpb\/collab-staff-directory.git",
+      "name": "collab-staff-directory",
+      "repoID": "15971583",
       "homepage": "null",
       "downloadURL": " ",
       "description": "null ",
@@ -1581,9 +1435,9 @@
     },
     {
       "vcs": "git",
-      "repository": "git:\/\/github.com\/USEPA\/SearchEFbyTribe-widget-js.git",
-      "name": "SearchEFbyTribe-widget-js",
-      "repoID": "46522443",
+      "repository": "git:\/\/github.com\/cfpb\/collab-news.git",
+      "name": "collab-news",
+      "repoID": "15971592",
       "homepage": "null",
       "downloadURL": " ",
       "description": "null ",
@@ -1613,7 +1467,486 @@
       ],
       "codeLanguage": [
         {
+          "language": "Python"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/owning-a-home.git",
+      "name": "owning-a-home",
+      "repoID": "15999442",
+      "homepage": "http:\/\/consumerfinance.gov\/owning-a-home",
+      "downloadURL": " ",
+      "description": "Suite of tools and resources for homebuyers. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "suite"
+        },
+        {
+          "tag": "tools"
+        },
+        {
+          "tag": "resources"
+        },
+        {
+          "tag": "homebuyers"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
           "language": "JavaScript"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/grunt-cfpb-internal.git",
+      "name": "grunt-cfpb-internal",
+      "repoID": "16622165",
+      "homepage": "null",
+      "downloadURL": " ",
+      "description": "Internal Grunt task for automating project documentation and semantic versioning. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "internal"
+        },
+        {
+          "tag": "grunt"
+        },
+        {
+          "tag": "task"
+        },
+        {
+          "tag": "automating"
+        },
+        {
+          "tag": "project"
+        },
+        {
+          "tag": "documentation"
+        },
+        {
+          "tag": "semantic"
+        },
+        {
+          "tag": "versioning"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "JavaScript"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/cf-colors.git",
+      "name": "cf-colors",
+      "repoID": "16770875",
+      "homepage": "",
+      "downloadURL": " ",
+      "description": ":warning: THIS REPO IS DEPRECATED :warning: You can find the color variables in cf-core. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "warning"
+        },
+        {
+          "tag": "repo"
+        },
+        {
+          "tag": "deprecated"
+        },
+        {
+          "tag": "warning"
+        },
+        {
+          "tag": "find"
+        },
+        {
+          "tag": "color"
+        },
+        {
+          "tag": "variables"
+        },
+        {
+          "tag": "cf"
+        },
+        {
+          "tag": "core"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "CSS"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/django-hud.git",
+      "name": "django-hud",
+      "repoID": "16779646",
+      "homepage": "null",
+      "downloadURL": " ",
+      "description": "null ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        
+      ],
+      "codeLanguage": [
+        {
+          "language": "Python"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/find-a-housing-counselor.git",
+      "name": "find-a-housing-counselor",
+      "repoID": "16779660",
+      "homepage": "http:\/\/www.consumerfinance.gov\/find-a-housing-counselor\/",
+      "downloadURL": " ",
+      "description": "Tool that allows users to find the 10 closest HUD-approved housing counselors by the centroid of a ZIP code. They can print those based on the results on the web page. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "tool"
+        },
+        {
+          "tag": "allows"
+        },
+        {
+          "tag": "users"
+        },
+        {
+          "tag": "find"
+        },
+        {
+          "tag": "10"
+        },
+        {
+          "tag": "closest"
+        },
+        {
+          "tag": "hud"
+        },
+        {
+          "tag": "approved"
+        },
+        {
+          "tag": "housing"
+        },
+        {
+          "tag": "counselors"
+        },
+        {
+          "tag": "centroid"
+        },
+        {
+          "tag": "zip"
+        },
+        {
+          "tag": "code"
+        },
+        {
+          "tag": "print"
+        },
+        {
+          "tag": "those"
+        },
+        {
+          "tag": "based"
+        },
+        {
+          "tag": "results"
+        },
+        {
+          "tag": "web"
+        },
+        {
+          "tag": "page"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "CSS"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/cf-component-demo.git",
+      "name": "cf-component-demo",
+      "repoID": "16779983",
+      "homepage": "",
+      "downloadURL": " ",
+      "description": ":warning: THIS REPO IS DEPRECATED :warning: Contains Jade templates for creating docs and demos for Capital Framework components. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "warning"
+        },
+        {
+          "tag": "repo"
+        },
+        {
+          "tag": "deprecated"
+        },
+        {
+          "tag": "warning"
+        },
+        {
+          "tag": "contains"
+        },
+        {
+          "tag": "jade"
+        },
+        {
+          "tag": "templates"
+        },
+        {
+          "tag": "creating"
+        },
+        {
+          "tag": "docs"
+        },
+        {
+          "tag": "demos"
+        },
+        {
+          "tag": "capital"
+        },
+        {
+          "tag": "framework"
+        },
+        {
+          "tag": "components"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "HTML"
+        }
+      ]
+    },
+    {
+      "vcs": "git",
+      "repository": "git:\/\/github.com\/cfpb\/cf-grid.git",
+      "name": "cf-grid",
+      "repoID": "16781027",
+      "homepage": "http:\/\/cfpb.github.io\/cf-grid\/custom-demo\/",
+      "downloadURL": " ",
+      "description": ":warning: THIS REPO IS DEPRECATED :warning: A Less-based grid system using parametric mixins. Part of Capital Framework. ",
+      "contact": [
+        {
+          "email": " ",
+          "name": " ",
+          "twitter": " ",
+          "phone": " "
+        }
+      ],
+      "partners": [
+        {
+          "name": " "
+        },
+        {
+          "email": " "
+        }
+      ],
+      "license": "https:\/\/path.to\/license",
+      "openproject": 1,
+      "govwideReuseproject": 0,
+      "closedproject": 0,
+      "exemption": null,
+      "projectTags": [
+        {
+          "tag": "warning"
+        },
+        {
+          "tag": "repo"
+        },
+        {
+          "tag": "deprecated"
+        },
+        {
+          "tag": "warning"
+        },
+        {
+          "tag": "less"
+        },
+        {
+          "tag": "based"
+        },
+        {
+          "tag": "grid"
+        },
+        {
+          "tag": "system"
+        },
+        {
+          "tag": "using"
+        },
+        {
+          "tag": "parametric"
+        },
+        {
+          "tag": "mixins"
+        },
+        {
+          "tag": "part"
+        },
+        {
+          "tag": "capital"
+        },
+        {
+          "tag": "framework"
+        },
+        {
+          "tag": ""
+        }
+      ],
+      "codeLanguage": [
+        {
+          "language": "CSS"
         }
       ]
     }
