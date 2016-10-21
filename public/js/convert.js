@@ -2,13 +2,13 @@ $(document).ready(function(){
     $('#githubconversion').on('submit', function(e){
         e.preventDefault();
         var githuburl = $('#input-type-text').val();
-        alert ("what's going on here"+githuburl);
+        
       convertGitHub(githuburl);
     });
 });
 function convertGitHub(githuburl)
 {
-  alert(githuburl);
+  
   
 var body,jsoninventory, record, codegovinventory_start,
       codegovinventory_projects,codegovinventory_updated, codegovinventory;
@@ -22,16 +22,14 @@ var body,jsoninventory, record, codegovinventory_start,
    url: githuburl}).done( function (data){
    
    
-   //$("#mappedcontent").append(JSON.stringify(data.data));
-  
-   //jsoninventory = JSON.parse(data);
+   
    jsoninventory = data.data;
     if (jsoninventory.length==undefined){
-      //body = JSON.stringify(eval('['+data+']'));
-      alert("this is the body: "+JSON.stringify(data.data));
+   
+   
       jsoninventory = JSON.parse(data.data);
     }
-   alert("length of repos: " +jsoninventory.length);
+   
     codegovinventory_projects = '';
     codegovinventory_updated='';
     codegovinventory_start = '{ "agency": "TEST","status":"code.gov schema 1.0","projects":[';
