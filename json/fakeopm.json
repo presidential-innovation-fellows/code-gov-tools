@@ -3,7 +3,7 @@
 	"organization":" ",
 	"projects": [{
     "status": " ",     
-    "vcs": "git",,
+    "vcs": "git",
 		"repository": "git://github.com/USAJOBS/design-system.git",
 		"name": "design-system",
 		"repoID": "44112444",
@@ -97,7 +97,7 @@
 		"codeLanguage": []
 	}, {
 		"status": " ",     
-    "vcs": "git",,
+    "vcs": "git",
 		"repository": "git://github.com/USAJOBS/Help.git",
 		"name": "Help",
 		"repoID": "52627605",
@@ -136,7 +136,7 @@
 		}]
 	}, {
 		"status": " ",     
-    "vcs": "git",,
+    "vcs": "git",
 		"repository": "git://github.com/USAJOBS/analytics.usajobs.gov.git",
 		"name": "analytics.usajobs.gov",
 		"repoID": "58501015",
@@ -173,7 +173,7 @@
 		}]
 	}, {
 		"status": " ",     
-    "vcs": "git",,
+    "vcs": "git",
 		"repository": "git://github.com/USAJOBS/analytics-reporter.git",
 		"name": "analytics-reporter",
 		"repoID": "58501082",
