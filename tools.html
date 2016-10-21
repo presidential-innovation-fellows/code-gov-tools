@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The people's code.">
+    <title>code.gov API and metadata schema (v1.0.1)</title>
+    <link rel="canonical" href="https://code.gov/">
+    <link rel="stylesheet" href="public/css/uswds.css">
+    <link rel="stylesheet" href="public/css/styleguide.css">
+    <link rel="stylesheet" href="public/css/main.css">
+  
+    <!--Favicons
+==================================================-->
+    <!-- 128x128-->
+    <link rel="shortcut icon" type="image/ico" href="public/img/favicons/favicon.ico">
+    <link rel="icon" type="image/png" href="public/img/favicons/favicon.png">
+    <!--192x192, as recommended for Android
+http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android-->
+    <link rel="icon" type="image/png" sizes="192x192" href="public/img/favicons/favicon-192.png">
+    <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices-->
+    <link rel="apple-touch-icon-precomposed" href="public/img/favicons/favicon-57.png">
+    <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini-->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="public/img/favicons/favicon-72.png">
+    <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch-->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="public/img/favicons/favicon-114.png">
+    <!-- 144x144 (precomposed) for iPad 3rd and 4th generation-->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/img/favicons/favicon-144.png">
+    <meta property="og:title" content="code.gov-api">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://code.gov">
+    <meta property="og:description" content="The people's code.">
+    <meta property="og:image" content="https://code.gov/img/open-graph.jpg?v=2485d4e">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@WhiteHouse">
+    <meta name="twitter:creator" content="@InnovFellows">
+    <meta name="twitter:title" content="code.gov">
+    <meta name="twitter:description" content="The people's code.">
+    <meta name="twitter:image" content="https://code.gov/img/open-graph.jpg?v=2485d4e">
+</head>
+
+<body></body>
+<header>
+    <div class="ood-nav">
+        <div class="usa-nav-container">
+            <div class="usa-navbar">
+                <button class="usa-menu-btn">Menu</button>
+                <div class="usa-logo" id="logo"><em class="usa-logo-text"><a href="tools.html" accesskey="1" title="Code.gov Tools" aria-label="Home">Code.gov Tools</a></em></div>
+            </div>
+            <nav class="usa-nav" role="navigation">
+                <button class="usa-nav-close"></button>
+                <ul class="usa-nav-primary usa-accordion">
+                  
+                    <li><a class="usa-nav-link" href="/convert"><span>Map/Convert Inventories</span></a></li>
+                  <li><a class="usa-nav-link" href="http://jsonlint.com/"><span>Validate your JSON</span></a></li>
+                    <li><a class="usa-nav-link"  href="builder.html"><span>Build Your Inventory</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="usa-grid">
+    <div class="usa-width-one-whole">
+        <h2>Convert        </h2>
+        <form id = "githubconversion">
+            <div role="search">
+                <label for="input-type-text" Text>URL for GITHUB API JSON (ex: https://api.github.com/orgs/presidential-innovation-fellows/repos)</label>
+                <input id="input-type-text" name="jsonurl" type="text">
+                <button type="submit"><span class="usa-search-submit-text">Convert Github repo listing to schema</span></button>
+            </div>
+          <div id="mappedcontent" style="border: 5px solid;"> <h2> The newly crafted JSON data will appear below: </h2></div>
+        </form>
+        <hr>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+</script>
+<script src="public/js/uswds.min.js"></script>
+<script src="public/js/convert.js"></script>
+<script src="public/js/stopwordsHTML.js"></script>
