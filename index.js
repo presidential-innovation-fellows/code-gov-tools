@@ -49,99 +49,10 @@ app.set('json spaces', 2);
  * ------------------------------------------------------------------ */
 
 app.get('/', function(req, res) {
-  console.log("mongodetails is: "+mongoDetails);
-  MongoClient.connect(mongoDetails, function(err, db) {
-    if (err) {
-      res.send("Sorry, there was a problem with the database: " + err);
-
-      return console.error(err);
-
-    } else {
-      repos = db.collection("repos");
-      console.log(" We're connected to the DB");
-
-      repos.find({
-        agency: {
-          $exists: true
-        }
-      }).toArray(function(err, repodocs) {
-        if (err) {
-          return console.error(err);
-        } else {
-
-          res.render('index.pug', {
-            repos: repodocs
-          });
-        }
-      });
-    }
-  });
+  res.render('convert.pug')
 });
 
-app.get('/harvest', function(req, res) {
-  var body;
-  var message = '';
 
-  MongoClient.connect(mongoDetails, function(err, db) {
-    if (err) {
-      res.send("Sorry, there was a problem with the database: " + err);
-
-      return console.error(err);
-
-    } else {
-      repos = db.collection("repos");
-      console.log("We're connected to the DB");
-      message += "We've connected to the database<br>";
-
-
-      // grab code.json files from various agencies.
-      // SWITCH FROM DEVURL to PRODURL for production
-      // TODO: should do this based upon env (not hardcoded)
-      // =============================================================================
-      console.log("length of agencyEndpoints: " + agencyEndpoints.length);
-      var key, value;
-
-      for (key = 1; key < agencyEndpoints.length; key++) {
-        value = agencyEndpoints[key];
-        console.log("Dev URL for " + value.ACRONYM + " is " + value.DEVURL);
-        message += "Loading JSON data from " + value.ACRONYM + " located at " + value.DEVURL + "<br>";
-
-        request(value.DEVURL, function(error, response, body) {
-          if (error) {
-            console.log(error)
-          } else {
-            console.log(value.DEVURL + '\n');
-            repos.update({
-              agency: {
-                $eq: value.ACRONYM
-              }
-            }, JSON.parse(body), {
-              upsert: true
-            });
-            console.log(value.ACRONYM + '\n');
-            //repos.update({$and: [{agency: {$eq:value.ACRONYM}}, {agencyAcronym:{$exists:false}}]}, JSON.parse(body), {upsert:true});
-            //repos.insert(body);
-          }
-        });
-      }
-
-      repos.remove({
-        "agencyAcronym": {
-          $exists: true
-        }
-      });
-
-      repos.remove({
-        agencyAcronym: {
-          $exists: true
-        }
-      });
-
-      message += "<br> JSON harvesting complete";
-      res.send(message);
-    }
-  });
-});
 
 app.get('/convert', function(req, res) {
   res.render('convert.pug')
@@ -150,63 +61,7 @@ app.get('/build', function(req, res) {
   res.render('build.pug')
 });
 
-app.post('/', function(req, res) {
-  var searchterm, searchquery;
 
-  MongoClient.connect(mongoDetails, function(err, db) {
-    if (err) {
-      res.send("Sorry, there was a problem with the database: " + err);
-
-      return console.error(err);
-
-    } else {
-      repos = db.collection("repos");
-      searchterm = req.body.search;
-      console.log(" We're connected to the DB");
-
-      if ((searchterm.trim()).length > 1) {
-        console.log("search term is: " + searchterm);
-        searchquery = '{$elemMatch:{tag:searchterm}}';
-        //repos.find({projects:{$elemMatch:{"pjctTags.tag":searchterm}}}, {'projects.$':1}).toArray(function(err, repodocs) {
-        repos.find({
-          projects: {
-            $elemMatch: {
-              "projectTags.tag": searchterm
-            }
-          }
-        }, {
-          'projects.$': 1,
-          agency: 1
-        }).toArray(function(err, repodocs) {
-          if (err) {
-            return console.error(err);
-          } else {
-            res.render('index.pug', {
-              repos: repodocs
-            });
-          }
-        });
-      } else {
-        searchquery = '{$exists:true}';
-        console.log('empty');
-        repos.find({
-          "projects.projectTags": {
-            $exists: true
-          }
-        }).toArray(function(err, repodocs) {
-          if (err) {
-            return console.error(err);
-          } else {
-
-            res.render('index.pug', {
-              repos: repodocs
-            });
-          }
-        });
-      }
-    }
-  });
-});
 
 app.post('/convert', function(req, res) {
   var jsoninventory, record, codegovinventory_start,

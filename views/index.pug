@@ -57,59 +57,31 @@ block head
             button.usa-nav-close
 
             ul.usa-nav-primary.usa-accordion
-              li
-                a.usa-nav-link(href='/')
-                  span Search Repos
-              li
-                a.usa-nav-link(href='/harvest')
-                  span Harvest JSON files
+              
+            
               li
                 a.usa-nav-link(href='/convert')
                   span Map/Convert Inventories
               li
-                a.usa-nav-link(href='/build')
-                  span Build Your Inventory
+                a.usa-nav-link(href='http://jsonlint.com')
+                  span Validate your JSON
     block body
       .usa-grid
-        .usa-width-one-half
-          h2 Search repos
         .usa-width-one-whole
-          form.usa-search.usa-search-big(action='/', method='post')
+          h2 Convert        
+          form(id='githubconversion')
             div(role='search')
-              label.usa-sr-only(for='search-field-big') Search big
-              input#search-field-big(type='search', name='search')
+              label(for="input-type-text" Text) URL for GITHUB API JSON (ex: https://api.github.com/orgs/presidential-innovation-fellows/repos)
+              input(id="input-type-text" name="jsonurl" type="text")
 
               button(type='submit')
-                span.usa-search-submit-text Search
-          br
+                span.usa-search-submit-text Convert Github repo listing to schema
+            #mappedcontent(style='border: 5px solid;')
+              h2  The newly crafted JSON data will appear below:
           hr
-          h2 Results
-          table
-            thead
-              tr
-                th(scope='col') Agency
-                th(scope='col') ProjectName
-                th(scope='col') Project Description
-                th(scope='col') RepoURL
-                th(scope='col') Tag(s)
-
-
-            tbody
-              each repo in repos
-                each project in repo.projects
-                  tr
-                    th(scope='row')= repo.agency
-
-
-                      td
-                        =project.name
-                      td= project.description
-                      td= project.repository  
-                      td 
-                        each tag in project.projectTags
-                          =tag.tag+', '
 
                 
     script(src="https://code.jquery.com/jquery-3.1.1.min.js", integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=",  crossorigin="anonymous")    
     script(src='js/uswds.min.js')
+    
     
