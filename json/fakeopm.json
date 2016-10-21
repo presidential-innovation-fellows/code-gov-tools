@@ -56,7 +56,7 @@
 		}]
 	}, {
 		"status": " ",     
-    "vcs": "git",,
+    "vcs": "git",
 		"repository": "git://github.com/USAJOBS/open-source-policy.git",
 		"name": "open-source-policy",
 		"repoID": "44256248",
