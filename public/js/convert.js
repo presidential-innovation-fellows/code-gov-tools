@@ -32,12 +32,12 @@ var body,jsoninventory, record, codegovinventory_start,
    
     codegovinventory_projects = '';
     codegovinventory_updated='';
-    codegovinventory_start = '{ "agency": "TEST","status":"code.gov schema 1.0","projects":[';
+    codegovinventory_start = '{ "agency": "TEST","organization":" ","projects":[';
 console.log("length:" +jsoninventory.length+"jsoninventory: "+jsoninventory);
     for (var i = 0; i < jsoninventory.length; i++) {
 
       codegovinventory_projects +=
-        '{"vcs":"git", "repository": "' + jsoninventory[i].git_url +
+        '{"status":" ", "vcs":"git", "repository": "' + jsoninventory[i].git_url +
         '", "name": "' + jsoninventory[i].name + '", "repoID":"' +
         jsoninventory[i].id + '","homepage":"' + jsoninventory[i].homepage +
         '","downloadURL":" ","description":"' + jsoninventory[i].description +

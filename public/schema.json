@@ -148,17 +148,17 @@
                         "metadataLastUpdated": {
                             "title": "metadataLastUpdated",
                             "description": "Date that the metadata was last updated",
-                            "type": "string"
+                            "type": "date-time"
                         },
                         "lastCommit": {
                             "title": "lastCommit",
                             "description": "Date of the last commit to the repository",
-                            "type": "string"
+                            "type": "date-time"
                         },
                         "lastModified": {
                             "title": "lastModified",
                             "description": "Date that the codebase was last modified",
-                            "type": "string"
+                            "type": "date-time"
                         }
                     }
                 }
