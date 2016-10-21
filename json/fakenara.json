@@ -1,958 +1,150 @@
 {
-  "agency": "NARA",
-  "status": "Alpha",
-  "projects": [
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/federalregister-api-core.git",
-      "name": "federalregister-api-core",
-      "repoID": "607511",
-      "homepage": "https:\/\/www.federalregister.gov",
-      "downloadURL": " ",
-      "description": "Federal Register 2.0 API and Data Importer ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "federal"
-        },
-        {
-          "tag": "register"
-        },
-        {
-          "tag": "2"
-        },
-        {
-          "tag": "0"
-        },
-        {
-          "tag": "api"
-        },
-        {
-          "tag": "data"
-        },
-        {
-          "tag": "importer"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "HTML"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/fr2_blog.git",
-      "name": "fr2_blog",
-      "repoID": "1228794",
-      "homepage": "",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        {
-          "language": "PHP"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/federal_register.git",
-      "name": "federal_register",
-      "repoID": "2138478",
-      "homepage": "http:\/\/www.federalregister.gov\/learn\/developers",
-      "downloadURL": " ",
-      "description": "Ruby API Client for FederalRegister.gov that handles searching articles and getting information about agencies ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "ruby"
-        },
-        {
-          "tag": "api"
-        },
-        {
-          "tag": "client"
-        },
-        {
-          "tag": "federalregister"
-        },
-        {
-          "tag": "gov"
-        },
-        {
-          "tag": "handles"
-        },
-        {
-          "tag": "searching"
-        },
-        {
-          "tag": "articles"
-        },
-        {
-          "tag": "getting"
-        },
-        {
-          "tag": "information"
-        },
-        {
-          "tag": "agencies"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "Ruby"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/federalregister-web.git",
-      "name": "federalregister-web",
-      "repoID": "2252148",
-      "homepage": "https:\/\/www.federalregister.gov",
-      "downloadURL": " ",
-      "description": "Federal Register 2.0 Web Display ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "federal"
-        },
-        {
-          "tag": "register"
-        },
-        {
-          "tag": "2"
-        },
-        {
-          "tag": "0"
-        },
-        {
-          "tag": "web"
-        },
-        {
-          "tag": "display"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "Ruby"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/File-Analyzer.git",
-      "name": "File-Analyzer",
-      "repoID": "2533400",
-      "homepage": "http:\/\/www.archives.gov\/developer",
-      "downloadURL": " ",
-      "description": "NARA File Analyzer and Metadata Harvester ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "nara"
-        },
-        {
-          "tag": "file"
-        },
-        {
-          "tag": "analyzer"
-        },
-        {
-          "tag": "metadata"
-        },
-        {
-          "tag": "harvester"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "Java"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/Video-Frame-Analyzer.git",
-      "name": "Video-Frame-Analyzer",
-      "repoID": "2533446",
-      "homepage": "http:\/\/www.archives.gov\/developer ",
-      "downloadURL": " ",
-      "description": "NARA Video Frame Analyzer ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "nara"
-        },
-        {
-          "tag": "video"
-        },
-        {
-          "tag": "frame"
-        },
-        {
-          "tag": "analyzer"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "Java"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/AVI-MetaEdit.git",
-      "name": "AVI-MetaEdit",
-      "repoID": "3441955",
-      "homepage": "http:\/\/www.archives.gov\/developer",
-      "downloadURL": " ",
-      "description": "NARA AVI-MetaEdit ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "nara"
-        },
-        {
-          "tag": "avi"
-        },
-        {
-          "tag": "metaedit"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "C++"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/MediaInfo.git",
-      "name": "MediaInfo",
-      "repoID": "3471817",
-      "homepage": "http:\/\/www.archives.gov\/developer",
-      "downloadURL": " ",
-      "description": "NARA MediaInfo ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "nara"
-        },
-        {
-          "tag": "mediainfo"
-        }
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/feedback.git",
-      "name": "feedback",
-      "repoID": "10246475",
-      "homepage": "http:\/\/www.archives.gov\/developer",
-      "downloadURL": " ",
-      "description": "Do you have feedback, ideas, or questions for the US National Archives? Use this repository's Issue Tracker to join the discussion. ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "feedback"
-        },
-        {
-          "tag": "ideas"
-        },
-        {
-          "tag": "questions"
-        },
-        {
-          "tag": "national"
-        },
-        {
-          "tag": "archives"
-        },
-        {
-          "tag": "use"
-        },
-        {
-          "tag": "repository"
-        },
-        {
-          "tag": "s"
-        },
-        {
-          "tag": "issue"
-        },
-        {
-          "tag": "tracker"
-        },
-        {
-          "tag": "join"
-        },
-        {
-          "tag": "discussion"
-        },
-        {
-          "tag": ""
-        }
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/Twitterbot.git",
-      "name": "Twitterbot",
-      "repoID": "25315798",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "Experimental twitter bot using NARA's test API. ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "experimental"
-        },
-        {
-          "tag": "twitter"
-        },
-        {
-          "tag": "bot"
-        },
-        {
-          "tag": "using"
-        },
-        {
-          "tag": "nara"
-        },
-        {
-          "tag": "s"
-        },
-        {
-          "tag": "test"
-        },
-        {
-          "tag": "api"
-        },
-        {
-          "tag": ""
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "Python"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/Catalog-API.git",
-      "name": "Catalog-API",
-      "repoID": "27500513",
-      "homepage": "https:\/\/catalog.archives.gov\/api\/v1\/",
-      "downloadURL": " ",
-      "description": "National Archives Catalog API ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "national"
-        },
-        {
-          "tag": "archives"
-        },
-        {
-          "tag": "catalog"
-        },
-        {
-          "tag": "api"
-        }
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/nara-node.git",
-      "name": "nara-node",
-      "repoID": "30211378",
-      "homepage": "",
-      "downloadURL": " ",
-      "description": "A node client for the National Archives Catalog API ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "node"
-        },
-        {
-          "tag": "client"
-        },
-        {
-          "tag": "national"
-        },
-        {
-          "tag": "archives"
-        },
-        {
-          "tag": "catalog"
-        },
-        {
-          "tag": "api"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "JavaScript"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/nara-ruby.git",
-      "name": "nara-ruby",
-      "repoID": "30213203",
-      "homepage": "",
-      "downloadURL": " ",
-      "description": "A Ruby client for the National Archives Catalog API ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "ruby"
-        },
-        {
-          "tag": "client"
-        },
-        {
-          "tag": "national"
-        },
-        {
-          "tag": "archives"
-        },
-        {
-          "tag": "catalog"
-        },
-        {
-          "tag": "api"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "Ruby"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/capstone-grs.git",
-      "name": "capstone-grs",
-      "repoID": "48192899",
-      "homepage": "http:\/\/usnationalarchives.github.io\/capstone-grs\/",
-      "downloadURL": " ",
-      "description": "Capstone GRS Website ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "capstone"
-        },
-        {
-          "tag": "grs"
-        },
-        {
-          "tag": "website"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "JavaScript"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/catalog-tools.git",
-      "name": "catalog-tools",
-      "repoID": "49586357",
-      "homepage": "null",
-      "downloadURL": " ",
-      "description": "null ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/social-media-strategy.git",
-      "name": "social-media-strategy",
-      "repoID": "58226491",
-      "homepage": "https:\/\/usnationalarchives.github.io\/social-media-strategy",
-      "downloadURL": " ",
-      "description": "National Archives Social Media Strategy 2017-2020 ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "national"
-        },
-        {
-          "tag": "archives"
-        },
-        {
-          "tag": "social"
-        },
-        {
-          "tag": "media"
-        },
-        {
-          "tag": "strategy"
-        },
-        {
-          "tag": "2017"
-        },
-        {
-          "tag": "2020"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "CSS"
-        }
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/wartime-films-project.git",
-      "name": "wartime-films-project",
-      "repoID": "61288036",
-      "homepage": "",
-      "downloadURL": " ",
-      "description": "App and metadata for Wartime Films Project ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "app"
-        },
-        {
-          "tag": "metadata"
-        },
-        {
-          "tag": "wartime"
-        },
-        {
-          "tag": "films"
-        },
-        {
-          "tag": "project"
-        }
-      ],
-      "codeLanguage": [
-        
-      ]
-    },
-    {
-      "vcs": "git",
-      "repository": "git:\/\/github.com\/usnationalarchives\/opengovplan.git",
-      "name": "opengovplan",
-      "repoID": "66097787",
-      "homepage": "https:\/\/usnationalarchives.github.io\/opengovplan\/",
-      "downloadURL": " ",
-      "description": "NARA's Open Government Plan 2016-2018 ",
-      "contact": [
-        {
-          "email": " ",
-          "name": " ",
-          "twitter": " ",
-          "phone": " "
-        }
-      ],
-      "partners": [
-        {
-          "name": " "
-        },
-        {
-          "email": " "
-        }
-      ],
-      "license": "https:\/\/path.to\/license",
-      "openproject": 1,
-      "govwideReuseproject": 0,
-      "closedproject": 0,
-      "exemption": null,
-      "projectTags": [
-        {
-          "tag": "nara"
-        },
-        {
-          "tag": "s"
-        },
-        {
-          "tag": "open"
-        },
-        {
-          "tag": "government"
-        },
-        {
-          "tag": "plan"
-        },
-        {
-          "tag": "2016"
-        },
-        {
-          "tag": "2018"
-        }
-      ],
-      "codeLanguage": [
-        {
-          "language": "CSS"
-        }
-      ]
-    }
-  ]
+	"agency": "NARA",
+	"status": "code.gov schema 1.0",
+	"projects": [{
+		"vcs": "git",
+		"repository": "git://github.com/usnationalarchives/federalregister-api-core.git",
+		"name": "federalregister-api-core",
+		"repoID": "607511",
+		"homepage": "https://www.federalregister.gov",
+		"downloadURL": " ",
+		"description": "Federal Register 2.0 API and Data Importer ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
+		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
+		"openproject": 1,
+		"govwideReuseproject": 0,
+		"closedproject": 0,
+		"exemption": null,
+		"projectTags": [{
+			"tag": "federal"
+		}, {
+			"tag": "register"
+		}, {
+			"tag": "2"
+		}, {
+			"tag": "0"
+		}, {
+			"tag": "api"
+		}, {
+			"tag": "data"
+		}, {
+			"tag": "importer"
+		}],
+		"codeLanguage": [{
+			"language": "HTML"
+		}],
+		"updated": {
+			"lastCommit": "2016-09-22T07:55:40Z",
+			"metadataLastUpdated": "2010-04-12T23:21:43Z",
+			"lastModified": "2016-07-26T19:27:05Z"
+		}
+	}, {
+		"vcs": "git",
+		"repository": "git://github.com/usnationalarchives/File-Analyzer.git",
+		"name": "File-Analyzer",
+		"repoID": "2533400",
+		"homepage": "http://www.archives.gov/developer",
+		"downloadURL": " ",
+		"description": "NARA File Analyzer and Metadata Harvester ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
+		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
+		"openproject": 1,
+		"govwideReuseproject": 0,
+		"closedproject": 0,
+		"exemption": null,
+		"projectTags": [{
+			"tag": "nara"
+		}, {
+			"tag": "file"
+		}, {
+			"tag": "analyzer"
+		}, {
+			"tag": "metadata"
+		}, {
+			"tag": "harvester"
+		}],
+		"codeLanguage": [{
+			"language": "Java"
+		}],
+		"updated": {
+			"lastCommit": "2016-09-25T23:00:52Z",
+			"metadataLastUpdated": "2011-10-07T15:35:12Z",
+			"lastModified": "2016-02-16T21:50:49Z"
+		}
+	}, {
+		"vcs": "git",
+		"repository": "git://github.com/usnationalarchives/federal_register.git",
+		"name": "federal_register",
+		"repoID": "2138478",
+		"homepage": "http://www.federalregister.gov/learn/developers",
+		"downloadURL": " ",
+		"description": "Ruby API Client for FederalRegister.gov that handles searching articles and getting information about agencies ",
+		"contact": [{
+			"email": " ",
+			"name": " ",
+			"twitter": " ",
+			"phone": " "
+		}],
+		"partners": [{
+			"name": " "
+		}, {
+			"email": " "
+		}],
+		"license": "https://path.to/license",
+		"openproject": 1,
+		"govwideReuseproject": 0,
+		"closedproject": 0,
+		"exemption": null,
+		"projectTags": [{
+			"tag": "ruby"
+		}, {
+			"tag": "api"
+		}, {
+			"tag": "client"
+		}, {
+			"tag": "federalregister"
+		}, {
+			"tag": "gov"
+		}, {
+			"tag": "handles"
+		}, {
+			"tag": "searching"
+		}, {
+			"tag": "articles"
+		}, {
+			"tag": "getting"
+		}, {
+			"tag": "information"
+		}, {
+			"tag": "agencies"
+		}],
+		"codeLanguage": [{
+			"language": "Ruby"
+		}],
+		"updated": {
+			"lastCommit": "2016-09-22T07:56:20Z",
+			"metadataLastUpdated": "2011-08-01T19:09:24Z",
+			"lastModified": "2015-03-12T00:18:58Z"
+		}
+	}]
 }
