@@ -20,7 +20,7 @@
         }, {
             "email": " "
         }],
-        "license": "https://path.to/license",
+        "license": "https://github.com/department-of-veterans-affairs/vets-website/blob/master/LICENSE",
         "openproject": 1,
         "govwideReuseproject": 0,
         "closedproject": 0,
@@ -61,7 +61,7 @@
         }, {
             "email": " "
         }],
-        "license": "https://path.to/license",
+        "license": "https://github.com/department-of-veterans-affairs/vets-api/blob/master/LICENSE.md",
         "openproject": 1,
         "govwideReuseproject": 0,
         "closedproject": 0,
@@ -151,7 +151,7 @@
         }, {
             "email": " "
         }],
-        "license": "https://path.to/license",
+        "license": "https://github.com/department-of-veterans-affairs/roadrunner-rails/blob/master/LICENSE.md",
         "openproject": 1,
         "govwideReuseproject": 0,
         "closedproject": 0,

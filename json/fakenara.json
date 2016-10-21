@@ -20,7 +20,7 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/usnationalarchives/federalregister-api-core/blob/master/LICENSE",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -67,7 +67,7 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/usnationalarchives/File-Analyzer/blob/master/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -110,7 +110,7 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/usnationalarchives/federal_register/blob/master/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,

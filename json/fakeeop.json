@@ -20,7 +20,7 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/WhiteHouse/petitions#license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -69,7 +69,7 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/WhiteHouse/wh-app-android#license",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,

@@ -20,7 +20,7 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/nasa/openmct/blob/master/LICENSES.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -183,7 +183,7 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/nasa/earthdata-search/blob/master/LICENSE",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,

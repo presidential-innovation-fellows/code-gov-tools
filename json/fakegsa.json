@@ -20,7 +20,7 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/presidential-innovation-fellows/apps-gov/blob/master/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -57,7 +57,7 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/18F/vote-gov/blob/staging/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -110,7 +110,7 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/presidential-innovation-fellows/code-gov-web/blob/master/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
@@ -155,7 +155,7 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/18F/web-design-standards/blob/staging/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
