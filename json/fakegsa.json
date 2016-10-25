@@ -2,7 +2,7 @@
 	"agency": "GSA",
 	"organization":" ",
 	"projects": [{
-		"status": " ",
+		"status": "alpha",
     "vcs": "git",
 		"repository": "git://github.com/presidential-innovation-fellows/apps-gov.git",
 		"name": "apps-gov",
@@ -11,7 +11,7 @@
 		"downloadURL": " ",
 		"description": "Be more productive ",
 		"contact": [{
-			"email": " ",
+			"email": "apps-gov@gsa.gov",
 			"name": " ",
 			"twitter": " ",
 			"phone": " "
@@ -27,9 +27,25 @@
 		"closedproject": 0,
 		"exemption": null,
 		"projectTags": [{
-			"tag": "more"
+			"tag": "apps.gov"
+		},{
+			"tag": "cloud"
 		}, {
-			"tag": "productive"
+			"tag": "ATO"
+		},{
+			"tag": "SaaS"
+		},{
+			"tag": "IaaS"
+		},{
+			"tag": "PaaS"
+		},              {
+			"tag": "micro-purchase"
+		},{
+			"tag": "gwac"
+		},{
+			"tag": "schedule 70"
+		},{
+			"tag": "procurement"
 		}],
 		"codeLanguage": [{
 			"language": "CSS"
@@ -40,7 +56,7 @@
 			"lastModified": "2016-10-20T21:47:26Z"
 		}
 	}, {
-		"status": " ",
+		"status": "production",
     "vcs": "git",
 		"repository": "git://github.com/18F/vote-gov.git",
 		"name": "vote-gov",
@@ -49,8 +65,8 @@
 		"downloadURL": " ",
 		"description": "This repository contains the files and infrastructure to run the current vote.gov website. ",
 		"contact": [{
-			"email": " ",
-			"name": " ",
+			"email": "john.yuda@gsa.gov",
+			"name": "John Yuda",
 			"twitter": " ",
 			"phone": " "
 		}],
@@ -65,25 +81,23 @@
 		"closedproject": 0,
 		"exemption": null,
 		"projectTags": [{
-			"tag": "repository"
+			"tag": "voting"
 		}, {
-			"tag": "contains"
+			"tag": "elections"
 		}, {
-			"tag": "files"
+			"tag": "voter registration"
 		}, {
-			"tag": "infrastructure"
+			"tag": "voter reg"
 		}, {
-			"tag": "run"
+			"tag": "voter"
 		}, {
-			"tag": "current"
+			"tag": "election"
 		}, {
 			"tag": "vote"
 		}, {
-			"tag": "gov"
+			"tag": "vote.gov"
 		}, {
-			"tag": "website"
-		}, {
-			"tag": ""
+			"tag": "votar"
 		}],
 		"codeLanguage": [{
 			"language": "HTML"
@@ -94,22 +108,22 @@
 			"lastModified": "2016-10-11T18:16:56Z"
 		}
 	}, {
-		"status": " ",
+		"status": "production",
     "vcs": "git",
 		"repository": "git://github.com/presidential-innovation-fellows/code-gov-web.git",
 		"name": "code-gov-web",
 		"repoID": "65018281",
 		"homepage": "https://code.gov",
 		"downloadURL": " ",
-		"description": "Federal Source Code policy implementation. ",
+		"description": "Federal Source Code policy implementation.",
 		"contact": [{
-			"email": " ",
-			"name": " ",
-			"twitter": " ",
+			"email": "code@listserv.gsa.gov",
+			"name": "Code.gov Team",
+			"twitter": "htttps://twitter.com/codedotgov",
 			"phone": " "
 		}],
 		"partners": [{
-			"name": " "
+			"name": "OMB"
 		}, {
 			"email": " "
 		}],
@@ -119,17 +133,23 @@
 		"closedproject": 0,
 		"exemption": null,
 		"projectTags": [{
-			"tag": "federal"
+			"tag": "open source"
 		}, {
 			"tag": "source"
-		}, {
+		},
+    {
+			"tag": "people's code"
+		},
+      {
+			"tag": "government code"
+		},{
 			"tag": "code"
 		}, {
 			"tag": "policy"
 		}, {
-			"tag": "implementation"
-		}, {
-			"tag": ""
+			"tag": "source code"
+		},{
+			"tag": "code.gov"
 		}],
 		"codeLanguage": [{
 			"language": "JavaScript"
@@ -140,7 +160,7 @@
 			"lastModified": "2016-10-20T19:03:31Z"
 		}
 	}, {
-		"status": " ",
+		"status": "production",
     "vcs": "git",
 		"repository": "git://github.com/18F/web-design-standards.git",
 		"name": "web-design-standards",
@@ -149,7 +169,7 @@
 		"downloadURL": " ",
 		"description": "Open source UI components and visual style guide for U.S. government websites ",
 		"contact": [{
-			"email": " ",
+			"email": "uswebdesignstandards@gsa.gov",
 			"name": " ",
 			"twitter": " ",
 			"phone": " "
@@ -165,7 +185,7 @@
 		"closedproject": 0,
 		"exemption": null,
 		"projectTags": [{
-			"tag": "open"
+			"tag": "css"
 		}, {
 			"tag": "source"
 		}, {
@@ -179,11 +199,11 @@
 		}, {
 			"tag": "guide"
 		}, {
-			"tag": "u"
+			"tag": "uswds"
 		}, {
-			"tag": "s"
+			"tag": "web design"
 		}, {
-			"tag": "government"
+			"tag": "design standards"
 		}, {
 			"tag": "websites"
 		}],

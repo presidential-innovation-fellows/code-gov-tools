@@ -7,13 +7,13 @@
         "repository": "git://github.com/department-of-veterans-affairs/vets-website.git",
         "name": "vets-website",
         "repoID": "33202667",
-        "homepage": "",
+        "homepage": "https://www.vets.gov/",
         "downloadURL": " ",
-        "description": "Beta version of Vets.gov ",
+        "description": "Beta version of Vets.gov",
         "contact": [{
             "email": " ",
             "name": " ",
-            "twitter": " ",
+            "twitter": "https://twitter.com/DeptVetAffairs/",
             "phone": " "
         }],
         "partners": [{
@@ -55,7 +55,7 @@
         "contact": [{
             "email": " ",
             "name": " ",
-            "twitter": " ",
+            "twitter": "https://twitter.com/DeptVetAffairs/",
             "phone": " "
         }],
         "partners": [{
@@ -95,7 +95,7 @@
         "contact": [{
             "email": " ",
             "name": " ",
-            "twitter": " ",
+            "twitter": "https://twitter.com/DeptVetAffairs/",
             "phone": " "
         }],
         "partners": [{
@@ -110,10 +110,6 @@
         "exemption": null,
         "projectTags": [{
             "tag": "gem"
-        }, {
-            "tag": "adds"
-        }, {
-            "tag": "automatic"
         }, {
             "tag": "508"
         }, {
@@ -147,7 +143,7 @@
         "contact": [{
             "email": " ",
             "name": " ",
-            "twitter": " ",
+            "twitter": "https://twitter.com/DeptVetAffairs/",
             "phone": " "
         }],
         "partners": [{
@@ -161,19 +157,13 @@
         "closedproject": 0,
         "exemption": null,
         "projectTags": [{
-            "tag": "base"
+            "tag": "ruby"
         }, {
             "tag": "rails"
         }, {
             "tag": "project"
         }, {
-            "tag": "va"
-        }, {
-            "tag": "special"
-        }, {
-            "tag": "sauce"
-        }, {
-            "tag": ""
+            "tag": "roadrunner"
         }],
         "codeLanguage": [{
             "language": "Ruby"
