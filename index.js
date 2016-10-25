@@ -60,6 +60,9 @@ app.get('/convert', function(req, res) {
 app.get('/build', function(req, res) {
   res.render('build.pug')
 });
+app.get('/events', function(req, res) {
+  res.render('events.pug')
+});
 
 
 
