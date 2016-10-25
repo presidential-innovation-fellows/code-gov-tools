@@ -64,24 +64,24 @@ http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-A
         </div>
     </div>
 </header>
+
 <div class="usa-grid">
     <div class="usa-width-one-whole">
-        <h2>Convert        </h2>
-        <form id = "githubconversion">
+        <h2>Get Events Feed        </h2>
+        <form id = "eventsfeed">
             <div role="search">
-                <label for="input-type-text" Text>URL for GITHUB API JSON (ex: https://api.github.com/orgs/presidential-innovation-fellows/repos)</label>
-                <input id="input-type-text" name="jsonurl" type="text">
-                <button type="submit"><span class="usa-search-submit-text">Convert Github repo listing to schema</span></button>
+                <label for="input-type-text" Text>URL for GITHUB API EVENTS JSON (ex: https://api.github.com/repos/department-of-veterans-affairs/vets-website/events)</label>
+                <input id="events-url" name="events-url" type="text">
+                <button type="submit"><span class="usa-search-submit-text">Get events</span></button>
             </div>
-          <div id="mappedcontent" style="border: 5px solid;"> <h2> The newly crafted JSON data will appear below: </h2></div>
+          <div id="eventscontent" style="border: 5px solid;"> <h2> The newly crafted JSON data will appear below: </h2></div>
         </form>
         <hr>
     </div>
 </div>
-
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
 </script>
 <script src="public/js/uswds.min.js"></script>
-<script src="public/js/convert.js"></script>
 
+<script src="public/js/events.js"></script>
 <script src="public/js/stopwordsHTML.js"></script>
