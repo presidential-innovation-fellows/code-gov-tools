@@ -61,6 +61,54 @@
 		"repository": "git://github.com/18F/vote-gov.git",
 		"name": "vote-gov",
 		"repoID": "57156495",
+    "events": [
+        {
+     "id": "57156495",
+     "name": "18F/vote-gov",
+     "type":"Issues",
+     "user":"jamesharnett",
+     "time":"2016-10-19T18:00:42Z"
+
+},{
+     "id": "57156495",
+     "name": "18F/vote-gov",
+     "type":"IssueComment",
+     "user":"arantxarecio",
+     "time":"2016-10-17T21:42:29Z",
+     "message": "Add statement about voter reg deadlines to state pages",
+      "url":"https://api.github.com/repos/18F/vote-gov/issues/151"
+},{
+     "id": "57156495",
+     "name": "18F/vote-gov",
+     "type":"Issues",
+     "user":"megdaly",
+     "time":"2016-10-17T18:15:22Z"
+
+},{
+     "id": "57156495",
+     "name": "18F/vote-gov",
+     "type":"Issues",
+     "user":"yozlet",
+     "time":"2016-10-11T20:28:57Z"
+
+},{
+     "id": "57156495",
+     "name": "18F/vote-gov",
+     "type":"IssueComment",
+     "user":"yozlet",
+     "time":"2016-10-11T20:28:57Z",
+     "message": "Launch checklist",
+      "url":"https://api.github.com/repos/18F/vote-gov/issues/121"
+},{
+     "id": "57156495",
+     "name": "18F/vote-gov",
+     "type":"Push",
+     "user":"yozlet",
+     "time":"2016-10-11T18:16:57Z",
+     "message": "Add redirector nginx conf",
+      "url":"https://api.github.com/repos/18F/vote-gov/commits/91b79a23d061b5117446c60a6b48f1d4a4ac1254"
+}
+      ],
 		"homepage": "https://vote.gov/",
 		"downloadURL": " ",
 		"description": "This repository contains the files and infrastructure to run the current vote.gov website. ",

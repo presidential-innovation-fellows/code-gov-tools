@@ -11,7 +11,7 @@ function convertGitHub(githuburl)
   
   
 var body,jsoninventory, record, codegovinventory_start,
-      codegovinventory_projects,codegovinventory_updated, codegovinventory;
+      codegovinventory_projects,codegovinventory_updated, codegovinventory, jsonlength,eventsurl;
 
 
  $.ajax({
@@ -23,19 +23,37 @@ var body,jsoninventory, record, codegovinventory_start,
    
    
    
+   
    jsoninventory = data.data;
+   //console.log("jsoninventory: "+JSON.stringify(jsoninventory));
+   //console.log("jsoninventory length: "+jsoninventory.length);
+   //console.log("jsoninventory stringify length: "+JSON.stringify(jsoninventory.length));
+   jsonlength = jsoninventory.length;
     if (jsoninventory.length==undefined){
    
+      
+   jsoninventory =[jsoninventory];
+      //JSON.stringify(eval('['+data+']'));
+      //alert("this is the body: "+JSON.stringify(data.data));
+   console.log("whats in the data"+ jsoninventory[0].id);
+      console.log('length is undefined');
+      
    
-      jsoninventory = JSON.parse(data.data);
+      jsonlength = 1;
+   //   console.log("converted jsoninventory length: "+jsoninventory.length);
+   //console.log(" converted jsoninventory stringify length: "+JSON.stringify(jsoninventory.length));
     }
+   
    
     codegovinventory_projects = '';
     codegovinventory_updated='';
     codegovinventory_start = '{ "agency": "TEST","organization":" ","projects":[';
-console.log("length:" +jsoninventory.length+"jsoninventory: "+jsoninventory);
-    for (var i = 0; i < jsoninventory.length; i++) {
-
+//console.log("length:" +jsoninventory.length+"jsoninventory: "+jsoninventory);
+   console.log("id:" +jsoninventory.id);
+   console.log("[0].id:" +jsoninventory.id);
+    for (var i = 0; i < jsonlength; i++) {
+eventsurl= "https://api.github.com/repos/"+jsoninventory.full_name+"/events";
+      eventsGitHub(eventsurl);
       codegovinventory_projects +=
         '{"status":" ", "vcs":"git", "repository": "' + jsoninventory[i].git_url +
         '", "name": "' + (jsoninventory[i].name== null ? "": jsoninventory[i].name) + '", "repoID":"' +

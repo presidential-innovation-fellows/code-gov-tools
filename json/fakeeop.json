@@ -87,6 +87,51 @@
 		"repository": "git://github.com/WhiteHouse/fb_messenger_bot.git",
 		"name": "fb_messenger_bot",
 		"repoID": "70825196",
+    "events": [
+        {
+     "id": "70825196",
+     "name": "WhiteHouse/fb_messenger_bot",
+     "type":"Fork",
+     "user":"xsongx",
+     "time":"2016-10-25T15:26:48Z"
+
+},{
+     "id": "70825196",
+     "name": "WhiteHouse/fb_messenger_bot",
+     "type":"Watch",
+     "user":"levelos",
+     "time":"2016-10-25T15:09:48Z"
+
+},{
+     "id": "70825196",
+     "name": "WhiteHouse/fb_messenger_bot",
+     "type":"Fork",
+     "user":"youngshine",
+     "time":"2016-10-25T14:26:30Z"
+
+},{
+     "id": "70825196",
+     "name": "WhiteHouse/fb_messenger_bot",
+     "type":"Fork",
+     "user":"XiliangSong",
+     "time":"2016-10-25T11:01:10Z"
+
+},{
+     "id": "70825196",
+     "name": "WhiteHouse/fb_messenger_bot",
+     "type":"Watch",
+     "user":"XiliangSong",
+     "time":"2016-10-25T11:01:07Z"
+
+},{
+     "id": "70825196",
+     "name": "WhiteHouse/fb_messenger_bot",
+     "type":"Fork",
+     "user":"happyqq",
+     "time":"2016-10-25T08:08:06Z"
+
+}
+      ],
 		"homepage": "",
 		"downloadURL": " ",
 		"description": "This Drupal module provides a tool to build a chat bot to work on Facebook's Messenger Platform. ",
