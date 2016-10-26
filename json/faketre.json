@@ -25,11 +25,9 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "federal"
-		}, {
-			"tag": "spending"
+			"tag": "federal spending"
 		}, {
 			"tag": "transparency"
 		}],
@@ -47,9 +45,9 @@
 		"repository": "git://github.com/fedspendingtransparency/data-act-broker-backend.git",
 		"name": "data-act-broker-backend",
 		"repoID": "57313310",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
-		"description": "null ",
+		"description": "",
 		"contact": [{
 			"email": " ",
 			"name": " ",
@@ -65,8 +63,12 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
-		"projectTags": [],
+		"exemption": "",
+		"projectTags": [{
+			"tag": "data act"
+		}, {
+			"tag": "api"
+		}],
 		"codeLanguage": [{
 			"language": "Python"
 		}],
@@ -81,9 +83,9 @@
 		"repository": "git://github.com/fedspendingtransparency/data-act-broker-web-app.git",
 		"name": "data-act-broker-web-app",
 		"repoID": "47277547",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
-		"description": "null ",
+		"description": "",
 		"contact": [{
 			"email": " ",
 			"name": " ",
@@ -99,8 +101,12 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
-		"projectTags": [],
+		"exemption": "",
+		"projectTags": [{
+			"tag": "data act"
+		}, {
+			"tag": "api"
+		}],
 		"codeLanguage": [{
 			"language": "JavaScript"
 		}],

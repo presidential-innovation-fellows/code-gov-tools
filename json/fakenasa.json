@@ -24,19 +24,13 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "web"
+			"tag": "web-based"
 		}, {
-			"tag": "based"
-		}, {
-			"tag": "mission"
-		}, {
-			"tag": "control"
+			"tag": "mission control"
 		}, {
 			"tag": "framework"
-		}, {
-			"tag": ""
 		}],
 		"codeLanguage": [{
 			"language": "JavaScript"
@@ -52,7 +46,7 @@
 		"repository": "git://github.com/nasa/NASA-3D-Resources.git",
 		"name": "NASA-3D-Resources",
 		"repoID": "22180681",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
 		"description": "Here you'll find a growing collection of 3D models, textures, and images from inside NASA. ",
 		"contact": [{
@@ -70,31 +64,16 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "here"
-		}, {
-			"tag": "ll"
-		}, {
-			"tag": "find"
-		}, {
-			"tag": "growing"
-		}, {
-			"tag": "collection"
-		}, {
-			"tag": "3d"
-		}, {
-			"tag": "models"
-		}, {
-			"tag": "textures"
-		}, {
-			"tag": "images"
-		}, {
-			"tag": "inside"
+			"tag": "3D"
 		}, {
 			"tag": "nasa"
 		}, {
-			"tag": ""
+			"tag": "3d models"
+		
+		}, {
+			"tag": "nasa"
 		}],
 		"codeLanguage": [{
 			"language": "Mathematica"
@@ -124,39 +103,19 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/nasa/trick/blob/master/LICENSE",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "trick"
 		}, {
 			"tag": "simulation"
 		}, {
-			"tag": "environment"
+			"tag": "simulation environment"
 		}, {
 			"tag": "trick"
-		}, {
-			"tag": "provides"
-		}, {
-			"tag": "common"
-		}, {
-			"tag": "set"
-		}, {
-			"tag": "simulation"
-		}, {
-			"tag": "capabilities"
-		}, {
-			"tag": "utilities"
-		}, {
-			"tag": "build"
-		}, {
-			"tag": "simulations"
-		}, {
-			"tag": "automatically"
-		}, {
-			"tag": ""
 		}],
 		"codeLanguage": [{
 			"language": "C++"
@@ -190,13 +149,13 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "earthdata"
 		}, {
-			"tag": "search"
+			"tag": "web application"
 		}, {
-			"tag": "web"
+			"tag": "data"
 		}, {
 			"tag": "application"
 		}, {
@@ -206,31 +165,7 @@
 		}, {
 			"tag": "eosdis"
 		}, {
-			"tag": "enable"
-		}, {
-			"tag": "data"
-		}, {
-			"tag": "discovery"
-		}, {
-			"tag": "search"
-		}, {
-			"tag": "comparison"
-		}, {
 			"tag": "visualization"
-		}, {
-			"tag": "access"
-		}, {
-			"tag": "eosdis"
-		}, {
-			"tag": "earth"
-		}, {
-			"tag": "science"
-		}, {
-			"tag": "data"
-		}, {
-			"tag": "holdings"
-		}, {
-			"tag": ""
 		}],
 		"codeLanguage": [{
 			"language": "Ruby"

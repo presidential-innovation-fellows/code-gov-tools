@@ -25,29 +25,17 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "open"
+			"tag": "open source"
 		}, {
 			"tag": "source"
 		}, {
-			"tag": "gpl"
+			"tag": "data center"
 		}, {
-			"tag": "v3"
-		}, {
-			"tag": "data"
-		}, {
-			"tag": "center"
-		}, {
-			"tag": "inventory"
-		}, {
-			"tag": "management"
+			"tag": "inventory management"
 		}, {
 			"tag": "dcim"
-		}, {
-			"tag": "application"
-		}, {
-			"tag": ""
 		}],
 		"codeLanguage": [{
 			"language": "PHP"
@@ -81,43 +69,13 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "bro"
 		}, {
-			"tag": "powerful"
-		}, {
-			"tag": "network"
-		}, {
-			"tag": "analysis"
-		}, {
+			"tag": "network analysis"
+		},  {
 			"tag": "framework"
-		}, {
-			"tag": "much"
-		}, {
-			"tag": "different"
-		}, {
-			"tag": "typical"
-		}, {
-			"tag": "ids"
-		}, {
-			"tag": "know"
-		}, {
-			"tag": "official"
-		}, {
-			"tag": "mirror"
-		}, {
-			"tag": "git"
-		}, {
-			"tag": "bro"
-		}, {
-			"tag": "org"
-		}, {
-			"tag": "bro"
-		}, {
-			"tag": "git"
-		}, {
-			"tag": ""
 		}],
 		"codeLanguage": [{
 			"language": "Bro"
@@ -151,13 +109,11 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "munge"
 		}, {
 			"tag": "uid"
-		}, {
-			"tag": "n"
 		}, {
 			"tag": "gid"
 		}, {
@@ -195,7 +151,7 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "conman"
 		}, {

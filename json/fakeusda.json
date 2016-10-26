@@ -25,33 +25,19 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
-		"projectTags": [{
-			"tag": "feedback"
-		}, {
-			"tag": "ideas"
-		}, {
-			"tag": "questions"
-		}, {
+		"exemption": "",
+		"projectTags": [ {
 			"tag": "usda"
 		}, {
 			"tag": "apis"
 		}, {
-			"tag": "use"
+			"tag": "rec1stop"
 		}, {
-			"tag": "repository"
+			"tag": "api"
 		}, {
-			"tag": "s"
+			"tag": "ridb"
 		}, {
-			"tag": "issue"
-		}, {
-			"tag": "tracker"
-		}, {
-			"tag": "join"
-		}, {
-			"tag": "discussion"
-		}, {
-			"tag": ""
+			"tag": "issue tracker"
 		}],
 		"codeLanguage": []
 	}, {
@@ -78,7 +64,7 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "recreation"
 		}, {
@@ -109,29 +95,16 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/USDA/data-standards/blob/gh-pages/LICENSE",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
-		"projectTags": [{
-			"tag": "collaborative"
-		}, {
-			"tag": "site"
-		}, {
-			"tag": "official"
-		}, {
+		"exemption": "",
+		"projectTags": [
+      {
 			"tag": "usda"
 		}, {
-			"tag": "data"
-		}, {
-			"tag": "elements"
-		}, {
-			"tag": "data"
-		}, {
-			"tag": "standards"
-		}, {
-			"tag": ""
+			"tag": "data standards"
 		}],
 		"codeLanguage": [{
 			"language": "CSS"

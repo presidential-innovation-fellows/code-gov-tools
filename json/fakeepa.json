@@ -7,9 +7,9 @@
 		"repository": "git://github.com/USEPA/WNTR.git",
 		"name": "WNTR",
 		"repoID": "63262591",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
-		"description": "null ",
+		"description": "",
 		"contact": [{
 			"email": " ",
 			"name": " ",
@@ -25,7 +25,7 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [],
 		"codeLanguage": [{
 			"language": "Python"
@@ -41,7 +41,7 @@
 		"repository": "git://github.com/USEPA/My-Right-To-Know--MyRTK-.git",
 		"name": "My-Right-To-Know--MyRTK-",
 		"repoID": "10644334",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
 		"description": "This application compares toxic chemical releases from individual facilities to releases from other facilities in the same county, as well as to releases from other facilities in the same industry sector. ",
 		"contact": [{
@@ -59,43 +59,23 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "application"
-		}, {
-			"tag": "compares"
-		}, {
 			"tag": "toxic"
 		}, {
 			"tag": "chemical"
 		}, {
-			"tag": "releases"
-		}, {
-			"tag": "individual"
-		}, {
-			"tag": "facilities"
-		}, {
-			"tag": "releases"
-		}, {
-			"tag": "facilities"
-		}, {
-			"tag": "same"
-		}, {
-			"tag": "county"
-		}, {
-			"tag": "well"
-		}, {
-			"tag": "releases"
-		}, {
-			"tag": "facilities"
-		}, {
-			"tag": "same"
-		}, {
 			"tag": "industry"
 		}, {
-			"tag": "sector"
-		}, {
-			"tag": ""
+			"tag": "epa"
+		},{
+			"tag": "mobile"
+		},{
+			"tag": "web"
+		},{
+			"tag": "water"
+		},{
+			"tag": "pollution"
 		}],
 		"codeLanguage": [{
 			"language": "JavaScript"
@@ -111,7 +91,7 @@
 		"repository": "git://github.com/USEPA/E-Enterprise-Portal.git",
 		"name": "E-Enterprise-Portal",
 		"repoID": "36677210",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
 		"description": "E-Enterprise is a transformative approach to make environmental information and data more accessible, efficient, and evidence-based through advances in monitoring, reporting, and information technology. The Portal is designed to be a modern and efficient interface for environmental transactions. This includes easier access to information and making transactions with environmental agencies as efficient and effective as possible. ",
 		"contact": [{
@@ -129,83 +109,33 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "e"
-		}, {
-			"tag": "enterprise"
-		}, {
-			"tag": "transformative"
-		}, {
-			"tag": "approach"
-		}, {
-			"tag": "make"
-		}, {
 			"tag": "environmental"
 		}, {
 			"tag": "information"
 		}, {
 			"tag": "data"
 		}, {
-			"tag": "more"
+			"tag": "epa"
 		}, {
-			"tag": "accessible"
-		}, {
-			"tag": "efficient"
-		}, {
-			"tag": "evidence"
-		}, {
-			"tag": "based"
-		}, {
-			"tag": "through"
-		}, {
-			"tag": "advances"
+			"tag": "evidence-based"
 		}, {
 			"tag": "monitoring"
 		}, {
 			"tag": "reporting"
 		}, {
-			"tag": "information"
-		}, {
-			"tag": "technology"
-		}, {
 			"tag": "portal"
 		}, {
-			"tag": "designed"
+			"tag": "ux"
 		}, {
-			"tag": "modern"
-		}, {
-			"tag": "efficient"
+			"tag": "ui"
 		}, {
 			"tag": "interface"
 		}, {
 			"tag": "environmental"
 		}, {
 			"tag": "transactions"
-		}, {
-			"tag": "includes"
-		}, {
-			"tag": "easier"
-		}, {
-			"tag": "access"
-		}, {
-			"tag": "information"
-		}, {
-			"tag": "making"
-		}, {
-			"tag": "transactions"
-		}, {
-			"tag": "environmental"
-		}, {
-			"tag": "agencies"
-		}, {
-			"tag": "efficient"
-		}, {
-			"tag": "effective"
-		}, {
-			"tag": "possible"
-		}, {
-			"tag": ""
 		}],
 		"codeLanguage": [{
 			"language": "PHP"

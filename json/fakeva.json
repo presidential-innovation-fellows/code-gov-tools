@@ -25,7 +25,7 @@
         "openproject": 1,
         "govwideReuseproject": 0,
         "closedproject": 0,
-        "exemption": null,
+        "exemption": "",
         "projectTags": [{
             "tag": "beta"
         }, {
@@ -49,7 +49,7 @@
         "repository": "git://github.com/department-of-veterans-affairs/vets-api.git",
         "name": "vets-api",
         "repoID": "62409417",
-        "homepage": "null",
+        "homepage": "",
         "downloadURL": " ",
         "description": "API for vets.gov ",
         "contact": [{
@@ -67,7 +67,7 @@
         "openproject": 1,
         "govwideReuseproject": 0,
         "closedproject": 0,
-        "exemption": null,
+        "exemption": "",
         "projectTags": [{
             "tag": "api"
         }, {
@@ -89,7 +89,7 @@
         "repository": "git://github.com/department-of-veterans-affairs/sniffybara.git",
         "name": "sniffybara",
         "repoID": "51226712",
-        "homepage": "null",
+        "homepage": "",
         "downloadURL": " ",
         "description": "Gem that adds automatic 508 accessibility compliance checks into your Capybara specs ",
         "contact": [{
@@ -107,7 +107,7 @@
         "openproject": 1,
         "govwideReuseproject": 0,
         "closedproject": 0,
-        "exemption": null,
+        "exemption": "",
         "projectTags": [{
             "tag": "gem"
         }, {
@@ -137,7 +137,7 @@
         "repository": "git://github.com/department-of-veterans-affairs/roadrunner-rails.git",
         "name": "roadrunner-rails",
         "repoID": "50939211",
-        "homepage": "null",
+        "homepage": "",
         "downloadURL": " ",
         "description": "Base rails project with the VA special sauce. ",
         "contact": [{
@@ -155,7 +155,7 @@
         "openproject": 1,
         "govwideReuseproject": 0,
         "closedproject": 0,
-        "exemption": null,
+        "exemption": "",
         "projectTags": [{
             "tag": "ruby"
         }, {

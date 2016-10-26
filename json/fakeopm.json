@@ -21,35 +21,17 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/USAJOBS/design-system/blob/gh-pages/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "design"
-		}, {
-			"tag": "system"
-		}, {
-			"tag": "next"
-		}, {
-			"tag": "generation"
-		}, {
 			"tag": "usajobs"
 		}, {
-			"tag": "describes"
+			"tag": "jobs"
 		}, {
-			"tag": "design"
-		}, {
-			"tag": "language"
-		}, {
-			"tag": "reusable"
-		}, {
-			"tag": "components"
-		}, {
-			"tag": "site"
-		}, {
-			"tag": ""
+			"tag": "uswds"
 		}],
 		"codeLanguage": [{
 			"language": "CSS"
@@ -74,21 +56,15 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/USAJOBS/open-source-policy/blob/master/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "repository"
+			"tag": "open source"
 		}, {
-			"tag": "contains"
-		}, {
-			"tag": "official"
-		}, {
-			"tag": "open"
-		}, {
-			"tag": "source"
+			"tag": "source code"
 		}, {
 			"tag": "policy"
 		}, {
@@ -115,19 +91,17 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/USAJOBS/Help/blob/master/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "next"
+			"tag": "faq"
 		}, {
-			"tag": "generation"
+			"tag": "jobs"
 		}, {
 			"tag": "help"
-		}, {
-			"tag": "content"
 		}, {
 			"tag": "usajobs"
 		}],
@@ -154,19 +128,17 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/USAJOBS/analytics.usajobs.gov/blob/18f-pages/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "usajobs"
 		}, {
-			"tag": "web"
+			"tag": "analytics"
 		}, {
-			"tag": "traffic"
-		}, {
-			"tag": ""
+			"tag": "web-traffic"
 		}],
 		"codeLanguage": [{
 			"language": "CSS"
@@ -191,57 +163,19 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/USAJOBS/analytics-reporter/blob/master/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "lightweight"
-		}, {
 			"tag": "analytics"
 		}, {
 			"tag": "reporting"
 		}, {
-			"tag": "publishing"
+			"tag": "google analytics"
 		}, {
-			"tag": "tool"
-		}, {
-			"tag": "google"
-		}, {
-			"tag": "analytics"
-		}, {
-			"tag": "data"
-		}, {
-			"tag": "powers"
-		}, {
-			"tag": "https"
-		}, {
-			"tag": "analytics"
-		}, {
-			"tag": "usa"
-		}, {
-			"tag": "gov"
-		}, {
-			"tag": "http"
-		}, {
-			"tag": "analytics"
-		}, {
-			"tag": "phila"
-		}, {
-			"tag": "gov"
-		}, {
-			"tag": "http"
-		}, {
-			"tag": "analytics"
-		}, {
-			"tag": "cityofsacramento"
-		}, {
-			"tag": "org"
-		}, {
-			"tag": "more"
-		}, {
-			"tag": ""
+			"tag": "ga"
 		}],
 		"codeLanguage": [{
 			"language": "JavaScript"

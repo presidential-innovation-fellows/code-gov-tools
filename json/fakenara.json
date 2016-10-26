@@ -25,21 +25,15 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "federal"
-		}, {
-			"tag": "register"
-		}, {
-			"tag": "2"
-		}, {
-			"tag": "0"
+			"tag": "federal register"
 		}, {
 			"tag": "api"
 		}, {
 			"tag": "data"
 		}, {
-			"tag": "importer"
+			"tag": "data importer"
 		}],
 		"codeLanguage": [{
 			"language": "HTML"
@@ -73,13 +67,11 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "nara"
 		}, {
-			"tag": "file"
-		}, {
-			"tag": "analyzer"
+			"tag": "file analyzer"
 		}, {
 			"tag": "metadata"
 		}, {
@@ -117,7 +109,7 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "ruby"
 		}, {
@@ -126,20 +118,6 @@
 			"tag": "client"
 		}, {
 			"tag": "federalregister"
-		}, {
-			"tag": "gov"
-		}, {
-			"tag": "handles"
-		}, {
-			"tag": "searching"
-		}, {
-			"tag": "articles"
-		}, {
-			"tag": "getting"
-		}, {
-			"tag": "information"
-		}, {
-			"tag": "agencies"
 		}],
 		"codeLanguage": [{
 			"language": "Ruby"

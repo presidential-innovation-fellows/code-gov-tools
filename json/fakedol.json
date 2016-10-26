@@ -7,9 +7,9 @@
 		"repository": "git://github.com/USDepartmentofLabor/Child-Labor.git",
 		"name": "Child-Labor",
 		"repoID": "37860521",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
-		"description": "null ",
+		"description": "",
 		"contact": [{
 			"email": " ",
 			"name": " ",
@@ -25,7 +25,7 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [],
 		"codeLanguage": [{
 			"language": "Swift"
@@ -59,29 +59,15 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
-			"tag": "federal"
+			"tag": "federal data"
 		}, {
 			"tag": "data"
 		}, {
 			"tag": "sdk"
 		}, {
-			"tag": "built"
-		}, {
 			"tag": "swift"
-		}, {
-			"tag": "programming"
-		}, {
-			"tag": "language"
-		}, {
-			"tag": "follow"
-		}, {
-			"tag": "link"
-		}, {
-			"tag": "documentation"
-		}, {
-			"tag": ""
 		}],
 		"codeLanguage": [{
 			"language": "Swift"
@@ -97,7 +83,7 @@
 		"repository": "git://github.com/USDepartmentofLabor/OSHA-Heat-Safety-iOS.git",
 		"name": "OSHA-Heat-Safety-iOS",
 		"repoID": "9076547",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
 		"description": "This app allows workers and supervisors to calculate the heat index for their worksite, and, based on the heat index, displays a risk level to outdoor workers. ",
 		"contact": [{
@@ -115,41 +101,17 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "app"
 		}, {
-			"tag": "allows"
-		}, {
-			"tag": "workers"
-		}, {
-			"tag": "supervisors"
-		}, {
-			"tag": "calculate"
-		}, {
-			"tag": "heat"
-		}, {
-			"tag": "index"
+			"tag": "heat index"
 		}, {
 			"tag": "worksite"
 		}, {
-			"tag": "based"
+			"tag": "risk level"
 		}, {
-			"tag": "heat"
-		}, {
-			"tag": "index"
-		}, {
-			"tag": "displays"
-		}, {
-			"tag": "risk"
-		}, {
-			"tag": "level"
-		}, {
-			"tag": "outdoor"
-		}, {
-			"tag": "workers"
-		}, {
-			"tag": ""
+			"tag": "outdoor workers"
 		}],
 		"codeLanguage": [{
 			"language": "HTML"

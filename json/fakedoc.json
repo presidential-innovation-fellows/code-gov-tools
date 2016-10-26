@@ -7,7 +7,7 @@
 		"repository": "git://github.com/CommerceGov/CommerceGov.github.io.git",
 		"name": "CommerceGov.github.io",
 		"repoID": "13225017",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
 		"description": " ",
 		"contact": [{
@@ -25,7 +25,7 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": ""
 		}],
@@ -38,7 +38,7 @@
 		"repository": "git://github.com/CommerceGov/Policies-and-Guidance.git",
 		"name": "Policies-and-Guidance",
 		"repoID": "33949902",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
 		"description": "Official instructions that are directly relevant to work performed by @CommerceGov on Github. ",
 		"contact": [{
@@ -52,11 +52,11 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/CommerceGov/Policies-and-Guidance/blob/master/LICENSE",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "official"
 		}, {
@@ -83,7 +83,7 @@
 		"repository": "git://github.com/CommerceGov/commerce.gov-api.git",
 		"name": "commerce.gov-api",
 		"repoID": "43393077",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
 		"description": "Content API for Commerce.gov ",
 		"contact": [{
@@ -97,11 +97,11 @@
 		}, {
 			"email": " "
 		}],
-		"license": "https://path.to/license",
+		"license": "https://github.com/CommerceGov/commerce.gov-api/blob/master/LICENSE.md",
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "content"
 		}, {

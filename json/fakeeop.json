@@ -25,23 +25,13 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "drupal"
-		}, {
-			"tag": "installation"
-		}, {
-			"tag": "profile"
-		}, {
-			"tag": "powering"
-		}, {
-			"tag": "people"
 		}, {
 			"tag": "petitions"
 		}, {
 			"tag": "whitehouse"
-		}, {
-			"tag": "gov"
 		}],
 		"codeLanguage": [{
 			"language": "JavaScript"
@@ -57,9 +47,9 @@
 		"repository": "git://github.com/WhiteHouse/wh-app-android.git",
 		"name": "wh-app-android",
 		"repoID": "5662026",
-		"homepage": "null",
+		"homepage": "",
 		"downloadURL": " ",
-		"description": "null ",
+		"description": "",
 		"contact": [{
 			"email": " ",
 			"name": " ",
@@ -75,8 +65,14 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
-		"projectTags": [],
+		"exemption": "",
+		"projectTags": [{
+			"tag": "android"
+		}, {
+			"tag": "white house"
+		}, {
+			"tag": "white house app"
+		}],
 		"codeLanguage": [{
 			"language": "Java"
 		}],
@@ -109,33 +105,21 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "drupal"
 		}, {
 			"tag": "module"
 		}, {
-			"tag": "provides"
-		}, {
-			"tag": "tool"
-		}, {
-			"tag": "build"
-		}, {
 			"tag": "chat"
 		}, {
 			"tag": "bot"
 		}, {
-			"tag": "work"
-		}, {
 			"tag": "facebook"
-		}, {
-			"tag": "s"
 		}, {
 			"tag": "messenger"
 		}, {
-			"tag": "platform"
-		}, {
-			"tag": ""
+			"tag": "facebook messenger"
 		}],
 		"codeLanguage": [{
 			"language": "PHP"

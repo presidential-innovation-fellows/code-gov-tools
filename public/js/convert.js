@@ -38,13 +38,13 @@ console.log("length:" +jsoninventory.length+"jsoninventory: "+jsoninventory);
 
       codegovinventory_projects +=
         '{"status":" ", "vcs":"git", "repository": "' + jsoninventory[i].git_url +
-        '", "name": "' + jsoninventory[i].name + '", "repoID":"' +
-        jsoninventory[i].id + '","homepage":"' + jsoninventory[i].homepage +
-        '","downloadURL":" ","description":"' + jsoninventory[i].description +
-        ' ",' + '"contact":[{"email":" ","name":" ","twitter":" ","phone":" "}],' +
-        '"partners":[{"name":" "},{"email":" "}],' +
+        '", "name": "' + (jsoninventory[i].name== null ? "": jsoninventory[i].name) + '", "repoID":"' +
+        (jsoninventory[i].id== null ? "": jsoninventory[i].id) + '","homepage":"' + (jsoninventory[i].homepage== null ? "": jsoninventory[i].homepage) +
+        '","downloadURL":" ","description":"' + (jsoninventory[i].description== null ? "": jsoninventory[i].description) +
+        ' ",' + '"contact":[{"email":" ","name":"","twitter":"","phone":""}],' +
+        '"partners":[{"name":""},{"email":""}],' +
         '"license":"https://path.to/license","openproject":1,' +
-        '"govwideReuseproject":0,"closedproject":0,"exemption":null,' +
+        '"govwideReuseproject":0,"closedproject":0,"exemption":"",' +
         ' "projectTags":[';
 
       //loop through project tags

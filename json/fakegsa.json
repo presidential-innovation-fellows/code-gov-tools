@@ -25,7 +25,7 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "apps.gov"
 		},{
@@ -79,7 +79,7 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "voting"
 		}, {
@@ -131,14 +131,14 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "open source"
 		}, {
 			"tag": "source"
 		},
     {
-			"tag": "people's code"
+			"tag": "peoples code"
 		},
       {
 			"tag": "government code"
@@ -183,7 +183,7 @@
 		"openproject": 1,
 		"govwideReuseproject": 0,
 		"closedproject": 0,
-		"exemption": null,
+		"exemption": "",
 		"projectTags": [{
 			"tag": "css"
 		}, {
