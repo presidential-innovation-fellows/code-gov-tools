@@ -1,3 +1,4 @@
+var EVENTS_TO_RETURN;
 $(document).ready(function(){
     $('#eventsfeed').on('submit', function(e){
         e.preventDefault();
@@ -6,34 +7,40 @@ $(document).ready(function(){
       eventsGitHub(eventsurl);
     });
 });
-function eventsGitHub(eventsurl)
+
+
+
+function eventsGitHub(eventsurl, eventcallback)
 {
+var stuff;
+var request = new XMLHttpRequest();
+request.open('GET', eventsurl, false);
+
+request.onload = function() {
+  if (request.status >= 200 && request.status < 400) {
+    // Success!
+    var data = JSON.parse(request.responseText);
+  } else {
+    // We reached our target server, but it returned an error
+
+  }
+  stuff=data;
   
   
-var body,jsoninventory, record, eventsfeed_start,
+  var body,jsoninventory, record, eventsfeed_header,eventsfeed_start,
       eventsfeed_projects,eventsfeed_updated, eventsfeed, limit;
 limit = 6;
-
- $.ajax({
-   
-   dataType:'jsonp',
-   headers: { 'User-Agent': 'request',
-      'Accept': 'application/vnd.github.full+json'},
-   url: eventsurl}).done( function (data){
-   
-   
-   
-   jsoninventory = data.data;
-    if (jsoninventory.length==undefined){
-   
-   
-      jsoninventory = JSON.parse(data.data);
+  //jsoninventory = data.data;
+  jsoninventory = data;
+    if (jsoninventory.length==undefined){ 
+      jsoninventory = JSON.parse(data);
     }
    
     eventsfeed_projects = '';
     eventsfeed_updated='';
-    eventsfeed_start = "export const EVENTS = [<br><br>";
-console.log("length:" +jsoninventory.length+"jsoninventory: "+jsoninventory);
+   eventsfeed_header ="export const EVENTS = ";
+    eventsfeed_start = "[<br><br>";
+//console.log("length:" +jsoninventory.length+"jsoninventory: "+jsoninventory);
     for (var i = 0; i < Math.min(limit,jsoninventory.length); i++) {
 console.log(jsoninventory[i].type);
       eventsfeed_projects +=
@@ -65,8 +72,6 @@ console.log(jsoninventory[i].type);
       {
         
           eventsfeed_projects += ",\"message\": \""+jsoninventory[i].payload.issue.title+"\",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"url\":\""+jsoninventory[i].payload.issue.url+"\"";
-
-
        
       }
 eventsfeed_projects += "<br>}";
@@ -76,30 +81,31 @@ eventsfeed_projects += "<br>}";
       }
     }
       
-      
-
-     
-
-    
-
     eventsfeed = eventsfeed_start + eventsfeed_projects + '];';
-   $("#eventscontent").append(JSON.parse(JSON.stringify(eventsfeed, null, '\t')));
+   $("#eventscontent").append(JSON.parse(JSON.stringify(eventsfeed_header+eventsfeed, null, '\t')));
   
   
- });
+  stuff=JSON.stringify(eventsfeed);
   
+  
+  
+};
+
+request.onerror = function() {
+  // There was a connection error of some sort
+};
+
+request.send();
+
+  console.log(stuff);
+
+  return stuff;
   
 
-  
-      
+
+}       
   
 
-    return (eventsfeed);
-  
-         
-         }
-  
-  
 
   
   

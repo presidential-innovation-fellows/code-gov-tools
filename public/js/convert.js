@@ -11,7 +11,7 @@ function convertGitHub(githuburl)
   
   
 var body,jsoninventory, record, codegovinventory_start,
-      codegovinventory_projects,codegovinventory_updated, codegovinventory, jsonlength,eventsurl;
+      codegovinventory_projects,codegovinventory_updated, codegovinventory, jsonlength,events_url,events_callback;
 
 
  $.ajax({
@@ -25,6 +25,7 @@ var body,jsoninventory, record, codegovinventory_start,
    
    
    jsoninventory = data.data;
+   
    //console.log("jsoninventory: "+JSON.stringify(jsoninventory));
    //console.log("jsoninventory length: "+jsoninventory.length);
    //console.log("jsoninventory stringify length: "+JSON.stringify(jsoninventory.length));
@@ -52,12 +53,15 @@ var body,jsoninventory, record, codegovinventory_start,
    console.log("id:" +jsoninventory.id);
    console.log("[0].id:" +jsoninventory.id);
     for (var i = 0; i < jsonlength; i++) {
-eventsurl= "https://api.github.com/repos/"+jsoninventory.full_name+"/events";
-      eventsGitHub(eventsurl);
+events_url= "https://api.github.com/repos/"+jsoninventory[i].full_name+"/events";
+      //eventsGitHub(eventsurl);
+      console.log("eventsurl:" +events_url);
+      events_callback=eventsGitHub(events_url);
+      //console.log("events to return"+EVENTS_TO_RETURN);
       codegovinventory_projects +=
         '{"status":" ", "vcs":"git", "repository": "' + jsoninventory[i].git_url +
         '", "name": "' + (jsoninventory[i].name== null ? "": jsoninventory[i].name) + '", "repoID":"' +
-        (jsoninventory[i].id== null ? "": jsoninventory[i].id) + '","homepage":"' + (jsoninventory[i].homepage== null ? "": jsoninventory[i].homepage) +
+        (jsoninventory[i].id== null ? "": jsoninventory[i].id) + '", "events":'+events_callback + ',"homepage":"' + (jsoninventory[i].homepage== null ? "": jsoninventory[i].homepage) +
         '","downloadURL":" ","description":"' + (jsoninventory[i].description== null ? "": jsoninventory[i].description) +
         ' ",' + '"contact":[{"email":" ","name":"","twitter":"","phone":""}],' +
         '"partners":[{"name":""},{"email":""}],' +
