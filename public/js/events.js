@@ -81,11 +81,11 @@ eventsfeed_projects += "<br>}";
       }
     }
       
-    eventsfeed = eventsfeed_start + eventsfeed_projects + '];';
+    eventsfeed = eventsfeed_start + eventsfeed_projects + ']';
    $("#eventscontent").append(JSON.parse(JSON.stringify(eventsfeed_header+eventsfeed, null, '\t')));
   
   
-  stuff=JSON.stringify(eventsfeed);
+  stuff=eventsfeed;
   
   
   
