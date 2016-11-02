@@ -34,7 +34,7 @@ request.onload = function() {
   stuff=data;
   
   
-  var body,jsoninventory, record, eventsfeed_header,eventsfeed_start,
+  var body,jsoninventory, record,eventsfeed_start,
       eventsfeed_projects,eventsfeed_updated, eventsfeed, limit;
 limit = 6;
   //jsoninventory = data.data;
@@ -45,7 +45,7 @@ limit = 6;
    
     eventsfeed_projects = '';
     eventsfeed_updated='';
-   eventsfeed_header ="export const EVENTS = ";
+   
     eventsfeed_start = "[<br><br>";
 //console.log("length:" +jsoninventory.length+"jsoninventory: "+jsoninventory);
     for (var i = 0; i < Math.min(limit,jsoninventory.length); i++) {
@@ -89,7 +89,7 @@ eventsfeed_projects += "<br>}";
     }
       
     eventsfeed = eventsfeed_start + eventsfeed_projects + ']';
-   $("#eventscontent").append(JSON.parse(JSON.stringify(eventsfeed_header+eventsfeed, null, '\t')));
+   $("#eventscontent").append(JSON.parse(JSON.stringify(eventsfeed, null, '\t')));
   
   
   stuff=eventsfeed;
