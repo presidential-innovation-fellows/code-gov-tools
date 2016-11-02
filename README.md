@@ -9,7 +9,7 @@ This repository is home to the code powering code.gov. To learn more about the p
 
 ## Summary
 
-We've created a suite of tools available at tools.html/
+We've created a suite of tools available at index.html/
 ```
 * Map/convert inventories: tools to create/convert code repository schemas into the latest metadata schema
 * Create events feed: generate the latest events field to add to your inventory. 
@@ -19,7 +19,7 @@ We've created a suite of tools available at tools.html/
 ```
 
 ## Install
-Just load tools.html
+Just load index.html
 
 ## Contributing
 
