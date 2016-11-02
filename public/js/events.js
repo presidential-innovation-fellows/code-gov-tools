@@ -12,6 +12,13 @@ $(document).ready(function(){
 
 function eventsGitHub(eventsurl, eventcallback)
 {
+  
+  if (!eventsurl.includes("github.com")){
+    return "";
+  }
+  eventsurl = eventsurl.replace("https://github.com/","https://api.github.com/repos/");
+ 
+  eventsurl+="/events";
 var stuff;
 var request = new XMLHttpRequest();
 request.open('GET', eventsurl, false);
