@@ -9,35 +9,17 @@ This repository is home to the code powering code.gov. To learn more about the p
 
 ## Summary
 
-We've created a suite of tools available at localhost:3001/
+We've created a suite of tools available at tools.html/
 ```
-* Search repos: (localhost:3001/) search available repos that have been harvested into the database
-* harvest JSON files: (localhost:3001/harvest) pull the latest set of agency repositories as defined in agency_endpoint.json
-* Run API: (localhost:3001/api) an api to browse various agency repo json files in full
-* Create/convert inventories: (localhost:3001/convert) tools to create/convert code repository schemas into the latest metadata schema
+* Map/convert inventories: tools to create/convert code repository schemas into the latest metadata schema
+* Create events feed: generate the latest events field to add to your inventory. 
+* Validate your JSON: before uploading your code.json, make sure your inventory is correctly formatted.
+* 
+* 
 ```
 
 ## Install
-Please install [Node.js](http://nodejs.org/) first
-```
-npm install
-npm start
-```
-
-## Configuration
-1. In `index.js`, you'll need to update the credentials for your local MongoDB server and create a database (e.g., "testdatabase").
-
-Find the line the says:
-```
-/* REPLACE 'process.env.MONGURI' with the URI for your local MongoDB instance */
-var mongoDetails = process.env.MONGOURI;
-```
-2. Update the URI for mongoDB to match this format
-```
-mongodb://username:password@host:port/testdatabase
-```
-
-3.  Create a collection called 'repos' to house the repositories.
+Just load tools.html
 
 ## Contributing
 

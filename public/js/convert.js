@@ -6,6 +6,7 @@ $(document).ready(function(){
       convertGitHub(githuburl);
     });
 });
+
 function convertGitHub(githuburl)
 {
   
@@ -54,6 +55,8 @@ var body,jsoninventory, record, codegovinventory_start,
    console.log("[0].id:" +jsoninventory.id);
     for (var i = 0; i < jsonlength; i++) {
 events_url= "https://api.github.com/repos/"+jsoninventory[i].full_name+"/events";
+    //var oldlicense=  getpreviouslicense("hhs", jsoninventory[i].repoID);
+      
       //eventsGitHub(eventsurl);
       console.log("eventsurl:" +events_url);
       events_callback=eventsGitHub(events_url);
