@@ -54,7 +54,7 @@ var body,jsoninventory, record, codegovinventory_start,
    console.log("id:" +jsoninventory.id);
    console.log("[0].id:" +jsoninventory.id);
     for (var i = 0; i < jsonlength; i++) {
-events_url= "https://api.github.com/repos/"+jsoninventory[i].full_name+"/events";
+events_url= "https://github.com/"+jsoninventory[i].full_name;
     //var oldlicense=  getpreviouslicense("hhs", jsoninventory[i].repoID);
       
       //eventsGitHub(eventsurl);
