@@ -9,17 +9,16 @@ This repository is home to the code powering code.gov. To learn more about the p
 
 ## Summary
 
-We've created a suite of tools available at index.html/
+We've created a suite of tools available at 'index.html'
 ```
 * Map/convert inventories: tools to create/convert code repository schemas into the latest metadata schema
 * Create events feed: generate the latest events field to add to your inventory. 
 * Validate your JSON: before uploading your code.json, make sure your inventory is correctly formatted.
-* 
-* 
+ 
 ```
 
 ## Install
-Just load index.html
+Just load index.html - the javascript files in 'public/json' drive the tools described above.
 
 ## Contributing
 
@@ -29,12 +28,12 @@ Here’s how you can help contribute to code.gov:
   * To provide feedback on the [Federal Source Code Policy](https://sourcecode.cio.gov/), you should follow [this issue tracker](https://github.com/WhiteHouse/source-code-policy/issues)
 
 * Code.gov
-    * To provide feedback on [the code.gov website], you should follow this [repository](https://github.com/presidential-innovation-fellows/code-gov-web) and [this issues tracker](https://github.com/presidential-innovation-fellows/code-gov-web/issues).
+    * To provide feedback on the code.gov website, you should follow this [repository](https://github.com/presidential-innovation-fellows/code-gov-web) and [this issues tracker](https://github.com/presidential-innovation-fellows/code-gov-web/issues).
     * If you aren't sure where your question or idea fits, this is a good place to share it.
 
 ## Questions?
 
-If you have questions, please feel [free to open an issue here](https://github.com/presidential-innovation-fellows/code-gov-web/issues): [https://github.com/presidential-innovation-fellows/code-gov-web/issues](https://github.com/presidential-innovation-fellows/code-gov-web/issues) or send us an email at code@listserv.gsa.gov.
+If you have questions, please feel [free to open an issue here](https://github.com/presidential-innovation-fellows/code-gov-web/issues): [https://github.com/presidential-innovation-fellows/code-gov-web/issues](https://github.com/presidential-innovation-fellows/code-gov-web/issues) or send us an email at code@gsa.gov.
 
 ## Public domain
 
