@@ -4,7 +4,9 @@
   "projects":[  
     {  
       "name":"PTBS",
-  "repository":"http://our.dot.gov/rc/ogc/c10/SitePages/Home.aspx",      "openSourceProject":0,
+  "repository":"http://our.dot.gov/rc/ogc/c10/SitePages/Home.aspx",  
+      "description":"PTBS",
+      "openSourceProject":0,
       "governmentWideReuseProject":0,
       "vcs":"TRANServe VSS",
       "status":"Beta",
@@ -768,7 +770,7 @@
       "vcs":"",
       "status":"Production",
       "license":null,
-      "repository":"maps.bts.dot.gov"      ,"tags":[  
+      "repository":"http://maps.bts.dot.gov"      ,"tags":[  
         "transportation",
         "code"
       ],
@@ -1711,7 +1713,7 @@
       "vcs":"FRA TFS",
       "status":"Production",
       "license":null,
-      "repository":"www.railroadersleep.org"      ,"tags":[  
+      "repository":"http://www.railroadersleep.org"      ,"tags":[  
         "transportation",
         "code"
       ],
@@ -2240,7 +2242,7 @@
       "vcs":"FRA TFS",
       "status":"Alpha",
       "license":null,
-      "repository":"http://frahqewas006vg:8080/tfs/DefaultCollection/_git/HoursOfService "      ,"tags":[  
+      "repository":"http://frahqewas006vg:8080/tfs/DefaultCollection/_git/HoursOfService"      ,"tags":[  
         "transportation",
         "code"
       ],
@@ -2562,7 +2564,7 @@
       "vcs":"on-premise",
       "status":"Production",
       "license":null,
-      "repository":"https://portal.phmsa.dot.gov/PHMSAPortal2/ "      ,"tags":[  
+      "repository":"https://portal.phmsa.dot.gov/PHMSAPortal2/"      ,"tags":[  
         "transportation",
         "code"
       ],
@@ -3321,7 +3323,7 @@
       "vcs":"N/A",
       "status":"Beta",
       "license":null,
-      "repository":"null"      ,"tags":[  
+      "repository":"http://transportation.gov"      ,"tags":[  
         "transportation",
         "code"
       ],
@@ -3597,7 +3599,7 @@
       "vcs":"N/A",
       "status":"Alpha",
       "license":null,
-      "repository":"null"      ,"tags":[  
+      "repository":"http://transportation.gov"      ,"tags":[  
         "transportation",
         "code"
       ],
@@ -3620,7 +3622,7 @@
       "vcs":"N/A",
       "status":"Alpha",
       "license":null,
-      "repository":"null"      ,"tags":[  
+      "repository":"http://transportation.gov"      ,"tags":[  
         "transportation",
         "code"
       ],
@@ -3643,7 +3645,7 @@
       "vcs":"Subversion",
       "status":"Alpha",
       "license":null,
-      "repository":"null"      ,"tags":[  
+      "repository":null      ,"tags":[  
         "transportation",
         "code"
       ],
@@ -3666,7 +3668,7 @@
       "vcs":"Subversion",
       "status":"Alpha",
       "license":null,
-      "repository":"null"      ,"tags":[  
+      "repository":null      ,"tags":[  
         "transportation",
         "code"
       ],
@@ -3689,7 +3691,7 @@
       "vcs":"Subversion",
       "status":"Alpha",
       "license":null,
-      "repository":"null"      ,"tags":[  
+      "repository":null      ,"tags":[  
         "transportation",
         "code"
       ],
@@ -3758,7 +3760,7 @@
       "vcs":"Amazon EC2 is hosted in multiple locations worldwide. These locations are composed of regions and Availability Zones. Each region is a separate geographic area. Each region has multiple, isolated locations known as Availability Zones. ",
       "status":"Production",
       "license":null,
-      "repository":"null"      ,"tags":[  
+      "repository":null      ,"tags":[  
         "transportation",
         "code"
       ],
@@ -3781,7 +3783,7 @@
       "vcs":"General public can download this app from the App Store for iOS or Google Play store",
       "status":"Production",
       "license":null,
-      "repository":"null"      ,"tags":[  
+      "repository":null      ,"tags":[  
         "transportation",
         "code"
       ],
